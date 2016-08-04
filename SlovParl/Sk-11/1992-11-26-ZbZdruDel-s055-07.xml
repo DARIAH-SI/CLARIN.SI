@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07"
+     xml:lang="sl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sl">Zapisniki sej</title>
+            <title xml:lang="en">Stenographic minutes</title>
+            <title xml:lang="sl">Skupščina Republike Slovenije</title>
+            <title xml:lang="en">Assembly of the Republic of Slovenia</title>
+            <title xml:lang="sl">Zbor združenega dela</title>
+            <title xml:lang="en">Chamber of Associated Labour</title>
+            <title xml:lang="sl">Seja 55</title>
+            <title xml:lang="en">Session 55</title>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mojca Šorn</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sl">Javna agencija za raziskovalno dejavnost Republike Slovenije</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <ref target="http://www.inz.si/">http://www.inz.si/</ref>
+               <address>
+                  <street>Kongresni trg 1</street>
+                  <settlement>Ljubljana</settlement>
+                  <postCode>1000</postCode>
+                  <country xml:lang="sl">Slovenija</country>
+                  <country xml:lang="en">Slovenia</country>
+               </address>
+               <email>inz@inz.si</email>
+            </publisher>
+            <distributor>DARIAH-SI</distributor>
+            <distributor>CLARIN.SI</distributor>
+            <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2016-08-04+02:00"/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>ZbZdruDel-Sk-11.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
+            <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <person role="president" sameAs="#ZupancicJoze1936">
+               <linkGrp>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.3"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.4"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.6"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.8"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.10"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.12"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.13"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.14"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.16"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.18"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.20"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.21"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.22"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.23"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.24"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.25"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.26"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-610.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-612.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-612.3"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-614.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.4"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.6"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.8"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.10"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.11"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.12"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.14"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.16"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.18"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.19"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.20"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.21"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.23"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.25"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.27"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.28"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.29"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.31"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.33"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.35"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.37"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.39"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.41"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.43"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.45"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.47"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.48"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.3"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.4"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.6"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.7"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.9"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.11"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.13"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.14"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.15"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.17"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.19"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.21"/>
+               </linkGrp>
+            </person>
+            <person role="president" sameAs="#RoginaBogo1947">
+               <linkGrp>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-617.2"/>
+               </linkGrp>
+            </person>
+         </particDesc>
+         <settingDesc>
+            <setting>
+               <date when="1992-11-26"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="sl">
+      <front>
+         <div type="contents">
+            <list>
+               <item xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.toc-item1">
+                  <title>Usklajevanje glede predloga zakona o jamstvu Republike Slovenije za obveznice, izdane zaradi sanacije bank in hranilnic (zbor sprejel zakon na 48. seji, 22.7.1992.)</title>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.3"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.4"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.6"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.8"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.10"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.12"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.13"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.14"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.16"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.18"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.20"/>
+               </item>
+               <item xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.toc-item2">
+                  <title>Predlog, da se z dnevnega reda 55. seje umakne: 6. točka - predlog zakona o Vladi Republike Slovenije, 24. točka - predlog zakona o družinskih prejemkih, 23. točka - predlog zakona o gospodarskih javnih službah, 22. točka - predlog zakona o varstvu okolja</title>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.21"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.22"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.23"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.24"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.25"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.26"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-609.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-610.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-611.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-612.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-612.3"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-613.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-614.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-615.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.4"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.6"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.8"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.10"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.11"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.12"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.14"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.16"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.18"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.19"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.20"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.21"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.23"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.25"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.27"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.28"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.29"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.31"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.33"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.35"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.37"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.39"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.41"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.43"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.45"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.47"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.48"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-617.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.2"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.3"/>
+               </item>
+               <item xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.toc-item3">
+                  <title>Predlog zakona o Agenciji Republike Slovenije za prestrukturiranje in privatizacijo podjetij (4. točka dnevnega reda - nadaljevanje)</title>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.4"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.6"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.7"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.9"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.11"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.13"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.14"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.15"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.17"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.19"/>
+                  <ptr target="#Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.21"/>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <timeline origin="#DZ-1992-ZbZdruDel-55.TL.13" unit="s">
+            <when synch="#DZ-1992-ZbZdruDel-55.stage.t.25"
+                  xml:id="DZ-1992-ZbZdruDel-55.TL.13"
+                  absolute="1992-11-26T12:30:00"/>
+            <when synch="#DZ-1992-ZbZdruDel-55.stage.t.26"
+                  since="#DZ-1992-ZbZdruDel-55.TL.13"
+                  absolute="1992-11-26T15:00:00"
+                  interval="9000"/>
+         </timeline>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-608">
+            <anchor xml:id="DZ-1992-ZbZdruDel-55.stage.t.25"/>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Poslanke in poslanci, dragi gostje, pričenjamo z zasedanjem. Danes imamo nekako na dnevnem redu kar dve seji in to še vedno 55. sejo, ki je nismo zaključili in 56. sejo. Tako da bo danes pač neke vrste specifičen scenarij obravnavanja posameznih področij, posameznih točk in jaz vas lepo prosim, da ostanete strpni, saj pride vse na vrsto.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.3"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Da bi nekatere zadeve nekako uredili, vas prosim naslednje: da bi opravili usklajevanje v okviru 55. seje Zbora združenega dela, in sicer v zvezi s predlogom ZAKONA O JAMSTVU REPUBLIKE SLOVENIJE ZA OBVEZNICE, IZDANE ZARADI SANACIJE BANK IN HRANILNIC. Mi smo ta zakon sprejeli na 48. seji že 22.7.1992. To je pred nekaj minutami storil, kot poslednji, tudi Družbeno-politični zbor. Ker je Zbor občin pri sprejemu tega zakona sprejel amandma, predlagam poslancem Zbora združenega dela, da obravnavamo ta njihov amandma, sprejmemo zakon ponovno v celoti, tako da bi bil iz tega paketa sej zakon usklajen. In sicer, če vas spomnim še enkrat, gre za zakon o jamstvu Republike Slovenije za obveznice, izdane zaradi sanacije bank in hranilnic, in v 6. členu so v Zboru občin in v Družbenopolitičnem zboru, kjer gre v zadnjem, četrtem odstavku za tekst: "Sredstva za izplačevanje obresti se zagotavljajo agenciji iz proračuna Republike Slovenije", doda še tekst: "in iz virov prodaje državnega kapitala". Amandma je samo ta dodatek: "in iz virov prodaje državnega kapitala".</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.4"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Želi o tem amandmaju kdo razpravljati? Če ne, bi ugotovili prisotnost. Prosim prisotnost vseh poslancev in poslank.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.5" type="quorum">53 prisotnih.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.6"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Kdor je za, naj, prosim, glasuje.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.7" type="vote">48 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.8"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.9" type="vote">2 poslanca.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.10"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.11" type="vote">2 poslanca.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.12"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Ugotavljam, da smo z večino glasov amandma sprejeli.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.13"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Sedaj glasujemo še o zakonu v celoti, torej o zakonu o jamstvu Republike Slovenije za obveznice, izdane zaradi sanacije bank in hranilnic s sprejetim amandmajem.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.14"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Kdor je za, naj, prosim, glasuje.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.15" type="vote">46 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.16"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.17" type="vote">3 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.18"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.19" type="vote">3 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.20"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.7.2.3">Ugotavljam, da smo z večino glasov sprejeli zakon o jamstvu Republike Slovenije za obveznice, izdane zaradi sanacije bank in hranilnic z večino glasov in je tako usklajen v vseh treh zborih. Hvala.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.21"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">To je eno in sedaj drugo, mogoče malo presenetljivo, ampak vseeno. Predlagam, da v okviru 55. seje Zbora združenega dela, kjer imamo še štiri točke dnevnega reda, in sicer:</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.22"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">6. točko: predlog zakona o Vladi Republike Slovenije;</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.23"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">24. točko: predlog zakona o družinskih prejemkih. V okviru zakona bo obravnavan tudi predlog resolucije o temeljih oblikovanja družinske politike v Republiki Sloveniji;</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.24"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">23. točko: predlog zakona o gospodarskih javnih službah ter</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.25"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">22. točko: predlog zakona o varstvu okolja umaknemo z dnevnega reda zaradi tega, ker ni nobene možnosti, da bi te zakone obravnavali celovito in jih tudi v parlamentu, v našem času, v našem obdobju tudi sprejeli.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-608.26"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Želi v zvezi s tem predlogom kdo razpravljati? Prosim, gospod Erce.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-609">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-609.2"
+               who="#ErceFranc1951"
+               ana="#taxonomy.2.8">Lep pozdrav vsem skupaj. Glede na predlog, ki ga je ravnokar izrekel gospod predsednik, bom povedal svoje mnenje, da bi se s tremi četrtinami predloga strinjal, nikakor pa ne, da umaknemo predlog zakona o Vladi. Čeprav sem bil imenovan s strani zbora v to usklajevalno komisijo okrog dnevnega reda, kjer smo se dvakrat neuspešno pač pogajali o tem, kateri zakon naj gre na dnevni red, ali tako imenovani vladni ali zakon, ki so ga predlagali poslanci, vseeno smatram, da bi novemu Državnemu zboru pa le morali pustiti oziroma pripraviti neke temelje, zakonsko, po kateri naj bi bila nova vlada sestavljena, če ne mislim, da bo začetek novega delovanja novega parlamenta oziroma državnega zbora slab. Glasoval bom proti predlogu, da se umakne ta del. Hvala.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-610">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-610.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Hvala. Še želi kdo o vseh štirih v celoti? Glasovali bomo pa o vsaki točki dnevnega reda posebej. Ima še kdo kakšne načelne pomisleke? Saj sami vidite, mi moramo začeti pospravljati in je prav, da počistimo, preden gremo od tu, zlasti še zaradi tega, ker iz Zbora združenega dela nas kandidira samo 18 od 78 poslancev. To se pravi, da moramo počistiti. Prosim, gospod Jaša Zlobec.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-611">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-611.2"
+               who="#ZlobecJasaL1951"
+               ana="#taxonomy.2.8">Jaz bi samo vprašal: Kakšno mnenje o tem ima vlada?</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-612">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-612.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Ja, saj je lepo, da pričakujemo tudi njihovo mnenje, odločamo pa seveda mi o tem, kajne, zaradi tega, ker gre tu res za čisto praktičen pristop, pragmatičen. Ali mi lahko glede na to, kaj se danes v tej zgradbi dogaja, te zakone res obravnavamo tako, kot je njim tudi primerno? Jaz mislim, da se moramo do zakonov tudi pošteno vesti.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-612.3"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Prosim, gospod Muren.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-613">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-613.2"
+               who="#MurenAndrej1953"
+               ana="#taxonomy.2.8">Hvala za besedo. Jaz se pridružujem mnenju gospoda Erceta. Namreč, če bomo imeli novo vlado zopet 27-člansko, bo pa številka za pol bodočega parlamenta.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-614">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-614.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Hvala. Še želi kdo? Gospod Ban, prosim.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-615">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-615.2"
+               who="#BanFranc1938"
+               ana="#taxonomy.2.8">Jaz mislim namreč, da je predlog predsednika praktičen in naš pristop zelo odgovoren in v celoti podpiram umik vseh štirih točk z dnevnega reda današnje seje. Hvala.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-616">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Hvala. Še kdo prosim? Če ne, o tem predlogu zaključujem razpravo in predlagam glede na to, da je bilo tu vprašanje samo v zvezi s 6. točko dnevnega reda, da to damo na zaključek in predlagam najprej, da umaknemo z dnevnega reda 55. seje Zbora združenega dela predlog zakona o družinskih prejemkih, ki smo razširitev sprejeli 28.10.1992 in v okviru zakona, da bi obravnavali tudi predlog resolucije o temeljih oblikovanja družinske politike v Republiki Slovenije. Ugotovimo sklepčnost!</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.3" type="quorum">56 prisotnih.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.4"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Kdo od poslank in poslancev je za umik te točke dnevnega reda?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.5" type="vote">43 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.6"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.7" type="vote">4 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.8"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.9" type="vote">8 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.10"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Ugotavljam, da je Zbor združenega dela z večino glasov umaknil s 55. seje predlog zakona o družinskih prejemkih skupaj z resolucijo z večino glasov.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.11"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">In še 23. točka: predlog zakona o gospodarskih javnih službah.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.12"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Kdo od poslank in poslancev je za umik tega zakonskega predloga?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.13" type="vote">49 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.14"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.15" type="vote">2 poslanca.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.16"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.17" type="vote">3 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.18"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Ugotavljam, da je Zbor združenega dela umaknil predlog zakona o gospodarskih javnih službah z dnevnega reda 55. seje zbora.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.19"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">In še predlog zakona o varstvu okolja. Tudi ta zakon smo razširili na seji dne 28.10.1992.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.20"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Sprašujem vas, kdo je za umik z dnevnega reda zakona o varstvu okolja?</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.21"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Kdor je za, naj, prosim, glasuje.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.22" type="vote">46 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.23"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.24" type="vote">4 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.25"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.26" type="vote">4 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.27"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Ugotavljam, da smo tudi predlog zakona o varstvu okolja umaknili z večino glasov z dnevnega reda 55. seje Zbora združenega dela.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.28"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Sedaj je tu še 6. točka: predlog zakona o Vladi Republike Slovenije, ki so ga predlagali poslanci, da se prav razumemo, ker ta zakon smo mi tudi uvrstili na dnevni red, ne pa predlog zakona o Vladi, ki ga je predlagala vlada. Zato sedaj odločamo o tem poslanskem predlogu.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.29"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Kdo je za umik zakona o Vladi Republike Slovenije, ki smo ga razširili na seji dne 28.10.1992, obravnavali pa 4.11.1992?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.30" type="vote">27 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.31"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.32" type="vote">23 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.33"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.34" type="vote">5 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.35"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Jaz bi vas vseeno iskreno prosil, da ponovimo. Jaz mislim, da je .....</u>
+            <gap xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.36"
+                 ana="#taxonomy.2.8">
+               <desc>(pripombe iz klopi glede glasovanja)</desc>
+            </gap>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.37"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">. Jaz bi vseeno prosil - saj sem naredil napako, da nisem takoj - prosim prisotnost.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.38" type="quorum">53 prisotnih.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.39"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8"> Kdor je za umik, naj, prosim, glasuje.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.40" type="vote">27 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.41"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.42" type="vote">23 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.43"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.44" type="vote">5 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.45"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Ugotavljam, da smo tudi ta umik</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.46" type="quorum">zopet pripombe, ker jih je več glasovalo, kot je prisotnih</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.47"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-616.48"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Ne more vas biti sedaj več, kot vas je bilo prijavljeno v tej dvorani. Tako lepo smo se do sedaj vedli, sedaj pa imamo tu na koncu tole zbrko, nima smisla. Prosim, cilj je seveda zdaj sporen v okviru pravic in dolžnosti poslancev, kaj vi želite. Nobenega cilja ni. Ali pustimo ta zakon in ga moramo še obravnavati, ali pa ne. V tem primeru, prosim, gospod Rogina.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-617">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-617.2"
+               who="#RoginaBogo1947"
+               ana="#taxonomy.2.8">Spoštovani predsednik, spoštovane poslanke in poslanci. Če smo ob zadnjem takem spornem glasovanju rekli, da je to identično s tajnim glasovanjem, je važno, koliko delegatov se je udeležilo glasovanja, ne pa, koliko se jih je prijavilo, da so prisotni. Potem je ta rezultat, ki je bil dvakrat enak, popolnoma jasen. Zanj je glasovalo 27, proti in vzdržanih skupaj pa 28. Se pravi, da je rezultat jasen in da ni nobenega razloga za ponavljanje glasovanja.</u>
+         </div>
+         <div xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.div-618">
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">To se pravi, da ohranjamo ta zakon v dnevnem redu. To se pravi s 55. seje Zbora združenega dela imamo samo še 6. točko, in sicer predlog zakona o Vladi Republike Slovenije skupaj z morebitnimi usklajevanji, ki bodo seveda še lahko opravljena. Z enim od teh usklajevanj smo seveda že tudi imeli delo. To je bilo vse s 55. seje.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.3"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.8">Zdaj nadaljujemo s 56. sejo.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.4"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Predlagam, da se pogovorimo še o naslednjem. Vlada Republike Slovenije predlaga k PREDLOGU ZAKONA O AGENCIJI REPUBLIKE SLOVENIJE ZA PRESTRUKTURIRANJE IN PRIVATIZACIJO PODJETIJ amandma k naslovu in 1. členu predloga zakona, in sicer, da se črta beseda "podjetij" zaradi uskladitve naziva Agencija Republike Slovenije za prestrukturiranje in privatizacijo. Amandma je redakcijskega značaja. Predlagam, da ponovno obravnavamo ta amandma in zakon v celoti. Želi kdo razpravljati o tem?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.5" type="debate">Ne.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.6"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Potem zaključujem razpravo in dajem na glasovanje amandma Vlade Republike Slovenije k naslovu in k 1. členu omenjenega zakona o Agenciji Republike Slovenije za prestrukturiranje in privatizacijo.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.7"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Kdo je za amandma vlade?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.8" type="vote">46 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.9"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.10" type="vote">Nihče.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.11"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.12" type="vote">4 poslanci.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.13"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Ugotavljam, da je zbor z večino glasov amandma Vlade k naslovu in k 1. členu sprejel z večino glasov.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.14"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Seveda še zakon o Agenciji Republike Slovenije za prestrukturiranje in privatizacijo skupaj z amandmajem v celoti.</u>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.15"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Kdor je za, naj, prosim, glasuje.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.16" type="vote">47 poslancev.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.17"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Je kdo proti?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.18" type="vote">Nihče.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.19"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Se je kdo vzdržal?</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.20" type="vote">2 poslanca.</note>
+            <u xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.21"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.1.4.1">Ugotavljam, da je predlog zakona v celoti sprejet z večino glasov.</u>
+            <note xml:id="Sk-11.1992-11-26.ZbZdruDel.s055-07.u-618.22" type="time">Seja se je končala v okviru 56. seje zbora ob približno 15.00 uri.</note>
+            <anchor xml:id="DZ-1992-ZbZdruDel-55.stage.t.26"/>
+         </div>
+      </body>
+   </text>
+</TEI>

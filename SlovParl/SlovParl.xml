@@ -49,7 +49,7 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
                 Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2016-08-04+02:00"/>
+            <date when="2016-08-05+02:00"/>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -1608,7 +1608,9 @@
                         <label>podpredsednik Izvršnega sveta za družbene dejavnosti</label>
                      </state>
                   </affiliation>
-                  <bibl>https://sl.wikipedia.org/wiki/Matija_Male%C5%A1i%C4%8D_%28politik%29</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Matija_Male%C5%A1i%C4%8D_%28politik%29">https://sl.wikipedia.org/wiki/Matija_Male%C5%A1i%C4%8D_%28politik%29</ref>
+                  </bibl>
                </person>
                <person xml:id="MencingerJoze1941">
                   <persName>
@@ -1633,7 +1635,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.SDSS" ana="#gov.VladaRS-1"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Jo%C5%BEe_Mencinger</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEe_Mencinger">https://sl.wikipedia.org/wiki/Jo%C5%BEe_Mencinger</ref>
+                  </bibl>
                </person>
                <person xml:id="OcvirkAndrej1942">
                   <persName>
@@ -1651,7 +1655,9 @@
                         <label>gospodarstvo</label>
                      </state>
                   </affiliation>
-                  <bibl>https://sl.wikipedia.org/wiki/Andrej_Ocvirk</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Andrej_Ocvirk">https://sl.wikipedia.org/wiki/Andrej_Ocvirk</ref>
+                  </bibl>
                </person>
                <person xml:id="BastlMaks1941">
                   <persName>
@@ -1678,7 +1684,9 @@
                                from="1991-05-08"
                                to="1992-02-12"
                                next="#JerajJozef1938"/>
-                  <bibl>https://www.geni.com/people/Maks-Bastl/6000000000859493395</bibl>
+                  <bibl>
+                     <ref target="https://www.geni.com/people/Maks-Bastl/6000000000859493395">https://www.geni.com/people/Maks-Bastl/6000000000859493395</ref>
+                  </bibl>
                </person>
                <person xml:id="BrezarViktor1943">
                   <persName>
@@ -1718,8 +1726,8 @@
                <person xml:id="JankoAlojz1943">
                   <persName>
                      <surname>Janko</surname>
-                     <forename type="alt">Alojz</forename>
-                     <forename type="alt">Lojze</forename>
+                     <forename>Alojz</forename>
+                     <forename full="abb">Lojze</forename>
                   </persName>
                   <sex value="M"/>
                   <birth when="1943-12-23">
@@ -1753,7 +1761,9 @@
                   <affiliation ref="#gov.MVOUPRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MVOUPRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Miha_Jazbin%C5%A1ek</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Miha_Jazbin%C5%A1ek">https://sl.wikipedia.org/wiki/Miha_Jazbin%C5%A1ek</ref>
+                  </bibl>
                </person>
                <person xml:id="JerajJozef1938">
                   <persName>
@@ -1782,7 +1792,9 @@
                                from="1992-05-14"
                                to="1992-09-23"
                                next="#ValentincicDavorin"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jeraj</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jeraj">https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jeraj</ref>
+                  </bibl>
                </person>
                <person xml:id="StanicStane1926">
                   <persName>
@@ -1809,7 +1821,9 @@
                                to="1991-04-24"
                                next="#KacinJelko1955"/>
                   <affiliation ref="#pp.ZSMS" ana="#gov.VladaRS-1"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Stane_Stani%C4%8D</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Stane_Stani%C4%8D">https://sl.wikipedia.org/wiki/Stane_Stani%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="KacinJelko1955">
                   <persName>
@@ -1832,7 +1846,9 @@
                                prev="#StanicStane1926"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MIRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Jelko_Kacin</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Jelko_Kacin">https://sl.wikipedia.org/wiki/Jelko_Kacin</ref>
+                  </bibl>
                </person>
                <person xml:id="KrajncMarjan1927">
                   <persName>
@@ -1852,7 +1868,9 @@
                   <affiliation ref="#gov.MPZRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MPZRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Marjan_Krajnc</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Marjan_Krajnc">https://sl.wikipedia.org/wiki/Marjan_Krajnc</ref>
+                  </bibl>
                </person>
                <person xml:id="KranjecMarko1940">
                   <persName>
@@ -1875,7 +1893,9 @@
                                from="1990-05-16"
                                to="1991-05-08"
                                next="#SesokDusan1953"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Marko_Kranjec</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Marko_Kranjec">https://sl.wikipedia.org/wiki/Marko_Kranjec</ref>
+                  </bibl>
                </person>
                <person xml:id="SesokDusan1953">
                   <persName>
@@ -1896,7 +1916,9 @@
                                prev="#KranjecMarko1940"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MIGRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Du%C5%A1an_%C5%A0e%C5%A1ok</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Du%C5%A1an_%C5%A0e%C5%A1ok">https://sl.wikipedia.org/wiki/Du%C5%A1an_%C5%A0e%C5%A1ok</ref>
+                  </bibl>
                </person>
                <person xml:id="OstercJozef1942">
                   <persName>
@@ -1915,7 +1937,9 @@
                   </affiliation>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MKGPRS" ana="#gov.VladaRS-1 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jakob_Osterc</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jakob_Osterc">https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jakob_Osterc</ref>
+                  </bibl>
                </person>
                <person xml:id="PasIngo1941">
                   <persName>
@@ -1933,13 +1957,14 @@
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MTGRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#pp.SOS" ana="#gov.VladaRS-1"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Ingo_Pa%C5%A1</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Ingo_Pa%C5%A1">https://sl.wikipedia.org/wiki/Ingo_Pa%C5%A1</ref>
+                  </bibl>
                </person>
                <person xml:id="PuharJozica1942">
                   <persName>
                      <surname>Puhar</surname>
-                     <forename type="alt">Jožica</forename>
-                     <forename type="alt">Jožefa</forename>
+                     <forename>Jožica</forename>
                   </persName>
                   <sex value="F"/>
                   <birth when="1942-03-19">
@@ -1952,7 +1977,9 @@
                   <affiliation ref="#pp.ZKS-SDP" ana="#gov.VladaRS-1"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MDRS" ana=" #gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Jo%C5%BEica_Puhar</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEica_Puhar">https://sl.wikipedia.org/wiki/Jo%C5%BEica_Puhar</ref>
+                  </bibl>
                </person>
                <person xml:id="RupelDimitrij1946">
                   <persName>
@@ -1974,7 +2001,9 @@
                   <affiliation ref="#pp.SDZ" ana="#gov.VladaRS-1"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MZZRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Dimitrij_Rupel</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Dimitrij_Rupel">https://sl.wikipedia.org/wiki/Dimitrij_Rupel</ref>
+                  </bibl>
                </person>
                <person xml:id="TancigPeter1944">
                   <persName>
@@ -1999,13 +2028,15 @@
                   <affiliation ref="#gov.MZTRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MZTRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Peter_Tancig</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Peter_Tancig">https://sl.wikipedia.org/wiki/Peter_Tancig</ref>
+                  </bibl>
                </person>
                <person xml:id="TomsicMihael1941">
                   <persName>
                      <surname>Tomšič</surname>
-                     <forename type="alt">Mihael</forename>
-                     <surname type="alt">Miha</surname>
+                     <forename full="abb">Mihael</forename>
+                     <forename full="abb">Miha</forename>
                      <forename>Gabrijel</forename>
                   </persName>
                   <sex value="M"/>
@@ -2020,7 +2051,9 @@
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MERS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#pp.ZKS-SDP" ana="#gov.VladaRS-1"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Miha_Tom%C5%A1i%C4%8D</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Miha_Tom%C5%A1i%C4%8D">https://sl.wikipedia.org/wiki/Miha_Tom%C5%A1i%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="UmekIgor1956">
                   <persName>
@@ -2038,7 +2071,9 @@
                   </affiliation>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MPLRS" ana="#gov.VladaRS-1 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Igor_Umek</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Igor_Umek">https://sl.wikipedia.org/wiki/Igor_Umek</ref>
+                  </bibl>
                </person>
                <person xml:id="VenceljPeter1939">
                   <persName>
@@ -2056,7 +2091,9 @@
                   </affiliation>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MŠŠRS" ana="#gov.VladaRS-1 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Peter_Vencelj</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Peter_Vencelj">https://sl.wikipedia.org/wiki/Peter_Vencelj</ref>
+                  </bibl>
                </person>
                <person xml:id="RigelnikHerman1942">
                   <persName>
@@ -2067,7 +2104,9 @@
                   <sex value="M"/>
                   <birth when="1942-03-29"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.deputy"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Herman_Rigelnik</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Herman_Rigelnik">https://sl.wikipedia.org/wiki/Herman_Rigelnik</ref>
+                  </bibl>
                </person>
                <person xml:id="GaspariMitja1951">
                   <persName>
@@ -2088,7 +2127,9 @@
                                from="1992-06-10"
                                to="1993-01-25"
                                prev="#KopacJanez1961"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Mitja_Gaspari</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Mitja_Gaspari">https://sl.wikipedia.org/wiki/Mitja_Gaspari</ref>
+                  </bibl>
                </person>
                <person xml:id="KozincMiha1952">
                   <persName>
@@ -2099,7 +2140,9 @@
                   <birth when="1952"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MPURS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Miha_Kozinc</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Miha_Kozinc">https://sl.wikipedia.org/wiki/Miha_Kozinc</ref>
+                  </bibl>
                </person>
                <person xml:id="KracunDavorin1950">
                   <persName>
@@ -2110,7 +2153,9 @@
                   <birth when="1950-10-31"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MPLRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Davorin_Kra%C4%8Dun</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Davorin_Kra%C4%8Dun">https://sl.wikipedia.org/wiki/Davorin_Kra%C4%8Dun</ref>
+                  </bibl>
                </person>
                <person xml:id="TajnikarMaks1951">
                   <persName>
@@ -2121,7 +2166,9 @@
                   <birth when="1951"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MMGRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Maks_Tajnikar</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Maks_Tajnikar">https://sl.wikipedia.org/wiki/Maks_Tajnikar</ref>
+                  </bibl>
                </person>
                <person xml:id="ValentincicDavorin">
                   <persName>
@@ -2139,7 +2186,9 @@
                                from="1992-09-23"
                                to="1993-01-25"
                                prev="#JerajJozef1938"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Davorin_Valentin%C4%8Di%C4%8D</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Davorin_Valentin%C4%8Di%C4%8D">https://sl.wikipedia.org/wiki/Davorin_Valentin%C4%8Di%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="BattelliRoberto1954" sex="M">
                   <persName>
@@ -2154,7 +2203,9 @@
                   </birth>
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#ns.ital" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Roberto_Battelli</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Roberto_Battelli">https://sl.wikipedia.org/wiki/Roberto_Battelli</ref>
+                  </bibl>
                </person>
                <person xml:id="BohKatja1929">
                   <persName>
@@ -2189,7 +2240,9 @@
                                from="1990-05-16"
                                to="1992-01-15"
                                next="#VoljcBozidar1939"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Katja_Boh</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Katja_Boh">https://sl.wikipedia.org/wiki/Katja_Boh</ref>
+                  </bibl>
                </person>
                <person xml:id="BucarFrance1923" sex="M">
                   <persName>
@@ -2204,8 +2257,12 @@
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.DS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/France_Bu%C4%8Dar</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3">http://slovenska-pomlad.si/2?id=3</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/France_Bu%C4%8Dar">https://sl.wikipedia.org/wiki/France_Bu%C4%8Dar</ref>
+                  </bibl>
                </person>
                <person xml:id="CapuderAndrej1942">
                   <persName>
@@ -2227,8 +2284,12 @@
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MKRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#pp.SKD" ana="#gov.VladaRS-1"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=2475</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/Andrej_Capuder</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=2475">http://slovenska-pomlad.si/2?id=2475</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Andrej_Capuder">https://sl.wikipedia.org/wiki/Andrej_Capuder</ref>
+                  </bibl>
                </person>
                <person xml:id="GosnikVane1953">
                   <persName>Gošnik Vane</persName>
@@ -2237,7 +2298,9 @@
                   </birth>
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.ZS" ana="#parl.Skup-11"/>
-                  <bibl>http://prabook.org/web/person-view.html?profileId=943869</bibl>
+                  <bibl>
+                     <ref target="http://prabook.org/web/person-view.html?profileId=943869">http://prabook.org/web/person-view.html?profileId=943869</ref>
+                  </bibl>
                </person>
                <person xml:id="JansaJanez1958">
                   <persName>
@@ -2257,8 +2320,12 @@
                   <affiliation ref="#gov.MORS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MORS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=41</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/Janez_Jan%C5%A1a</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=41">http://slovenska-pomlad.si/2?id=41</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Janez_Jan%C5%A1a">https://sl.wikipedia.org/wiki/Janez_Jan%C5%A1a</ref>
+                  </bibl>
                </person>
                <person xml:id="KopacJanez1961">
                   <persName>
@@ -2282,13 +2349,17 @@
                                from="1992-05-14"
                                to="1992-06-10"
                                next="#GaspariMitja1951"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3262</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/Janez_Kopa%C4%8D</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3262">http://slovenska-pomlad.si/2?id=3262</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Janez_Kopa%C4%8D">https://sl.wikipedia.org/wiki/Janez_Kopa%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="PersakAnton1947">
                   <persName>
                      <surname>Peršak</surname>
-                     <forename full="yes">Anton</forename>
+                     <forename>Anton</forename>
                      <forename full="abb">Tone</forename>
                   </persName>
                   <birth when="1947-01-02">
@@ -2297,14 +2368,18 @@
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.DS" ana="#parl.Skup-11"/>
-                  <bibl>http://www.gorenjci.si/osebe/per%C5%A1ak-anton-%28tone%29/812/</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/Tone_Per%C5%A1ak</bibl>
+                  <bibl>
+                     <ref target="http://www.gorenjci.si/osebe/per%C5%A1ak-anton-%28tone%29/812/">http://www.gorenjci.si/osebe/per%C5%A1ak-anton-%28tone%29/812/</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Tone_Per%C5%A1ak">https://sl.wikipedia.org/wiki/Tone_Per%C5%A1ak</ref>
+                  </bibl>
                </person>
                <person xml:id="PeterleAlojz1948">
                   <persName>
                      <surname>Peterle</surname> 
-                     <forename type="alt">Alojz</forename>
-                     <forename type="alt">Lojze</forename>
+                     <forename>Alojz</forename>
+                     <forename full="abb">Lojze</forename>
                   </persName>
                   <sex value="M"/>
                   <birth when="1948-07-05">
@@ -2319,8 +2394,12 @@
                   <affiliation ref="#pp.SKD" ana="#parl.Skup-11"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#pp.SKD" ana="#gov.VladaRS-1"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=14</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/Alojz_Peterle</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=14">http://slovenska-pomlad.si/2?id=14</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Alojz_Peterle">https://sl.wikipedia.org/wiki/Alojz_Peterle</ref>
+                  </bibl>
                </person>
                <person xml:id="PintarEmilMilan1944">
                   <persName>Pintar Emil Milan</persName>
@@ -2330,7 +2409,9 @@
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11" notAfter="1992-06"/>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
-                  <bibl>http://www.dlib.si/details/URN:NBN:SI:doc-CTEVQNQ4</bibl>
+                  <bibl>
+                     <ref target="http://www.dlib.si/details/URN:NBN:SI:doc-CTEVQNQ4">http://www.dlib.si/details/URN:NBN:SI:doc-CTEVQNQ4</ref>
+                  </bibl>
                </person>
                <person xml:id="PirnatRajko1951">
                   <persName>
@@ -2351,7 +2432,9 @@
                   <affiliation ref="#pp.SDZ-NDS" ana="#parl.Skup-11"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MPURS" ana="#gov.VladaRS-1 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Rajko_Pirnat</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Rajko_Pirnat">https://sl.wikipedia.org/wiki/Rajko_Pirnat</ref>
+                  </bibl>
                </person>
                <person xml:id="RejcIzidor1936">
                   <persName>
@@ -2369,7 +2452,9 @@
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MIGRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#pp.SKD" ana="#gov.VladaRS-1"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Izidor_Rejc</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Izidor_Rejc">https://sl.wikipedia.org/wiki/Izidor_Rejc</ref>
+                  </bibl>
                </person>
                <person xml:id="SeserkoLeo1948">
                   <persName>
@@ -2397,7 +2482,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.ZS" ana="#gov.VladaRS-1"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Leo_%C5%A0e%C5%A1erko</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Leo_%C5%A0e%C5%A1erko">https://sl.wikipedia.org/wiki/Leo_%C5%A0e%C5%A1erko</ref>
+                  </bibl>
                </person>
                <person xml:id="SinkovecMatjaz1951">
                   <persName>
@@ -2415,7 +2502,9 @@
                                next="#ZorzAndrej1963"/>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
                   <bibl>do 22.7.1992</bibl>
-                  <bibl>https://sl.wikipedia.org/wiki/Matja%C5%BE_%C5%A0inkovec_%28diplomat%29</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Matja%C5%BE_%C5%A0inkovec_%28diplomat%29">https://sl.wikipedia.org/wiki/Matja%C5%BE_%C5%A0inkovec_%28diplomat%29</ref>
+                  </bibl>
                </person>
                <person xml:id="TomazicAnton1950">
                   <persName>
@@ -2428,7 +2517,9 @@
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDZ-NDS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3284</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3284">http://slovenska-pomlad.si/2?id=3284</ref>
+                  </bibl>
                </person>
                <person xml:id="VoljcBozidar1939">
                   <persName>
@@ -2452,7 +2543,9 @@
                                prev="#BohKatja1929"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MZDSVRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Bo%C5%BEidar_Volj%C4%8D</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Bo%C5%BEidar_Volj%C4%8D">https://sl.wikipedia.org/wiki/Bo%C5%BEidar_Volj%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="KramaricTone1947">
                   <persName>
@@ -2465,7 +2558,9 @@
                   <affiliation ref="#parl.ZbObc" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.DS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3325</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3325">http://slovenska-pomlad.si/2?id=3325</ref>
+                  </bibl>
                </person>
                <person xml:id="KuharIvan1945">
                   <persName>
@@ -2490,7 +2585,9 @@
                   </birth>
                   <affiliation ref="#parl.ZbObc" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#cl.DEMOS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3352</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3352">http://slovenska-pomlad.si/2?id=3352</ref>
+                  </bibl>
                </person>
                <person xml:id="AhcanNevenka1950">
                   <persName>
@@ -2537,7 +2634,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>https://sh.wikipedia.org/wiki/Milan_Aksentijevi%C4%87</bibl>
+                  <bibl>
+                     <ref target="https://sh.wikipedia.org/wiki/Milan_Aksentijevi%C4%87">https://sh.wikipedia.org/wiki/Milan_Aksentijevi%C4%87</ref>
+                  </bibl>
                </person>
                <person xml:id="ArzensekJoze1942">
                   <persName>
@@ -2559,8 +2658,12 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Jo%C5%BEe_Arzen%C5%A1ek</bibl>
-                  <bibl>http://slovenska-pomlad.si/2?id=3369</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEe_Arzen%C5%A1ek">https://sl.wikipedia.org/wiki/Jo%C5%BEe_Arzen%C5%A1ek</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3369">http://slovenska-pomlad.si/2?id=3369</ref>
+                  </bibl>
                </person>
                <person xml:id="AvbersekFranc1947">
                   <persName>
@@ -2585,7 +2688,9 @@
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MERS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Franc_Avber%C5%A1ek</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Franc_Avber%C5%A1ek">https://sl.wikipedia.org/wiki/Franc_Avber%C5%A1ek</ref>
+                  </bibl>
                </person>
                <person xml:id="BanFranc1938">
                   <persName>
@@ -2628,7 +2733,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDP" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Danilo_Ba%C5%A1in</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Danilo_Ba%C5%A1in">https://sl.wikipedia.org/wiki/Danilo_Ba%C5%A1in</ref>
+                  </bibl>
                </person>
                <person xml:id="BaumanMihaela1962">
                   <persName>
@@ -2668,7 +2775,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
-                  <bibl>http://www.dlib.si/details/URN:NBN:SI:DOC-0DJ6OK15</bibl>
+                  <bibl>
+                     <ref target="http://www.dlib.si/details/URN:NBN:SI:DOC-0DJ6OK15">http://www.dlib.si/details/URN:NBN:SI:DOC-0DJ6OK15</ref>
+                  </bibl>
                </person>
                <person xml:id="BerlecJoze1949">
                   <persName>
@@ -2690,8 +2799,12 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.SKD" ana="#parl.Skup-11"/>
-                  <bibl>http://www.gasilci.org/forum/viewtopic.php?f=43&amp;t=10091</bibl>
-                  <bibl>http://slovenska-pomlad.si/2?id=3375</bibl>
+                  <bibl>
+                     <ref target="http://www.gasilci.org/forum/viewtopic.php?f=43&amp;t=10091">http://www.gasilci.org/forum/viewtopic.php?f=43&amp;t=10091</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3375">http://slovenska-pomlad.si/2?id=3375</ref>
+                  </bibl>
                </person>
                <person xml:id="BizjakDavorin1938">
                   <persName>
@@ -2715,10 +2828,8 @@
                </person>
                <person xml:id="BolicMuharem1936">
                   <persName>
-                     <surname xml:id="BoličMuharem.surname1" exclude="#BoličMuharem.surname2">Bolič</surname>
-                     <surname xml:id="BoličMuharem.surname2" exclude="#BoličMuharem.surname1">Bolić</surname>
+                     <surname>Bolić</surname>
                      <forename>Muharem</forename>
-                     <addName>Hatko</addName>
                   </persName>
                   <sex value="M"/>
                   <birth when="1936-04-03">
@@ -2736,8 +2847,12 @@
                   </affiliation>
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDP" ana="#parl.Skup-11"/>
-                  <bibl>http://www.saleskibiografskileksikon.si/index.php?action=view&amp;tag=150</bibl>
-                  <bibl>http://slovenska-pomlad.si/2?id=3377</bibl>
+                  <bibl>
+                     <ref target="http://www.saleskibiografskileksikon.si/index.php?action=view&amp;tag=150">http://www.saleskibiografskileksikon.si/index.php?action=view&amp;tag=150</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3377">http://slovenska-pomlad.si/2?id=3377</ref>
+                  </bibl>
                </person>
                <person xml:id="BostjancicFranc1935">
                   <persName>
@@ -2760,7 +2875,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <bibl>http://www.slovenska-biografija.si/oseba/sbi1004470/</bibl>
+                  <bibl>
+                     <ref target="http://www.slovenska-biografija.si/oseba/sbi1004470/">http://www.slovenska-biografija.si/oseba/sbi1004470/</ref>
+                  </bibl>
                </person>
                <person xml:id="BrglezStanislav1936">
                   <persName>
@@ -2802,7 +2919,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SZS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SSS" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Ivo_Daneu</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Ivo_Daneu">https://sl.wikipedia.org/wiki/Ivo_Daneu</ref>
+                  </bibl>
                </person>
                <person xml:id="DomioMarino1950">
                   <persName>
@@ -2821,7 +2940,9 @@
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#ns.ital" ana="#parl.Skup-11"/>
-                  <bibl>http://www.izola.info/obcina-izola.php?svetnik=161</bibl>
+                  <bibl>
+                     <ref target="http://www.izola.info/obcina-izola.php?svetnik=161">http://www.izola.info/obcina-izola.php?svetnik=161</ref>
+                  </bibl>
                </person>
                <person xml:id="DrameLeopold1935">
                   <persName>
@@ -2990,7 +3111,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3391</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3391">http://slovenska-pomlad.si/2?id=3391</ref>
+                  </bibl>
                </person>
                <person xml:id="GrasicFranc1941">
                   <persName>
@@ -3012,7 +3135,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3392</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3392">http://slovenska-pomlad.si/2?id=3392</ref>
+                  </bibl>
                </person>
                <person xml:id="GumilarLudvik1937">
                   <persName>
@@ -3086,7 +3211,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3396</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3396">http://slovenska-pomlad.si/2?id=3396</ref>
+                  </bibl>
                </person>
                <person xml:id="JaklicMarko1930">
                   <persName>
@@ -3129,7 +3256,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.DS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3398</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3398">http://slovenska-pomlad.si/2?id=3398</ref>
+                  </bibl>
                </person>
                <person xml:id="KocevarBozo1939">
                   <persName>
@@ -3151,7 +3280,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3399</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3399">http://slovenska-pomlad.si/2?id=3399</ref>
+                  </bibl>
                </person>
                <person xml:id="KosakJoze1958">
                   <persName>
@@ -3193,7 +3324,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Bo%C5%A1tjan_Kova%C4%8Di%C4%8D</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Bo%C5%A1tjan_Kova%C4%8Di%C4%8D">https://sl.wikipedia.org/wiki/Bo%C5%A1tjan_Kova%C4%8Di%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="KrajecMirko1954">
                   <persName>
@@ -3288,7 +3421,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SZS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SSS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3407</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3407">http://slovenska-pomlad.si/2?id=3407</ref>
+                  </bibl>
                </person>
                <person xml:id="MakViljem1937">
                   <persName>
@@ -3310,7 +3445,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3408</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3408">http://slovenska-pomlad.si/2?id=3408</ref>
+                  </bibl>
                </person>
                <person xml:id="MogeRudi1944">
                   <persName>
@@ -3333,7 +3470,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Rudolf_Moge</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Rudolf_Moge">https://sl.wikipedia.org/wiki/Rudolf_Moge</ref>
+                  </bibl>
                </person>
                <person xml:id="MikusDimitrij1927">
                   <persName>
@@ -3376,7 +3515,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3411</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3411">http://slovenska-pomlad.si/2?id=3411</ref>
+                  </bibl>
                </person>
                <person xml:id="MurkoDejan1967">
                   <persName>
@@ -3395,7 +3536,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3412</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3412">http://slovenska-pomlad.si/2?id=3412</ref>
+                  </bibl>
                </person>
                <person xml:id="OblakMajda1946">
                   <persName>
@@ -3417,7 +3560,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDP" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3413</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3413">http://slovenska-pomlad.si/2?id=3413</ref>
+                  </bibl>
                </person>
                <person xml:id="OstermanAnka1940">
                   <persName>
@@ -3440,7 +3585,9 @@
                   <affiliation ref="#pp.SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MBVIRS" ana="#gov.VladaRS-2 #grp.head"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3414</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3414">http://slovenska-pomlad.si/2?id=3414</ref>
+                  </bibl>
                </person>
                <person xml:id="PerkoFranc1942">
                   <persName>
@@ -3463,7 +3610,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=2483</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=2483">http://slovenska-pomlad.si/2?id=2483</ref>
+                  </bibl>
                </person>
                <person xml:id="PersoljaDejan1946">
                   <persName>
@@ -3483,7 +3632,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SKZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SLS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3416</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3416">http://slovenska-pomlad.si/2?id=3416</ref>
+                  </bibl>
                </person>
                <person xml:id="PirsJurij1939">
                   <persName>
@@ -3505,7 +3656,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3417</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3417">http://slovenska-pomlad.si/2?id=3417</ref>
+                  </bibl>
                </person>
                <person xml:id="PrelovecValentin1934">
                   <persName>
@@ -3625,7 +3778,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDZ-NDS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3423</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3423">http://slovenska-pomlad.si/2?id=3423</ref>
+                  </bibl>
                </person>
                <person xml:id="RoginaBogo1947">
                   <persName>
@@ -3664,7 +3819,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.DS" ana="#parl.Skup-11"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Fran%C4%8Dek_Rudolf</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Fran%C4%8Dek_Rudolf">https://sl.wikipedia.org/wiki/Fran%C4%8Dek_Rudolf</ref>
+                  </bibl>
                </person>
                <person xml:id="SagadinVlasta1957">
                   <persName>
@@ -3686,7 +3843,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.ZS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3426</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3426">http://slovenska-pomlad.si/2?id=3426</ref>
+                  </bibl>
                </person>
                <person xml:id="SekeresVilijem1939">
                   <persName>
@@ -3710,7 +3869,9 @@
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#ns.madz" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3427</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3427">http://slovenska-pomlad.si/2?id=3427</ref>
+                  </bibl>
                </person>
                <person xml:id="SlapernikAnton1937">
                   <persName>
@@ -3847,7 +4008,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3434</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3434">http://slovenska-pomlad.si/2?id=3434</ref>
+                  </bibl>
                </person>
                <person xml:id="SterAndrej1958">
                   <persName>
@@ -4006,7 +4169,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#independet" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3442</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3442">http://slovenska-pomlad.si/2?id=3442</ref>
+                  </bibl>
                </person>
                <person xml:id="ZalarFranc1951">
                   <persName>
@@ -4051,8 +4216,12 @@
                   </affiliation>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=21</bibl>
-                  <bibl>http://slovenska-pomlad.si/2?id=2397</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=21">http://slovenska-pomlad.si/2?id=21</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=2397">http://slovenska-pomlad.si/2?id=2397</ref>
+                  </bibl>
                </person>
                <person xml:id="ZupancBarbara1963">
                   <persName>
@@ -4075,7 +4244,9 @@
                   </affiliation>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3444</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3444">http://slovenska-pomlad.si/2?id=3444</ref>
+                  </bibl>
                </person>
                <person xml:id="ZupancicJoze1936">
                   <persName>
@@ -4116,7 +4287,9 @@
                      </state>
                   </affiliation>
                   <affiliation ref="#pp.SKD" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3446</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3446">http://slovenska-pomlad.si/2?id=3446</ref>
+                  </bibl>
                </person>
                <person xml:id="ZidanikAnton1942">
                   <persName>
@@ -4139,7 +4312,9 @@
                   </affiliation>
                   <affiliation ref="#pp.SZS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SSS" ana="#parl.Skup-11"/>
-                  <bibl>http://slovenska-pomlad.si/2?id=3447</bibl>
+                  <bibl>
+                     <ref target="http://slovenska-pomlad.si/2?id=3447">http://slovenska-pomlad.si/2?id=3447</ref>
+                  </bibl>
                </person>
             </listPerson>
             <listPerson>
@@ -4174,7 +4349,9 @@
                   </birth>
                   <affiliation ana="#parl.Skup-11">guverner <orgName>Banke Slovenije</orgName>
                   </affiliation>
-                  <bibl>https://sl.wikipedia.org/wiki/France_Arhar</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/France_Arhar">https://sl.wikipedia.org/wiki/France_Arhar</ref>
+                  </bibl>
                </person>
                <person xml:id="AtelsekMargareta">
                   <persName>
@@ -4239,7 +4416,9 @@
                   </birth>
                   <affiliation ref="#gov.MDRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MDRS" ana="#gov.VladaRS-2 #grp.member"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Nata%C5%A1a_Belopavlovi%C4%8D</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Nata%C5%A1a_Belopavlovi%C4%8D">https://sl.wikipedia.org/wiki/Nata%C5%A1a_Belopavlovi%C4%8D</ref>
+                  </bibl>
                </person>
                <person xml:id="BerceleMira">
                   <persName>
@@ -4281,7 +4460,9 @@
                   <sex value="M"/>
                   <birth when="1948-05-16"/>
                   <affiliation ref="#gov.MORS" ana="#gov.VladaRS-1 #grp.member"/>
-                  <bibl>http://www.sos112.si/slo/clanek.php?catid=27&amp;id=5986</bibl>
+                  <bibl>
+                     <ref target="http://www.sos112.si/slo/clanek.php?catid=27&amp;id=5986">http://www.sos112.si/slo/clanek.php?catid=27&amp;id=5986</ref>
+                  </bibl>
                </person>
                <person xml:id="BojanecStefan">
                   <persName>
@@ -4301,7 +4482,9 @@
                      <placeName>Ljubljana</placeName>
                   </birth>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2">svetovalec vlade</affiliation>
-                  <bibl>https://www.si21.com/Gospodarstvo/Zveza_ekonomistov_Slovenije-Izsla_je_nova_knjiga_z_naslovom_187FISKALNA_PRAVILA171/</bibl>
+                  <bibl>
+                     <ref target="https://www.si21.com/Gospodarstvo/Zveza_ekonomistov_Slovenije-Izsla_je_nova_knjiga_z_naslovom_187FISKALNA_PRAVILA171/">https://www.si21.com/Gospodarstvo/Zveza_ekonomistov_Slovenije-Izsla_je_nova_knjiga_z_naslovom_187FISKALNA_PRAVILA171/</ref>
+                  </bibl>
                </person>
                <person xml:id="BrackoBranko">
                   <persName>
@@ -4323,7 +4506,9 @@
                   </birth>
                   <affiliation>vodja <orgName>Varnostno informativne službe</orgName>
                   </affiliation>
-                  <bibl>https://sl.wikipedia.org/wiki/Mihael_Brejc</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Mihael_Brejc">https://sl.wikipedia.org/wiki/Mihael_Brejc</ref>
+                  </bibl>
                </person>
                <person xml:id="BreznikJanez">
                   <persName>
@@ -4793,7 +4978,9 @@
                   </birth>
                   <affiliation>rektor <orgName>Univerze v Mariboru</orgName>
                   </affiliation>
-                  <bibl>https://sl.wikipedia.org/wiki/Alojz_Kri%C5%BEman</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Alojz_Kri%C5%BEman">https://sl.wikipedia.org/wiki/Alojz_Kri%C5%BEman</ref>
+                  </bibl>
                </person>
                <person xml:id="LapajneIvan">
                   <persName>
@@ -4904,7 +5091,7 @@
                   <persName>
                      <surname>Mežnar</surname> 
                      <roleName>mag.</roleName> 
-                     <surname>Drago</surname>
+                     <forename>Drago</forename>
                   </persName>
                   <sex value="M"/>
                   <affiliation>predstavnik <orgName>Gospodarske zbornice Slovenije</orgName>
@@ -4914,7 +5101,7 @@
                   <persName>
                      <surname>Mihovar</surname> 
                      <surname>Globokar</surname> 
-                     <surname>Ksenija</surname>
+                     <forename>Ksenija</forename>
                   </persName>
                   <sex value="F"/>
                   <affiliation ref="#gov.MZRS" ana="#gov.VladaRS-1 #grp.member"/>
@@ -4922,7 +5109,7 @@
                <person xml:id="MitrovicSinisa">
                   <persName>
                      <surname>Mitrovič</surname> 
-                     <surname>Siniša</surname>
+                     <forename>Siniša</forename>
                   </persName>
                   <sex value="M"/>
                   <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.member"/>
@@ -4930,7 +5117,7 @@
                <person xml:id="MisicBrane">
                   <persName>
                      <surname>Mišič</surname> 
-                     <surname>Brane</surname>
+                     <forename>Brane</forename>
                   </persName>
                   <sex value="M"/>
                   <affiliation>predstavnik <orgName>Sveta zveze svobodnih sindikatov Slovenije</orgName>
@@ -4939,7 +5126,7 @@
                <person xml:id="MlakarFanika">
                   <persName>
                      <surname>Mlakar</surname> 
-                     <surname>Fanika</surname>
+                     <forename>Fanika</forename>
                   </persName>
                   <sex value="F"/>
                   <affiliation>direktorica <orgName>Zavoda Republike Slovenije za cene</orgName>
@@ -4948,7 +5135,7 @@
                <person xml:id="MlinarMartin">
                   <persName>
                      <surname>Mlinar</surname> 
-                     <surname>Martin</surname>
+                     <forename>Martin</forename>
                   </persName>
                   <sex value="M"/>
                   <affiliation>vodja delegacije Skupščine Republike Slovenije v Zboru republik in
@@ -4958,7 +5145,7 @@
                   <persName>
                      <surname>Mrhovar</surname> 
                      <surname>Globokar</surname> 
-                     <surname>Ksenija</surname>
+                     <forename>Ksenija</forename>
                   </persName>
                   <sex value="F"/>
                   <affiliation ref="#gov.MZRS" ana="#gov.VladaRS-1 #grp.member"/>
@@ -4967,7 +5154,7 @@
                   <persName>
                      <surname>Olup</surname> 
                      <roleName>mag.</roleName> 
-                     <surname>Jože</surname>
+                     <forename>Jože</forename>
                   </persName>
                   <sex value="M"/>
                   <affiliation ref="#gov.MPURS" ana="#gov.VladaRS-1 #grp.member"/>
@@ -5145,7 +5332,9 @@
                   </birth>
                   <affiliation>član <orgName>Sveta Banke Slovenije</orgName>
                   </affiliation>
-                  <bibl>http://www.saleskibiografskileksikon.si/index.php?action=view&amp;tag=793</bibl>
+                  <bibl>
+                     <ref target="http://www.saleskibiografskileksikon.si/index.php?action=view&amp;tag=793">http://www.saleskibiografskileksikon.si/index.php?action=view&amp;tag=793</ref>
+                  </bibl>
                </person>
                <person xml:id="RoblekJasna">
                   <persName>
@@ -5423,9 +5612,9 @@
                </person>
                <person xml:id="ZupancicBostjanM">
                   <persName>
-                     <surname>Zupančič</surname> 
+                     <surname>Zupančič</surname>
                      <forename>Boštjan</forename> 
-                     <forename>M.</forename>
+                     <forename full="init">M.</forename>
                   </persName>
                   <sex value="M"/>
                   <affiliation>predstavnik <orgName>Univerze v Ljubljani</orgName>
@@ -5497,7 +5686,9 @@
                      <placeName>Trbovlje</placeName>
                   </birth>
                   <affiliation ref="#gov.MDRS" ana="#gov.VladaRS-1 #grp.member"/>
-                  <bibl>https://sl.wikipedia.org/wiki/Marko_%C5%A0trovs</bibl>
+                  <bibl>
+                     <ref target="https://sl.wikipedia.org/wiki/Marko_%C5%A0trovs">https://sl.wikipedia.org/wiki/Marko_%C5%A0trovs</ref>
+                  </bibl>
                </person>
                <person xml:id="StrucMilan">
                   <persName>
@@ -5741,14 +5932,20 @@
                   <org xml:id="pp.LDS.1994">
                      <orgName full="yes" from="1994-03-12">Liberalna demokracija Slovenije</orgName>
                      <orgName full="init" from="1994-03-12">LDS</orgName>
-                     <bibl>https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije</bibl>
+                     <bibl>
+                        <ref target="https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije">https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije</ref>
+                     </bibl>
                   </org>
                   <org xml:id="pp.LDS.1990" next="#pp.LDS.1994">
                      <orgName full="yes" from="1990-11-10" to="1994-03-12">Liberalno demokratska
                         stranka</orgName>
                      <orgName full="init" from="1990-11-10" to="1994-03-12">LDS</orgName>
-                     <bibl>https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije</bibl>
-                     <bibl>http://www.24ur.com/novice/slovenija/rojstni-dan-lds.html</bibl>
+                     <bibl>
+                        <ref target="https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije">https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije</ref>
+                     </bibl>
+                     <bibl>
+                        <ref target="http://www.24ur.com/novice/slovenija/rojstni-dan-lds.html">http://www.24ur.com/novice/slovenija/rojstni-dan-lds.html</ref>
+                     </bibl>
                   </org>
                   <org xml:id="pp.ZSMS">
                      <orgName full="yes" notBefore="1989" notAfter="1990-11-10">ZSMS-Liberalna

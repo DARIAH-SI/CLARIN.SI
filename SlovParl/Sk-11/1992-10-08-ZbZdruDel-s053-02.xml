@@ -53,7 +53,7 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
                 Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2016-08-04+02:00"/>
+            <date when="2016-08-05+02:00"/>
          </publicationStmt>
          <sourceDesc>
             <bibl>ZbZdruDel-Sk-11.xml</bibl>
@@ -69,7 +69,7 @@
          <particDesc>
             <person role="president" sameAs="#RoginaBogo1947">
                <linkGrp>
-                  <ptr target="#Sk-11.1992-10-08.ZbZdruDel.s053-02.u-138.2"/>
+                  <ptr target="#Sk-11.1992-10-08.ZbZdruDel.s053-02.sp-138.2"/>
                </linkGrp>
             </person>
          </particDesc>
@@ -86,7 +86,7 @@
             <list>
                <item xml:id="Sk-11.1992-10-08.ZbZdruDel.s053-02.toc-item1">
                   <title>Predlog zakona o obrestni meri (5. TOČKA DNEVNEGA REDA)</title>
-                  <ptr target="#Sk-11.1992-10-08.ZbZdruDel.s053-02.u-138.2"/>
+                  <ptr target="#Sk-11.1992-10-08.ZbZdruDel.s053-02.sp-138.2"/>
                </item>
             </list>
          </div>
@@ -101,14 +101,12 @@
                   absolute="1992-10-08T11:57:00"
                   interval="120"/>
          </timeline>
-         <div xml:id="Sk-11.1992-10-08.ZbZdruDel.s053-02.div-138">
-            <anchor xml:id="DZ-1992-ZbZdruDel-53.stage.t.7"/>
-            <u xml:id="Sk-11.1992-10-08.ZbZdruDel.s053-02.u-138.2"
-               who="#RoginaBogo1947"
-               ana="#taxonomy.3.6.6.2.3">34 prisotnih. Ugotavljam, da z delom ne moremo nadaljevati. Prekinjam to sejo in nadaljujemo v sredo ob 10. Poslancem moram povedati, da smo včeraj poslali telegrame vsem razen tistim, ki ste bili tukaj. Vsem ostalim smo poslali in jih povabili. Več se dejansko ne da narediti.</u>
-            <note xml:id="Sk-11.1992-10-08.ZbZdruDel.s053-02.u-138.3" type="time">SEJA JE BILA PREKINJENA DNE 8.10.1992 OB 11.57 URI IN SE JE NADALJEVALA DNE 14.10.1992 OB 10.20 URI</note>
-            <anchor xml:id="DZ-1992-ZbZdruDel-53.stage.t.8"/>
-         </div>
+         <anchor xml:id="DZ-1992-ZbZdruDel-53.stage.t.7"/>
+         <u xml:id="Sk-11.1992-10-08.ZbZdruDel.s053-02.sp-138.2"
+            who="#RoginaBogo1947"
+            ana="#taxonomy.3.6.6.2.3">34 prisotnih. Ugotavljam, da z delom ne moremo nadaljevati. Prekinjam to sejo in nadaljujemo v sredo ob 10. Poslancem moram povedati, da smo včeraj poslali telegrame vsem razen tistim, ki ste bili tukaj. Vsem ostalim smo poslali in jih povabili. Več se dejansko ne da narediti.</u>
+         <note xml:id="Sk-11.1992-10-08.ZbZdruDel.s053-02.sp-138.3" type="time">SEJA JE BILA PREKINJENA DNE 8.10.1992 OB 11.57 URI IN SE JE NADALJEVALA DNE 14.10.1992 OB 10.20 URI</note>
+         <anchor xml:id="DZ-1992-ZbZdruDel-53.stage.t.8"/>
       </body>
    </text>
 </TEI>

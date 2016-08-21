@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sl">Shema TEI za korpus SlovParl v repozitoriju CLARIN.SI</title>
+        <title xml:lang="en">The TEI Schema for SlovParl corpus in CLARIN.SI repository</title>
+        <author>
+          <name>Andrej Pančur</name>
+          <email>andrej.pancur@inz.si</email>
+        </author>
+        <funder>
+          <name xml:lang="sl">Javna agencija za raziskovalno dejavnost Republike Slovenije</name>
+          <name xml:lang="en">Slovenian Research Agency</name>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <name xml:lang="sl">Inštitut za novejšo zgodovino</name>
+          <name xml:lang="en">Institute of Contemporary History</name>
+          <ref target="http://www.inz.si/">http://www.inz.si/</ref>
+          <address>
+            <addrLine>Kongresni trg 1</addrLine>
+            <addrLine>1000 Ljubljana</addrLine>
+            <addrLine>Slovenija</addrLine>
+          </address>
+          <email>inz@inz.si</email>
+        </publisher>
+        <distributor>DARIAH-SI</distributor>
+        <distributor>CLARIN.SI</distributor>
+        <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref
+              target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+              International License</ref>.</p>
+          <p xml:lang="sl">To delo je ponujeno pod <ref
+              target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje
+              avtorstva 4.0 mednarodna licenca</ref>.</p>
+        </availability>
+        <date when="2016-08-15"/>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="sl">Originalno digitalno besedilo.</p>
+        <p xml:lang="en">Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>SlovParl Corpus in CLARIN.SI Repository</head>
+      <p>This TEI customization file specifies the schema for the SlovParl (Proceedings of the
+        Slovenian Parliament) corpus in CLARIN.SI repository.</p>
+
+      <schemaSpec ident="tei_SlovParl-clarin" start="TEI teiCorpus">
+        <!-- required modules -->
+        <moduleRef key="tei"/>
+        <moduleRef key="header" except="abstract appInfo application cRefPattern calendar calendarDesc catRef correspAction correspContext correspDesc creation handNote interpretation listPrefixDef prefixDef refState refsDecl rendition scriptNote seriesStmt stdVals styleDefDecl typeNote xenoData"/>
+        <moduleRef key="core" except="abbr add binaryObject cb choice cit corr del distinct emph expan foreign gb gloss graphic headItem headLabel hi index l lb lg measure measureGrp media mentioned milestone name num orig pb ptr q quote reg relatedItem rs said sic soCalled sp speaker stage term textLang time unclear"/>
+        <moduleRef key="textstructure" include="TEI back body div front text"/>
+        <!-- optional modules -->
+        <moduleRef key="linking" include="anchor timeline when"/>
+        <!-- not included elements in analysis module, but including att.global.analytic for all elements at the global level (attribute ana) -->
+        <moduleRef key="analysis" include=""/>
+        <moduleRef key="namesdates" except="climate geogFeat geogName listNym nym offset terrain"/>
+        <moduleRef key="spoken" include="incident kinesic u vocal writing"/>
+        <moduleRef key="corpus" include="locale particDesc setting settingDesc"/>
+        
+        <classSpec ident="att.cReferencing" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.datable" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="period" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.declaring" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.dimensions" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.divLike" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.docStatus" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.duration.w3c" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.duration.iso" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.editLike" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.fragmentable" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.global" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.global.rendition" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.global.responsibility" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="cert" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.internetMedia" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.naming" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="nymRef" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.notated" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.personal" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="sort" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.placement" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.pointing" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="targetLang" mode="delete"/>
+            <attDef ident="evaluate" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.pointing.group" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.ranging" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.sortable" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.source" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.sortable" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.timed" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.translatable" type="atts" module="tei" mode="delete"/>
+        <classSpec ident="att.typed" type="atts" module="tei" mode="change">
+          <attList>
+            <attDef ident="subtype" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.written" type="atts" module="tei" mode="delete"/>
+        
+        <classSpec ident="att.global.linking" type="atts" module="linking" mode="change">
+          <attList>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+          </attList>
+        </classSpec>
+        
+        <classSpec ident="att.datable.custom" type="atts" module="namesdates" mode="delete"/>
+        <classSpec ident="att.datable.iso" type="atts" module="namesdates" mode="delete"/>
+        
+        <elementSpec ident="note" mode="change" module="core">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="anchored" mode="delete"/>
+            <attDef ident="targetEnd" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="target" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="type" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="location">
+                  <desc xml:lang="sl">lokacija govornika, ki ni bil za govorniškim odrom</desc>
+                  <desc xml:lang="en">the location of the speaker, who was not on the podium</desc>
+                </valItem>
+                <valItem ident="speaker">
+                  <desc xml:lang="sl">ime in morebiten opis govornika</desc>
+                  <desc xml:lang="en">the name and possible description of a speaker</desc>
+                </valItem>
+                <valItem ident="date">
+                  <desc xml:lang="sl">datum seje</desc>
+                  <desc xml:lang="en">date of the session</desc>
+                </valItem>
+                <valItem ident="president">
+                  <desc xml:lang="sl">predsedujoči zasedanja</desc>
+                  <desc xml:lang="en">chairman of a meeting</desc>
+                </valItem>
+                <valItem ident="comment">
+                  <desc xml:lang="sl">komentar zapisovalca magnetograma</desc>
+                  <desc xml:lang="en">comment of parliamentary reporter</desc>
+                </valItem>
+                <valItem ident="time">
+                  <desc xml:lang="sl">datum in čas začetka in konca debate</desc>
+                  <desc xml:lang="en">the date and time of the beginning and end of the debate</desc>
+                </valItem>
+                <valItem ident="quorum">
+                  <desc xml:lang="sl">ugotovljena prisotnost poslancev</desc>
+                  <desc xml:lang="en">the presence of the members of parliament</desc>
+                </valItem>
+                <valItem ident="vote">
+                  <desc xml:lang="sl">glasovanje poslancev</desc>
+                  <desc xml:lang="en">counting votes of a member of parliament</desc>
+                </valItem>
+                <valItem ident="debate">
+                  <desc xml:lang="sl">komentarji o poteku debate</desc>
+                  <desc xml:lang="en">comments on the conduct of debates</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="contents">
+                  <desc xml:lang="sl">kazalo vsebine</desc>
+                  <desc xml:lang="en">table of contents</desc>
+                </valItem>
+                <valItem ident="sp">
+                  <gloss>speech</gloss>
+                  <desc xml:lang="sl">parlamentarni govor na govorniškem pultu</desc>
+                  <desc xml:lang="en">parliamentary speech at the central lectern</desc>
+                </valItem>
+                <valItem ident="inter">
+                  <gloss>interruption</gloss>
+                  <desc xml:lang="sl">zabeležena prekinitev parlamentarnega govora na govorniškem pultu</desc>
+                  <desc xml:lang="en">recorded interruptions of parliamentary speech at the central lectern</desc>
+                </valItem>
+                <valItem ident="preface">
+                  <desc xml:lang="sl">uvodni podatki o seji</desc>
+                  <desc xml:lang="en">preliminary data about session</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="person" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="sex" mode="delete"/>
+            <attDef ident="age" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="role" mode="replace" usage="rec">
+              <valList type="closed">
+                <valItem ident="president">
+                  <desc xml:lang="sl">predsednik, podpredsednik: predsedujoči zasedanja</desc>
+                  <desc xml:lang="en">president, vice-president: chairman of a meeting</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="anchor" module="linking" mode="change">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="title" module="core" mode="change">
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="level" mode="delete"/>
+            <attDef ident="ref" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="replace" usage="opt">
+              <valList type="closed">
+                <valItem ident="topic">
+                  <desc xml:lang="sl">naslov teme v tematskem kazalu vsebine</desc>
+                  <desc xml:lang="en">title of the topic in thematic table of contents</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:base" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="list" module="core" mode="change">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="item" module="core" mode="change">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="head" module="core" mode="change">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="gap" module="core" mode="change">
+          <attList>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="agent" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="u" module="spoken" mode="change">
+          <attList>
+            <attDef ident="trans" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="vocal" module="spoken" mode="change">
+          <attList>
+            <attDef ident="iterated" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="kinesic" module="spoken" mode="change">
+          <attList>
+            <attDef ident="iterated" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="incident" module="spoken" mode="change">
+          <attList>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="writing" module="spoken" mode="change">
+          <attList>
+            <attDef ident="gradual" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="timeline" module="linking" mode="change">
+          <attList>
+            <attDef ident="interval" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"></attDef>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="when" module="linking" mode="change">
+          <attList>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

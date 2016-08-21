@@ -64,6 +64,22 @@
             <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
             <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
          </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="anchor" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="14"/>
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="item" occurs="3"/>
+               <tagUsage gi="list" occurs="1"/>
+               <tagUsage gi="note" occurs="43"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="timeline" occurs="1"/>
+               <tagUsage gi="title" occurs="3"/>
+               <tagUsage gi="u" occurs="60"/>
+               <tagUsage gi="when" occurs="2"/>
+            </namespace>
+         </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <particDesc>

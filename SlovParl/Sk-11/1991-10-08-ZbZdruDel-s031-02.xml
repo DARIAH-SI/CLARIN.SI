@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="Sk-11.1991-10-08.ZbZdruDel.s031-02"
+     xml:id="ZbZdruDel.1991-10-08.s031-02"
      xml:lang="sl">
    <teiHeader>
       <fileDesc>
@@ -53,7 +53,7 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
                 Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2016-08-05+02:00"/>
+            <date when="2016-08-21+02:00"/>
          </publicationStmt>
          <sourceDesc>
             <bibl>ZbZdruDel-Sk-11.xml</bibl>
@@ -67,12 +67,13 @@
       </encodingDesc>
       <profileDesc>
          <particDesc>
-            <person role="president" sameAs="#ZupancicJoze1936">
-               <linkGrp>
-                  <ptr target="#Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.2"/>
-                  <ptr target="#Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.3"/>
-               </linkGrp>
-            </person>
+            <listPerson>
+               <head xml:lang="sl">Predsedujoči zasedanja</head>
+               <head xml:lang="en">Chairman of a meeting</head>
+               <person role="president"
+                       sameAs="#ZupancicJoze1936"
+                       corresp="#ZbZdruDel.1991-10-08.s031-02.sp-92.2 #ZbZdruDel.1991-10-08.s031-02.sp-92.3"/>
+            </listPerson>
          </particDesc>
          <settingDesc>
             <setting>
@@ -85,10 +86,9 @@
       <front>
          <div type="contents">
             <list>
-               <item xml:id="Sk-11.1991-10-08.ZbZdruDel.s031-02.toc-item1">
+               <item xml:id="ZbZdruDel.1991-10-08.s031-02.toc-item1"
+                     corresp="#ZbZdruDel.1991-10-08.s031-02.sp-92.1 #ZbZdruDel.1991-10-08.s031-02.sp-92.2 #ZbZdruDel.1991-10-08.s031-02.sp-92.3 #ZbZdruDel.1991-10-08.s031-02.sp-92.4">
                   <title>Nadaljevanje obravnave predloga zakona o denarni enoti Republike Slovenije in predloga zakona o uporabi denarne enote Republike Slovenije (2. TOČKA DNEVNEGA REDA)</title>
-                  <ptr target="#Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.2"/>
-                  <ptr target="#Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.3"/>
                </item>
             </list>
          </div>
@@ -107,15 +107,18 @@
                   absolute="1991-10-08T00:45:00"
                   interval="120"/>
          </timeline>
-         <anchor xml:id="DZ-1991-ZbZdruDel-31.stage.t.9"/>
-         <u xml:id="Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.2"
-            who="#ZupancicJoze1936"
-            ana="#taxonomy.3.6.6.2.1 #taxonomy.3.6.6.2.1">Jaz bi vas iskreno prosil za naslednje! Vi ste z vabilom za 32. sejo Zbora združenega dela prejeli tudi predlog skupine poslancev (Ribnikarjev zakon) in na tak način, da ga ne bi iskali, dajte ga v tem gradivu pogledati, ker imate vsi že doma. Pintarjev zakon ste tudi že dobili, tako da se bomo lahko potem v sredo pač pogovorili. Seja je pa v mali dvorani v sredo in upam, da bomo delali tudi v takem številu kot danes.</u>
-         <u xml:id="Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.3"
-            who="#ZupancicJoze1936"
-            ana="#taxonomy.3.6.6.2.1 #taxonomy.3.6.6.2.1">Iskreno se vam opravičujem za precej praznega teka v teku današnje noči, vzamite to z razumevanjem, lahko noč in vidimo se v sredo. Slišali ste pa itak vsi, da je bila sprejeta enota tolar.</u>
-         <note xml:id="Sk-11.1991-10-08.ZbZdruDel.s031-02.sp-92.4" type="time">Seja je bila končana dne 8.10.1991 ob 00.45 uri.</note>
-         <anchor xml:id="DZ-1991-ZbZdruDel-31.stage.t.10"/>
+         <div type="sp">
+            <anchor xml:id="DZ-1991-ZbZdruDel-31.stage.t.9"/>
+            <note xml:id="ZbZdruDel.1991-10-08.s031-02.sp-92.1" type="speaker">PREDSEDNIK JOŽE ZUPANČIČ:</note>
+            <u xml:id="ZbZdruDel.1991-10-08.s031-02.sp-92.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.6.6.2.1 #taxonomy.3.6.6.2.1 #topic.158 #topic.159">Jaz bi vas iskreno prosil za naslednje! Vi ste z vabilom za 32. sejo Zbora združenega dela prejeli tudi predlog skupine poslancev (Ribnikarjev zakon) in na tak način, da ga ne bi iskali, dajte ga v tem gradivu pogledati, ker imate vsi že doma. Pintarjev zakon ste tudi že dobili, tako da se bomo lahko potem v sredo pač pogovorili. Seja je pa v mali dvorani v sredo in upam, da bomo delali tudi v takem številu kot danes.</u>
+            <u xml:id="ZbZdruDel.1991-10-08.s031-02.sp-92.3"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.3.6.6.2.1 #taxonomy.3.6.6.2.1 #topic.158 #topic.159">Iskreno se vam opravičujem za precej praznega teka v teku današnje noči, vzamite to z razumevanjem, lahko noč in vidimo se v sredo. Slišali ste pa itak vsi, da je bila sprejeta enota tolar.</u>
+            <note xml:id="ZbZdruDel.1991-10-08.s031-02.sp-92.4" type="time">Seja je bila končana dne 8.10.1991 ob 00.45 uri.</note>
+            <anchor xml:id="DZ-1991-ZbZdruDel-31.stage.t.10"/>
+         </div>
       </body>
    </text>
 </TEI>

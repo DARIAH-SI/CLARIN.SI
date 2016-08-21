@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="Sk-11.1992-07-30.ZbZdruDel.s049-02"
+     xml:id="ZbZdruDel.1992-07-30.s049-02"
      xml:lang="sl">
    <teiHeader>
       <fileDesc>
@@ -53,7 +53,7 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
                 Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2016-08-05+02:00"/>
+            <date when="2016-08-21+02:00"/>
          </publicationStmt>
          <sourceDesc>
             <bibl>ZbZdruDel-Sk-11.xml</bibl>
@@ -67,12 +67,13 @@
       </encodingDesc>
       <profileDesc>
          <particDesc>
-            <person role="president" sameAs="#ZupancicJoze1936">
-               <linkGrp>
-                  <ptr target="#Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.2"/>
-                  <ptr target="#Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.3"/>
-               </linkGrp>
-            </person>
+            <listPerson>
+               <head xml:lang="sl">Predsedujoči zasedanja</head>
+               <head xml:lang="en">Chairman of a meeting</head>
+               <person role="president"
+                       sameAs="#ZupancicJoze1936"
+                       corresp="#ZbZdruDel.1992-07-30.s049-02.sp-140.2 #ZbZdruDel.1992-07-30.s049-02.sp-140.3"/>
+            </listPerson>
          </particDesc>
          <settingDesc>
             <setting>
@@ -85,10 +86,9 @@
       <front>
          <div type="contents">
             <list>
-               <item xml:id="Sk-11.1992-07-30.ZbZdruDel.s049-02.toc-item1">
+               <item xml:id="ZbZdruDel.1992-07-30.s049-02.toc-item1"
+                     corresp="#ZbZdruDel.1992-07-30.s049-02.sp-140.1 #ZbZdruDel.1992-07-30.s049-02.sp-140.2 #ZbZdruDel.1992-07-30.s049-02.sp-140.3 #ZbZdruDel.1992-07-30.s049-02.sp-140.4">
                   <title>Obvestilo predsednika o nadaljevanju 46. seje zbora: dnevni red in usklajevanje dela med zbori</title>
-                  <ptr target="#Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.2"/>
-                  <ptr target="#Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.3"/>
                </item>
             </list>
          </div>
@@ -103,15 +103,18 @@
                   absolute="1992-07-30T10:28:00"
                   interval="60"/>
          </timeline>
-         <anchor xml:id="DZ-1992-ZbZdruDel-49.stage.t.9"/>
-         <u xml:id="Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.2"
-            who="#ZupancicJoze1936"
-            ana="#taxonomy.2.5.1">Prosim, če lahko začnemo z delom in da bi ti TOČKI 46. SEJE DALI skozi, jih opravimo, ker bi imeli ob pol dvanajstih skupno delovno sejo, na kateri bi, če bo potrebno, in če bomo sposobni, uskladili volilno zakonodajo. Potem bomo nadaljevali še zaradi tega, ker bi takoj, če bi bila uskladitev volilne zakonodaje, morala sesti ustavna komisija, ki bi predlagala oba zakona še v zvezi z volilnimi enotami in da bi še tisto danes opravili, tam je pa potem že navadna večina dovolj. Tako da vidite, kakšen vozni red je in mi bi dejansko lahko zdaj do pol dvanajstih te 4 točke dnevnega reda 46. seje opravili, samo, če bodo gospodje, jaz upam da ni nobene gospe dol, iz bifeja prišli.</u>
-         <u xml:id="Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.3"
-            who="#ZupancicJoze1936"
-            ana="#taxonomy.2.5.1">Prosim za potrpljenje.</u>
-         <note xml:id="Sk-11.1992-07-30.ZbZdruDel.s049-02.sp-139.4" type="time">SEJA JE BILA PREKINJENA 30. JULIJA 1992 OB 10.28 URI IN SE JE NADALJEVALA 10. SEPTEMBRA 1992 OB 14.16 URI.</note>
-         <anchor xml:id="DZ-1992-ZbZdruDel-49.stage.t.10"/>
+         <div type="sp">
+            <anchor xml:id="DZ-1992-ZbZdruDel-49.stage.t.9"/>
+            <note xml:id="ZbZdruDel.1992-07-30.s049-02.sp-140.1" type="speaker">PREDSEDNIK JOŽE ZUPANČIČ:</note>
+            <u xml:id="ZbZdruDel.1992-07-30.s049-02.sp-140.2"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.5.1 #topic.15">Prosim, če lahko začnemo z delom in da bi ti TOČKI 46. SEJE DALI skozi, jih opravimo, ker bi imeli ob pol dvanajstih skupno delovno sejo, na kateri bi, če bo potrebno, in če bomo sposobni, uskladili volilno zakonodajo. Potem bomo nadaljevali še zaradi tega, ker bi takoj, če bi bila uskladitev volilne zakonodaje, morala sesti ustavna komisija, ki bi predlagala oba zakona še v zvezi z volilnimi enotami in da bi še tisto danes opravili, tam je pa potem že navadna večina dovolj. Tako da vidite, kakšen vozni red je in mi bi dejansko lahko zdaj do pol dvanajstih te 4 točke dnevnega reda 46. seje opravili, samo, če bodo gospodje, jaz upam da ni nobene gospe dol, iz bifeja prišli.</u>
+            <u xml:id="ZbZdruDel.1992-07-30.s049-02.sp-140.3"
+               who="#ZupancicJoze1936"
+               ana="#taxonomy.2.5.1 #topic.15">Prosim za potrpljenje.</u>
+            <note xml:id="ZbZdruDel.1992-07-30.s049-02.sp-140.4" type="time">SEJA JE BILA PREKINJENA 30. JULIJA 1992 OB 10.28 URI IN SE JE NADALJEVALA 10. SEPTEMBRA 1992 OB 14.16 URI.</note>
+            <anchor xml:id="DZ-1992-ZbZdruDel-49.stage.t.10"/>
+         </div>
       </body>
    </text>
 </TEI>

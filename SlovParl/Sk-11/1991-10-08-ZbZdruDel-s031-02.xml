@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
      xml:id="ZbZdruDel.1991-10-08.s031-02"
      xml:lang="sl">
    <teiHeader>
@@ -110,11 +109,7 @@
          </div>
       </front>
       <body>
-         <timeline origin="#" unit="s">
-            <when synch="#DZ-1991-ZbZdruDel-31.stage.t.8"
-                  since="#DZ-1991-ZbZdruDel-31.TL.4"
-                  absolute="1991-10-08T00:10:00"
-                  interval="1200"/>
+         <timeline origin="#DZ-1991-ZbZdruDel-31.TL.5" unit="s">
             <when synch="#DZ-1991-ZbZdruDel-31.stage.t.9"
                   xml:id="DZ-1991-ZbZdruDel-31.TL.5"
                   absolute="1991-10-08T00:43:00"/>

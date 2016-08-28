@@ -2633,7 +2633,7 @@
                   <affiliation ref="#gov.MDRS" ana="#gov.VladaRS-1 #grp.head"/>
                   <affiliation ref="#pp.ZKS-SDP" ana="#gov.VladaRS-1"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
-                  <affiliation ref="#gov.MDRS" ana=" #gov.VladaRS-2 #grp.head"/>
+                  <affiliation ref="#gov.MDRS" ana="#gov.VladaRS-2 #grp.head"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEica_Puhar">https://sl.wikipedia.org/wiki/Jo%C5%BEica_Puhar</ref>
                   </bibl>
@@ -2839,7 +2839,7 @@
                                to="1993-01-25"
                                prev="#JerajJozef1938"/>
                   <affiliation ref="#gov.MTRS"
-                               ana=" #gov.VladaRS-2 #grp.head"
+                               ana="#gov.VladaRS-2 #grp.head"
                                from="1992-09-23"
                                to="1993-01-25"
                                prev="#JerajJozef1938"/>
@@ -2901,6 +2901,21 @@
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Katja_Boh">https://sl.wikipedia.org/wiki/Katja_Boh</ref>
                   </bibl>
+               </person>
+               <person xml:id="GrimsBranko1962">
+                  <persName>
+                     <surname>Grims</surname> 
+                     <forename>Branko</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-08-26">
+                     <placeName>Kranj</placeName>
+                  </birth>
+                  <occupation when="1990-05">diplomirani inženir geologije</occupation>
+                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1992-07-01" to="1992-12-23" prev="#BohKatja1929"/>
+                  <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
+                  <bibl><ref target="https://www.sta.si/1153174/branko-grims-novi-poslanec-v-dpz">https://www.sta.si/1153174/branko-grims-novi-poslanec-v-dpz</ref></bibl>
+                  <bibl><ref target="https://sl.wikipedia.org/wiki/Branko_Grims">https://sl.wikipedia.org/wiki/Branko_Grims</ref></bibl>
                </person>
                <person xml:id="BucarFrance1923">
                   <persName>
@@ -3164,6 +3179,15 @@
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Matja%C5%BE_%C5%A0inkovec_%28diplomat%29">https://sl.wikipedia.org/wiki/Matja%C5%BE_%C5%A0inkovec_%28diplomat%29</ref>
                   </bibl>
+               </person>
+               <person xml:id="ZorzAndrej1963">
+                  <persName>Žorž Andrej</persName>
+                  <birth>21.4.1963 v Ljubljani</birth>
+                  <occupation>diplomirani sociolog</occupation>
+                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1992-09-07" to="1992-12-23" prev="#SinkovecMatjaz1951"/>
+                  <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
+                  <bibl><ref target="http://slovenska-pomlad.si/2?id=3283">http://slovenska-pomlad.si/2?id=3283</ref></bibl>
+                  <bibl><ref target="https://www.sta.si/1169054/mag-matjaza-sinkovca-naj-bi-v-dpz-zamenjal-andrej-zorz">https://www.sta.si/1169054/mag-matjaza-sinkovca-naj-bi-v-dpz-zamenjal-andrej-zorz</ref></bibl>
                </person>
                <person xml:id="TomazicAnton1950">
                   <persName>
@@ -5516,7 +5540,7 @@
                      <forename>Andrej</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation ref="#gov.MFRS" ana=" #gov.VladaRS-1 #grp.member"/>
+                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.member"/>
                </person>
                <person xml:id="KnezJoze">
                   <persName>

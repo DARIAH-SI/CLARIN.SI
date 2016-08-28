@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-08-28T16:46:37Z. .
+# Schema generated from ODD source 2016-08-28T17:37:38Z. .
 # TEI Edition: Version 3.0.0. Last updated on
 #	29th March 2016, revision 89ba24e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -400,7 +400,7 @@ model.pPart.transcriptional_sequenceRepeatable = notAllowed
 model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
 model.ptrLike = ref
 model.lPart = notAllowed
-model.global.meta = timeline
+model.global.meta = timeline | fs | fLib | fvLib
 model.milestoneLike = anchor
 model.gLike = notAllowed
 model.oddDecl = notAllowed
@@ -462,6 +462,8 @@ model.stageLike_sequence = empty
 model.stageLike_sequenceOptional = empty
 model.stageLike_sequenceOptionalRepeatable = empty
 model.stageLike_sequenceRepeatable = notAllowed
+model.featureVal.complex = fs
+model.featureVal.single = symbol
 model.eventLike = event | listEvent
 model.global.edit = gap
 model.divPart = model.lLike | model.pLike | model.divPart.spoken
@@ -610,6 +612,7 @@ model.global =
   | model.noteLike
   | model.global.edit
   | model.global.spoken
+model.featureVal = model.featureVal.complex | model.featureVal.single
 model.biblPart =
   model.respLike
   | model.imprintPart
@@ -2884,4 +2887,100 @@ locale =
   element locale {
     macro.phraseSeq.limited, att.global.attributes, empty
   }
+fs =
+  
+  ## (feature structure) represents a feature structure, that is, a collection of feature-value pairs organized as a structural unit. [18.2. Elementary Feature Structures and the Binary
+  ## Feature Value]
+  element fs {
+    f*,
+    att.global.attributes,
+    att.datcat.attributes,
+    
+    ## specifies the type of the feature structure.
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+    
+    ## (features) references the feature-value specifications making up this feature structure.
+    attribute feats {
+      list { xsd:anyURI+ }
+    }?,
+    empty
+  }
+f =
+  
+  ## (feature) represents a feature value specification, that is, the association of a name with a value of any of several different types. [18.2. Elementary Feature Structures and the Binary
+  ## Feature Value]
+  element f {
+    ((text | model.gLike | model.featureVal)*)
+    >> sch:pattern [
+         id =
+           "tei_SlovParl-clarin-f-f-has-child-or-PCDATA-constraint-14"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:f"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "tei:*  and  text()[normalize-space(.) ne '']"
+             "A feature value cannot contain both text and element content"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "tei_SlovParl-clarin-f-f-has-max-one-child-element-constraint-15"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:f"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "count(tei:*) gt 1"
+             "A feature value can contain only one child element"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.datcat.attributes,
+    
+    ## a single word which follows the rules defining a legal XML name (see ), providing a name for the feature.
+    attribute name { xsd:Name },
+    
+    ## (feature value) references any element which can be used to represent the value of a feature.
+    attribute fVal { xsd:anyURI }?,
+    empty
+  }
+symbol =
+  
+  ## (symbolic value) represents the value part of a feature-value specification which contains one of a finite list of symbols. [18.3. Other Atomic Feature Values]
+  element symbol {
+    empty,
+    att.global.attributes,
+    att.datcat.attributes,
+    
+    ## supplies a symbolic value for the feature, one of a finite list that may be specified in a feature declaration.
+    attribute value {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    },
+    empty
+  }
+fLib =
+  
+  ## (feature library) assembles a library of feature elements. [18.4. Feature Libraries and Feature-Value Libraries]
+  element fLib { f+, att.global.attributes, empty }
+fvLib =
+  
+  ## (feature-value library) assembles a library of reusable feature value elements (including complete feature structures). [18.4. Feature Libraries and Feature-Value Libraries]
+  element fvLib { model.featureVal*, att.global.attributes, empty }
 start = TEI | teiCorpus

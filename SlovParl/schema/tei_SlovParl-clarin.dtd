@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2016-08-28T16:47:13Z. .http://creativecommons.org/licenses/by/4.0/This work is licensed under the Creative Commons Attribution 4.0 International License.To delo je ponujeno pod Creative Commons Priznanje avtorstva 4.0 mednarodna licenca.
+DTD generated from ODD source 2016-08-28T17:38:56Z. .http://creativecommons.org/licenses/by/4.0/This work is licensed under the Creative Commons Attribution 4.0 International License.To delo je ponujeno pod Creative Commons Priznanje avtorstva 4.0 mednarodna licenca.
 TEI Edition: Version 3.0.0. Last updated on
 	29th March 2016, revision 89ba24e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -299,11 +299,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.lPart_sequenceOptional ""> 
 <!ENTITY % model.lPart_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.lPart_sequenceRepeatable ""> 
-<!ENTITY % model.global.meta "timeline"> 
-<!ENTITY % model.global.meta_sequence "timeline"> 
-<!ENTITY % model.global.meta_sequenceOptional "timeline?"> 
-<!ENTITY % model.global.meta_sequenceOptionalRepeatable "timeline*"> 
-<!ENTITY % model.global.meta_sequenceRepeatable "timeline+"> 
+<!ENTITY % model.global.meta "timeline |fs |fLib |fvLib"> 
+<!ENTITY % model.global.meta_sequence "timeline, fs, fLib, fvLib"> 
+<!ENTITY % model.global.meta_sequenceOptional "timeline?, fs?, fLib?, fvLib?"> 
+<!ENTITY % model.global.meta_sequenceOptionalRepeatable "timeline*, fs*, fLib*, fvLib*"> 
+<!ENTITY % model.global.meta_sequenceRepeatable "timeline+, fs+, fLib+, fvLib+"> 
 <!ENTITY % model.milestoneLike "anchor"> 
 <!ENTITY % model.milestoneLike_sequence "anchor"> 
 <!ENTITY % model.milestoneLike_sequenceOptional "anchor?"> 
@@ -369,6 +369,16 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.stageLike_sequenceOptional ""> 
 <!ENTITY % model.stageLike_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.stageLike_sequenceRepeatable ""> 
+<!ENTITY % model.featureVal.complex "fs"> 
+<!ENTITY % model.featureVal.complex_sequence "fs"> 
+<!ENTITY % model.featureVal.complex_sequenceOptional "fs?"> 
+<!ENTITY % model.featureVal.complex_sequenceOptionalRepeatable "fs*"> 
+<!ENTITY % model.featureVal.complex_sequenceRepeatable "fs+"> 
+<!ENTITY % model.featureVal.single "symbol"> 
+<!ENTITY % model.featureVal.single_sequence "symbol"> 
+<!ENTITY % model.featureVal.single_sequenceOptional "symbol?"> 
+<!ENTITY % model.featureVal.single_sequenceOptionalRepeatable "symbol*"> 
+<!ENTITY % model.featureVal.single_sequenceRepeatable "symbol+"> 
 <!ENTITY % model.eventLike "event |listEvent"> 
 <!ENTITY % model.eventLike_sequence "event, listEvent"> 
 <!ENTITY % model.eventLike_sequenceOptional "event?, listEvent?"> 
@@ -524,6 +534,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.global_sequenceOptional "%model.global.meta;?, %model.milestoneLike;?, %model.noteLike;?, %model.global.edit;?, %model.global.spoken;?"> 
 <!ENTITY % model.global_sequenceOptionalRepeatable "%model.global.meta;*, %model.milestoneLike;*, %model.noteLike;*, %model.global.edit;*, %model.global.spoken;*"> 
 <!ENTITY % model.global_sequenceRepeatable "%model.global.meta;+, %model.milestoneLike;+, %model.noteLike;+, %model.global.edit;+, %model.global.spoken;+"> 
+<!ENTITY % model.featureVal "%model.featureVal.complex; |%model.featureVal.single;"> 
+<!ENTITY % model.featureVal_sequence "%model.featureVal.complex;, %model.featureVal.single;"> 
+<!ENTITY % model.featureVal_sequenceOptional "%model.featureVal.complex;?, %model.featureVal.single;?"> 
+<!ENTITY % model.featureVal_sequenceOptionalRepeatable "%model.featureVal.complex;*, %model.featureVal.single;*"> 
+<!ENTITY % model.featureVal_sequenceRepeatable "%model.featureVal.complex;+, %model.featureVal.single;+"> 
 <!ENTITY % model.biblPart "%model.respLike; |%model.imprintPart; |series |citedRange |bibl |edition |extent |availability |listRelation"> 
 <!ENTITY % model.biblPart_sequence "%model.respLike;, %model.imprintPart;, series, citedRange, bibl, edition, extent, availability, listRelation"> 
 <!ENTITY % model.biblPart_sequenceOptional "%model.respLike;?, %model.imprintPart;?, series?, citedRange?, bibl?, edition?, extent?, availability?, listRelation?"> 
@@ -976,6 +991,20 @@ where %teidata.pointer;  #IMPLIED >
 <!ATTLIST extent xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST extent
  %att.global.attributes; >
+<!--doc:(feature) represents a feature value specification, that is, the association of a name with a value of any of several different types. [18.2. Elementary Feature Structures and the Binary
+Feature Value] -->
+<!ELEMENT f (#PCDATA|_DUMMY_model.gLike|%model.featureVal;)*>
+<!ATTLIST f xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST f
+ %att.global.attributes;
+ %att.datcat.attributes;
+name %teidata.name;  #REQUIRED
+fVal %teidata.pointer;  #IMPLIED >
+<!--doc:(feature library) assembles a library of feature elements. [18.4. Feature Libraries and Feature-Value Libraries] -->
+<!ELEMENT fLib (f)+>
+<!ATTLIST fLib xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST fLib
+ %att.global.attributes; >
 <!--doc:specifies the faith, religion, or belief set of a person. [13.3.2.1. Personal Characteristics] -->
 <!ELEMENT faith %macro.phraseSeq;>
 <!ATTLIST faith xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -1006,12 +1035,26 @@ where %teidata.pointer;  #IMPLIED >
 <!ATTLIST front xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST front
  %att.global.attributes; >
+<!--doc:(feature structure) represents a feature structure, that is, a collection of feature-value pairs organized as a structural unit. [18.2. Elementary Feature Structures and the Binary
+Feature Value] -->
+<!ELEMENT fs (f)*>
+<!ATTLIST fs xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST fs
+ %att.global.attributes;
+ %att.datcat.attributes;
+type %teidata.enumerated;  #IMPLIED
+feats CDATA  #IMPLIED >
 <!--doc:(funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. [2.2.1. The Title Statement] -->
 <!ELEMENT funder %macro.phraseSeq.limited;>
 <!ATTLIST funder xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST funder
  %att.global.attributes;
  %att.canonical.attributes; >
+<!--doc:(feature-value library) assembles a library of reusable feature value elements (including complete feature structures). [18.4. Feature Libraries and Feature-Value Libraries] -->
+<!ELEMENT fvLib (%model.featureVal;)*>
+<!ATTLIST fvLib xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST fvLib
+ %att.global.attributes; >
 <!--doc:indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.4.3. Additions, Deletions, and Omissions] -->
 <!ELEMENT gap (%model.descLike;|_DUMMY_model.certLike)*>
 <!ATTLIST gap xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -1552,6 +1595,13 @@ code %teidata.pointer;  #IMPLIED >
  %att.global.attributes;
  %att.personal.attributes;
  %att.typed.attributes; >
+<!--doc:(symbolic value) represents the value part of a feature-value specification which contains one of a finite list of symbols. [18.3. Other Atomic Feature Values] -->
+<!ELEMENT symbol  EMPTY>
+<!ATTLIST symbol xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST symbol
+ %att.global.attributes;
+ %att.datcat.attributes;
+value %teidata.word;  #REQUIRED >
 <!--doc:documents the usage of a specific element within a specified document. [2.3.4. The Tagging Declaration] -->
 <!ELEMENT tagUsage %macro.limitedContent;>
 <!ATTLIST tagUsage xmlns CDATA "http://www.tei-c.org/ns/1.0">

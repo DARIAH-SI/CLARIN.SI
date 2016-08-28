@@ -1,10 +1,11 @@
 default namespace = "http://www.tei-c.org/ns/1.0"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ns1 = "http://www.isocat.org/ns/dcr"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-08-21T16:03:29Z. .
+# Schema generated from ODD source 2016-08-28T13:22:13Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -23,6 +24,7 @@ macro.specialPara =
    | model.inter
    | model.divPart
    | model.global)*
+macro.xtext = (text | model.gLike)*
 data.interval =
   xsd:float { minExclusive = "0" }
   | "regular"
@@ -94,6 +96,20 @@ att.datable.w3c.attribute.to =
   ## indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.
   attribute to { data.temporal.w3c }?
 att.datable.attributes = att.datable.w3c.attributes
+att.datcat.attributes =
+  att.datcat.attribute.datcat, att.datcat.attribute.valueDatcat
+att.datcat.attribute.datcat =
+  
+  ## contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.
+  attribute ns1:datcat {
+    list { data.pointer+ }
+  }?
+att.datcat.attribute.valueDatcat =
+  
+  ## contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.
+  attribute ns1:valueDatcat {
+    list { data.pointer+ }
+  }?
 att.declarable.attributes = att.declarable.attribute.default
 att.declarable.attribute.default =
   
@@ -175,6 +191,12 @@ att.pointing.attribute.target =
   attribute target {
     list { data.pointer+ }
   }?
+att.segLike.attributes =
+  att.datcat.attributes, att.segLike.attribute.function
+att.segLike.attribute.function =
+  
+  ## characterizes the function of the segment.
+  attribute function { data.enumerated }?
 att.citing.attributes =
   att.citing.attribute.unit,
   att.citing.attribute.from,
@@ -221,7 +243,7 @@ model.nameLike.agent_sequence = orgName, persName
 model.nameLike.agent_sequenceOptional = orgName?, persName?
 model.nameLike.agent_sequenceOptionalRepeatable = orgName*, persName*
 model.nameLike.agent_sequenceRepeatable = orgName+, persName+
-model.segLike = notAllowed
+model.segLike = s | w | c | pc
 model.hiLike = notAllowed
 model.hiLike_alternation = notAllowed
 model.hiLike_sequence = empty
@@ -1762,6 +1784,129 @@ att.global.analytic.attribute.ana =
   attribute ana {
     list { data.pointer+ }
   }?
+s =
+  
+  ## (s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]
+  element s {
+    ((text
+      | model.gLike
+      | model.global
+      | title
+      | address
+      | affiliation
+      | email
+      | date
+      | geo
+      | orgName
+      | persName
+      | addName
+      | forename
+      | genName
+      | nameLink
+      | roleName
+      | surname
+      | bloc
+      | country
+      | district
+      | placeName
+      | region
+      | settlement
+      | location
+      | population
+      | state
+      | trait
+      | idno
+      | ref
+      | c
+      | pc
+      | w)*)
+    >> sch:pattern [
+         id = "tei_SlovParl-clarin-s-noNestedS-constraint-4"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:s"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "tei:s"
+             "You may not nest one s element within\x{a}" ~
+             "      another: use seg instead"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    empty
+  }
+w =
+  
+  ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories]
+  element w {
+    (text
+     | model.gLike
+     | w
+     | c
+     | pc
+     | model.global
+     | model.lPart
+     | model.hiLike
+     | model.pPart.edit)*,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    
+    ## provides a lemma for the word, such as an uninflected dictionary entry form.
+    attribute lemma { data.text }?,
+    
+    ## provides a pointer to a definition of the lemma for the word, for example in an online lexicon.
+    attribute lemmaRef { data.pointer }?,
+    empty
+  }
+c =
+  
+  ## (character) represents a character. [17.1. Linguistic Segment Categories]
+  element c {
+    macro.xtext,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    empty
+  }
+pc =
+  
+  ## (punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1. Linguistic Segment Categories]
+  element pc {
+    (text | model.gLike | c | model.pPart.edit)*,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    
+    ## indicates the extent to which this punctuation mark conventionally separates words or phrases
+    attribute force {
+      
+      ## the punctuation mark is a word separator
+      "strong"
+      | 
+        ## the punctuation mark is not a word separator
+        "weak"
+      | 
+        ## the punctuation mark may or may not be a word separator
+        "inter"
+    }?,
+    
+    ## provides a name for the kind of unit delimited by this punctuation mark.
+    attribute unit { data.enumerated }?,
+    
+    ## indicates whether this punctuation mark precedes or follows the unit it delimits.
+    attribute pre { data.truthValue }?,
+    empty
+  }
 model.persNamePart =
   surname | forename | genName | nameLink | addName | roleName
 model.persNamePart_alternation =
@@ -2251,7 +2396,7 @@ relation =
          "         "
        ]
     >> sch:pattern [
-         id = "tei_SlovParl-clarin-relation-activemutual-constraint-4"
+         id = "tei_SlovParl-clarin-relation-activemutual-constraint-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2270,7 +2415,7 @@ relation =
          "         "
        ]
     >> sch:pattern [
-         id = "tei_SlovParl-clarin-relation-activepassive-constraint-5"
+         id = "tei_SlovParl-clarin-relation-activepassive-constraint-6"
          "\x{a}" ~
          "            "
          sch:rule [

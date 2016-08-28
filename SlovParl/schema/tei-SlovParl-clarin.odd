@@ -63,8 +63,7 @@
         <moduleRef key="textstructure" include="TEI back body div front text"/>
         <!-- optional modules -->
         <moduleRef key="linking" include="anchor timeline when"/>
-        <!-- not included elements in analysis module, but including att.global.analytic for all elements at the global level (attribute ana) -->
-        <moduleRef key="analysis" include=""/>
+        <moduleRef key="analysis" include="c pc s w"/>
         <moduleRef key="namesdates" except="climate geogFeat geogName listNym nym offset terrain"/>
         <moduleRef key="spoken" include="incident kinesic u vocal writing"/>
         <moduleRef key="corpus" include="locale particDesc setting settingDesc"/>

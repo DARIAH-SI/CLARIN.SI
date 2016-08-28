@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2016-08-21T16:03:18Z. .http://creativecommons.org/licenses/by/4.0/ This work is licensed under the Creative Commons Attribution 4.0 International License. To delo je ponujeno pod Creative Commons Priznanje avtorstva 4.0 mednarodna licenca.
+DTD generated from ODD source 2016-08-28T13:22:04Z. .http://creativecommons.org/licenses/by/4.0/ This work is licensed under the Creative Commons Attribution 4.0 International License. To delo je ponujeno pod Creative Commons Priznanje avtorstva 4.0 mednarodna licenca.
 TEI Edition: Version 2.8.0. Last updated on
 	6th April 2015, revision 13197
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -151,6 +151,14 @@ to %data.temporal.w3c;  #IMPLIED'>
  %att.datable.w3c.attribute.notAfter;
  %att.datable.w3c.attribute.from;
  %att.datable.w3c.attribute.to;'> <!ENTITY % att.datable.attributes '%att.datable.w3c.attributes;'> 
+<!ENTITY % att.datcat.attribute.datcat '
+datcat CDATA  #IMPLIED'>
+
+<!ENTITY % att.datcat.attribute.valueDatcat '
+valueDatcat CDATA  #IMPLIED'>
+<!ENTITY % att.datcat.attributes '
+ %att.datcat.attribute.datcat;
+ %att.datcat.attribute.valueDatcat;'> 
 <!ENTITY % att.declarable.attribute.default '
 default (true|false) "false" '>
 <!ENTITY % att.declarable.attributes '
@@ -183,6 +191,10 @@ type %data.enumerated;  #IMPLIED'>
 target CDATA  #IMPLIED'>
 <!ENTITY % att.pointing.attributes '
  %att.pointing.attribute.target;'> 
+<!ENTITY % att.segLike.attribute.function '
+function %data.enumerated;  #IMPLIED'>
+<!ENTITY % att.segLike.attributes '%att.datcat.attributes;
+ %att.segLike.attribute.function;'> 
 <!ENTITY % att.citing.attribute.unit '
 unit %data.enumerated;  #IMPLIED'>
 
@@ -200,11 +212,11 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.nameLike.agent_sequenceOptional "orgName?, persName?"> 
 <!ENTITY % model.nameLike.agent_sequenceOptionalRepeatable "orgName*, persName*"> 
 <!ENTITY % model.nameLike.agent_sequenceRepeatable "orgName+, persName+"> 
-<!ENTITY % model.segLike ""> 
-<!ENTITY % model.segLike_sequence ""> 
-<!ENTITY % model.segLike_sequenceOptional ""> 
-<!ENTITY % model.segLike_sequenceOptionalRepeatable ""> 
-<!ENTITY % model.segLike_sequenceRepeatable ""> 
+<!ENTITY % model.segLike "s |w |c |pc"> 
+<!ENTITY % model.segLike_sequence "s, w, c, pc"> 
+<!ENTITY % model.segLike_sequenceOptional "s?, w?, c?, pc?"> 
+<!ENTITY % model.segLike_sequenceOptionalRepeatable "s*, w*, c*, pc*"> 
+<!ENTITY % model.segLike_sequenceRepeatable "s+, w+, c+, pc+"> 
 <!ENTITY % model.hiLike ""> 
 <!ENTITY % model.hiLike_sequence ""> 
 <!ENTITY % model.hiLike_sequenceOptional ""> 
@@ -535,11 +547,11 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.common_sequenceOptional "%model.divPart;?, %model.inter;?"> 
 <!ENTITY % model.common_sequenceOptionalRepeatable "%model.divPart;*, %model.inter;*"> 
 <!ENTITY % model.common_sequenceRepeatable "%model.divPart;+, %model.inter;+"> 
-<!ENTITY % model.phrase "%model.highlighted; |%model.ptrLike; |%model.pPart.data;"> 
-<!ENTITY % model.phrase_sequence "%model.highlighted;, %model.ptrLike;, %model.pPart.data;"> 
-<!ENTITY % model.phrase_sequenceOptional "%model.highlighted;?, %model.ptrLike;?, %model.pPart.data;?"> 
-<!ENTITY % model.phrase_sequenceOptionalRepeatable "%model.highlighted;*, %model.ptrLike;*, %model.pPart.data;*"> 
-<!ENTITY % model.phrase_sequenceRepeatable "%model.highlighted;+, %model.ptrLike;+, %model.pPart.data;+"> 
+<!ENTITY % model.phrase "%model.segLike; |%model.highlighted; |%model.ptrLike; |%model.pPart.data;"> 
+<!ENTITY % model.phrase_sequence "%model.segLike;, %model.highlighted;, %model.ptrLike;, %model.pPart.data;"> 
+<!ENTITY % model.phrase_sequenceOptional "%model.segLike;?, %model.highlighted;?, %model.ptrLike;?, %model.pPart.data;?"> 
+<!ENTITY % model.phrase_sequenceOptionalRepeatable "%model.segLike;*, %model.highlighted;*, %model.ptrLike;*, %model.pPart.data;*"> 
+<!ENTITY % model.phrase_sequenceRepeatable "%model.segLike;+, %model.highlighted;+, %model.ptrLike;+, %model.pPart.data;+"> 
 <!ENTITY % model.limitedPhrase "%model.emphLike; |%model.ptrLike; |%model.pPart.data;"> 
 <!ENTITY % model.limitedPhrase_sequence "%model.emphLike;, %model.ptrLike;, %model.pPart.data;"> 
 <!ENTITY % model.limitedPhrase_sequenceOptional "%model.emphLike;?, %model.ptrLike;?, %model.pPart.data;?"> 
@@ -654,6 +666,8 @@ ana CDATA  #IMPLIED'>
 
 <!ENTITY % macro.specialPara '(#PCDATA|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.divPart;|%model.global;)*' >
 
+<!ENTITY % macro.xtext '(#PCDATA|_DUMMY_model.gLike)*' >
+
 <!-- end patterns -->
 
 <!-- start elements -->
@@ -736,7 +750,7 @@ status (free|unknown|restricted) "unknown"  >
 <!ATTLIST back
  %att.global.attributes; >
 <!--doc:(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements] -->
-<!ELEMENT bibl (#PCDATA|_DUMMY_model.gLike|%model.highlighted;|%model.pPart.data;|_DUMMY_model.pPart.edit|_DUMMY_model.segLike|%model.ptrLike;|%model.biblPart;|%model.global;)*>
+<!ELEMENT bibl (#PCDATA|_DUMMY_model.gLike|%model.highlighted;|%model.pPart.data;|_DUMMY_model.pPart.edit|%model.segLike;|%model.ptrLike;|%model.biblPart;|%model.global;)*>
 <!ATTLIST bibl xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST bibl
  %att.global.attributes;
@@ -781,6 +795,13 @@ status (free|unknown|restricted) "unknown"  >
 <!ATTLIST body xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST body
  %att.global.attributes; >
+<!--doc:(character) represents a character. [17.1. Linguistic Segment Categories] -->
+<!ELEMENT c %macro.xtext;>
+<!ATTLIST c xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST c
+ %att.global.attributes;
+ %att.segLike.attributes;
+ %att.typed.attributes; >
 <!--doc:(category description) describes some category within a taxonomy or text typology, either in the form of a brief prose description or in terms of the situational parameters used by the TEI formal textDesc. [2.3.7. The Classification Declaration] -->
 <!ELEMENT catDesc (#PCDATA|%model.limitedPhrase;|_DUMMY_model.catDescPart)*>
 <!ATTLIST catDesc xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -1238,6 +1259,16 @@ role CDATA  #IMPLIED >
 <!ATTLIST particDesc
  %att.global.attributes;
  %att.declarable.attributes; >
+<!--doc:(punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1. Linguistic Segment Categories] -->
+<!ELEMENT pc (#PCDATA|_DUMMY_model.gLike|c|_DUMMY_model.pPart.edit)*>
+<!ATTLIST pc xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST pc
+ %att.global.attributes;
+ %att.segLike.attributes;
+ %att.typed.attributes;
+force (strong|weak|inter) #IMPLIED
+unit %data.enumerated;  #IMPLIED
+pre %data.truthValue;  #IMPLIED >
 <!--doc:(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names] -->
 <!ELEMENT persName %macro.phraseSeq;>
 <!ATTLIST persName xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -1403,6 +1434,13 @@ passive CDATA  #IMPLIED >
 <!ATTLIST roleName
  %att.global.attributes;
  %att.personal.attributes;
+ %att.typed.attributes; >
+<!--doc:(s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation] -->
+<!ELEMENT s (#PCDATA|_DUMMY_model.gLike|%model.global;|title|address|affiliation|email|date|geo|orgName|persName|addName|forename|genName|nameLink|roleName|surname|bloc|country|district|placeName|region|settlement|location|population|state|trait|idno|ref|c|pc|w)*>
+<!ATTLIST s xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST s
+ %att.global.attributes;
+ %att.segLike.attributes;
  %att.typed.attributes; >
 <!--doc:(sampling declaration) contains a prose description of the rationale and methods used in sampling texts in the creation of a corpus or collection. [2.3.2. The Sampling Declaration 2.3. The Encoding Description 15.3.2. Declarable Elements] -->
 <!ELEMENT samplingDecl (%model.pLike;)+>
@@ -1577,6 +1615,15 @@ type (topic) #IMPLIED >
  %att.global.analytic.attribute.ana;
  %att.ascribed.attributes;
  %att.typed.attributes; >
+<!--doc:(word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories] -->
+<!ELEMENT w (#PCDATA|_DUMMY_model.gLike|w|c|pc|%model.global;|_DUMMY_model.lPart|_DUMMY_model.hiLike|_DUMMY_model.pPart.edit)*>
+<!ATTLIST w xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST w
+ %att.global.attributes;
+ %att.segLike.attributes;
+ %att.typed.attributes;
+lemma %data.text;  #IMPLIED
+lemmaRef CDATA  #IMPLIED >
 <!--doc:indicates a point in time either relative to other elements in the same timeline tag, or absolutely. [16.5.2. Placing Synchronous Events in Time] -->
 <!ELEMENT when EMPTY>
 <!ATTLIST when xmlns CDATA "http://www.tei-c.org/ns/1.0">

@@ -58,8 +58,8 @@
       <schemaSpec ident="tei_SlovParl-clarin" start="TEI teiCorpus">
         <!-- required modules -->
         <moduleRef key="tei"/>
-        <moduleRef key="header" except="abstract appInfo application cRefPattern calendar calendarDesc catRef correspAction correspContext correspDesc creation handNote interpretation listPrefixDef prefixDef refState refsDecl rendition scriptNote seriesStmt stdVals styleDefDecl typeNote xenoData"/>
-        <moduleRef key="core" except="abbr add binaryObject cb choice cit corr del distinct emph expan foreign gb gloss graphic headItem headLabel hi index l lb lg measure measureGrp media mentioned milestone name num orig pb ptr q quote reg relatedItem rs said sic soCalled sp speaker stage term textLang time unclear"/>
+        <moduleRef key="header" except="abstract cRefPattern calendar calendarDesc catRef correspAction correspContext correspDesc creation handNote interpretation listPrefixDef prefixDef refState refsDecl rendition scriptNote seriesStmt stdVals styleDefDecl typeNote xenoData"/>
+        <moduleRef key="core" except="abbr add binaryObject cb choice cit corr del distinct emph expan foreign gb gloss graphic headItem headLabel hi index l lb lg measure measureGrp media mentioned milestone num orig pb ptr q quote reg relatedItem rs said sic soCalled sp speaker stage term textLang time unclear"/>
         <moduleRef key="textstructure" include="TEI back body div front text"/>
         <!-- optional modules -->
         <moduleRef key="linking" include="anchor timeline when"/>

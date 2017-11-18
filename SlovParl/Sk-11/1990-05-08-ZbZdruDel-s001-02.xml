@@ -52,10 +52,10 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
                 Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2016-08-21+02:00"/>
+            <date when="2017-11-18+01:00"/>
          </publicationStmt>
          <sourceDesc>
-            <bibl>ZbZdruDel-Sk-11.xml</bibl>
+            <bibl>Sk-11.xml</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -63,24 +63,6 @@
             <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
             <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
          </projectDesc>
-         <tagsDecl>
-            <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="anchor" occurs="2"/>
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="desc" occurs="1"/>
-               <tagUsage gi="div" occurs="15"/>
-               <tagUsage gi="front" occurs="1"/>
-               <tagUsage gi="item" occurs="2"/>
-               <tagUsage gi="list" occurs="1"/>
-               <tagUsage gi="note" occurs="21"/>
-               <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="timeline" occurs="1"/>
-               <tagUsage gi="title" occurs="2"/>
-               <tagUsage gi="u" occurs="33"/>
-               <tagUsage gi="vocal" occurs="1"/>
-               <tagUsage gi="when" occurs="2"/>
-            </namespace>
-         </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <particDesc>
@@ -141,7 +123,7 @@
             <note xml:id="ZbZdruDel.1990-05-08.s001-02.sp-77.1" type="speaker">ANDREJ ŠTER:</note>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-77.2"
                who="#SterAndrej1958"
-               ana="#taxonomy.root #topic.1">V okviru medzborovske usklajevalne komisije za pripravo začasnega poslovnika smo se uspeli dogovoriti za predlog, ki vsebuje načelno soglasje o do sedaj spornih členih pravilnika. Načelno soglasje je bilo pogojeno s tem, da o spornih členih glasujemo v paketu. Torej, sklepamo o vseh spornih členih, kajti gre dejansko za medstrankarsko usklajevanje. Prebral bom varianto, ki je bila dogovorjena na medzborovskem usklajevanju.  </u>
+               ana="#taxonomy.root #topic.1">V okviru medzborovske usklajevalne komisije za pripravo začasnega poslovnika smo se uspeli dogovoriti za predlog, ki vsebuje načelno soglasje o do sedaj spornih členih pravilnika. Načelno soglasje je bilo pogojeno s tem, da o spornih členih glasujemo v paketu. Torej, sklepamo o vseh spornih členih, kajti gre dejansko za medstrankarsko usklajevanje. Prebral bom varianto, ki je bila dogovorjena na medzborovskem usklajevanju.</u>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-77.3"
                who="#SterAndrej1958"
                ana="#taxonomy.root #topic.1">Pri 10. členu je obveljala varianta, ki jo je naš zbor že sprejel, da 5 poslancev lahko predlaga spremembo. Pri 11. členu je obveljala varianta, ki jo je naš zbor že sprejel. Pri 26. členu se je skupina uskladila, da predlaga zborom v sprejem rešitev, kot jo je predlagal Klub poslancev Demosa, in sicer, da se v 26. členu poslovnika za drugim odstavkom doda nov tretji odstavek, ki se glasi: Kadar se o izvolitvi predsednika, podpredsednikov in članov Izvršnega sveta glasuje javno, se glasuje s posamičnim izjavljanjem. V 29. členu se predlaga naslednje dopolnilo: Stalno delo v skupščini je omogočeno tudi drugim delegatom, ki to želijo na predlog politične organizacije, na predlog političnih organizacij v okviru dogovora teh organizacij v skupščini, ki temelji na načelu proporcionalnosti in enakopravnosti.</u>
@@ -201,7 +183,7 @@
             <note xml:id="ZbZdruDel.1990-05-08.s001-02.sp-85.1" type="speaker">ANDREJ ŠTER:</note>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-85.2"
                who="#SterAndrej1958"
-               ana="#taxonomy.root #topic.1">komisija je menila, da je profesionalizacija neodvisnih poslancev vsebovana v prvem odstavku 29. člena in zato po mojem osebnem mnenju, in tudi v diskusiji komisije se je to pokazalo, nikakor niso diskriminirani. Dodatno smo dostavili tudi tri besede, ki so že prej bile usklajene "in delegatov narodnosti". Tako nihče ni postavljen v a priori slabši položaj. Glede profesionalizacije sodim, da so neodvisni poslanci in poslanci narodnosti celo v boljšem položaju, vendar to je tudi njihova pravica, kajti po naravi stvari so sami inferiorni do drugih.</u>
+               ana="#taxonomy.root #topic.1">Komisija je menila, da je profesionalizacija neodvisnih poslancev vsebovana v prvem odstavku 29. člena in zato po mojem osebnem mnenju, in tudi v diskusiji komisije se je to pokazalo, nikakor niso diskriminirani. Dodatno smo dostavili tudi tri besede, ki so že prej bile usklajene "in delegatov narodnosti". Tako nihče ni postavljen v a priori slabši položaj. Glede profesionalizacije sodim, da so neodvisni poslanci in poslanci narodnosti celo v boljšem položaju, vendar to je tudi njihova pravica, kajti po naravi stvari so sami inferiorni do drugih.</u>
          </div>
          <div type="sp">
             <note xml:id="ZbZdruDel.1990-05-08.s001-02.sp-86.1" type="speaker">JOŽE ZUPANČIČ:</note>
@@ -266,20 +248,20 @@
             <anchor xml:id="DZ-1990-ZbZdruDel-1.stage.t.8"/>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.10"
                who="#DretnikIvan1921"
-               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.4 #topic.8">Prehajam k 4. TOČKI DNEVNEGA REDA - IZVOLITEV PREDSEDNIKA IN PODPREDSEDNIKA ZBORA ZDRUŽENEGA DELA.</u>
+               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.8 #topic.13">Prehajam k 4. TOČKI DNEVNEGA REDA - IZVOLITEV PREDSEDNIKA IN PODPREDSEDNIKA ZBORA ZDRUŽENEGA DELA.</u>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.11"
                who="#DretnikIvan1921"
-               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.4 #topic.8">Glede na to, da smo sprejeli začasni poslovnik, predlagam, da v skladu z njegovim 10. členom imenujemo najmanj 5 delegatov v skupino, ki bi oblikovala in predložila zboru kandidata za predsednika in podpredsednika zbora.</u>
+               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.8 #topic.13">Glede na to, da smo sprejeli začasni poslovnik, predlagam, da v skladu z njegovim 10. členom imenujemo najmanj 5 delegatov v skupino, ki bi oblikovala in predložila zboru kandidata za predsednika in podpredsednika zbora.</u>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.12"
                who="#DretnikIvan1921"
-               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.4 #topic.8">V skupino predlagam skladno z začasnim poslovnikom naslednje delegate: Andreja Štera (Socialdemokratska zveza Slovenije); Antona Horvata (Slovenska kmečka zveza); Barbaro Zupanc (ZSMS - Liberalna stranka); Karla Vukoviča (Stranka demokratične prenove); Stanislava Brgleza (Socialistična zveza Slovenije).</u>
+               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.8 #topic.13">V skupino predlagam skladno z začasnim poslovnikom naslednje delegate: Andreja Štera (Socialdemokratska zveza Slovenije); Antona Horvata (Slovenska kmečka zveza); Barbaro Zupanc (ZSMS - Liberalna stranka); Karla Vukoviča (Stranka demokratične prenove); Stanislava Brgleza (Socialistična zveza Slovenije).</u>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.13"
                who="#DretnikIvan1921"
-               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.4 #topic.8">Želi o tem predlogu kdo razpravljati?</u>
+               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.8 #topic.13">Želi o tem predlogu kdo razpravljati?</u>
             <note xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.14" type="debate">Da.</note>
             <u xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.15"
                who="#DretnikIvan1921"
-               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.4 #topic.8">Delegati predlagate še Zdravka Zabukovca (Neodvisni). Želi še kdo besedo?</u>
+               ana="#taxonomy.2.1 #taxonomy.2.2 #topic.8 #topic.13">Delegati predlagate še Zdravka Zabukovca (Neodvisni). Želi še kdo besedo?</u>
             <note xml:id="ZbZdruDel.1990-05-08.s001-02.sp-89.16" type="debate">Da.</note>
          </div>
       </body>

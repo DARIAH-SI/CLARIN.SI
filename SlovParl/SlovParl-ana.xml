@@ -7,6 +7,8 @@
             <title xml:lang="en">Minutes of the Assembly of the Republic of Slovenia</title>
             <title xml:lang="sl">Mandat 11: 5.5.1990 - 23.12.1992</title>
             <title xml:lang="en">Mandate 11: 5.5.1990 - 23.12.1992</title>
+            <title xml:lang="sl">Jezikoslovno označena različica korpusa</title>
+            <title xml:lang="en">Linguistically annotated version of the corpus</title>
             <respStmt>
                <persName>Andrej Pančur</persName>
                <resp xml:lang="sl">Kodiranje TEI</resp>
@@ -33,7 +35,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>
@@ -54,12 +56,10 @@
             <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
-                Attribution 4.0 International License</ref>.</p>
-               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
-                Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2017-11-20">2017-11-20</date>
+            <date when="2017-11-21">2017-11-21</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -107,12 +107,10 @@
                   <pubPlace>https://github.com/SIstory/SlovParl</pubPlace>
                   <availability status="free">
                      <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-                     <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
-                            Attribution 4.0 International License</ref>.</p>
-                     <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
-                            Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+                     <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+                     <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                   </availability>
-                  <date when="2017-11-20">2017-11-20</date>
+                  <date when="2017-11-21">2017-11-21</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
@@ -185,10 +183,8 @@
                   </biblStruct>
                </listBibl>
                <category xml:id="taxonomy.root">
-                  <catDesc xml:lang="sl">Organizacija in delovanja Državnega zbora oz. Skupščine Republike
-            Slovenije</catDesc>
-                  <catDesc xml:lang="en">Organisation and work of the National Assembly of the Republic of
-            Slovenia</catDesc>
+                  <catDesc xml:lang="sl">Organizacija in delovanja Državnega zbora oz. Skupščine Republike Slovenije</catDesc>
+                  <catDesc xml:lang="en">Organisation and work of the National Assembly of the Republic of Slovenia</catDesc>
                   <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                      <title xml:id="topic.1" type="topic">Poslovnik Skupščine Republike Slovenije</title>
                   </catDesc>
@@ -282,9 +278,7 @@
                            <title xml:id="topic.34" type="topic">Odlok o ustanovitvi, nalogah in sestavi Komisije delegatov vseh zborov Skupščine Republike Slovenije za proučitev okoliščin, posledic in pojavov oškodovanja družbenega premoženja ter odlok o izvolitvi predsednika in članov komisije</title>
                         </catDesc>
                         <category xml:id="taxonomy.2.7.1">
-                           <catDesc xml:lang="sl">Komisija za nadzor nad zakonitostjo dela varnostnega
-                              organa v republiškem upravnem organu, pristojnemu za obrambne zadeve in vojaške
-                              policije v Teritorialni obrambi Republike Slovenije</catDesc>
+                           <catDesc xml:lang="sl">Komisija za nadzor nad zakonitostjo dela varnostnega organa v republiškem upravnem organu, pristojnemu za obrambne zadeve in vojaške policije v Teritorialni obrambi Republike Slovenije</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.35" type="topic">Odlok o ustanovitvi, nalogah, sestavi in številu članov Komisije Skupščine Republike Slovenije za nadzor nad zakonitostjo dela varnostnega organa v republiškem upravnem organu, pristojnemu za obrambne zadeve in vojaške policije v Teritorialni obrambi Republike Slovenije</title>
                            </catDesc>
@@ -298,10 +292,8 @@
                            </catDesc>
                         </category>
                         <category xml:id="taxonomy.2.7.3">
-                           <catDesc xml:lang="sl">Komisija za volitve, imenovanja in administrativne
-                              zadeve</catDesc>
-                           <catDesc xml:lang="en">Commission for elections, appointments and
-                              administrative matters</catDesc>
+                           <catDesc xml:lang="sl">Komisija za volitve, imenovanja in administrativne zadeve</catDesc>
+                           <catDesc xml:lang="en">Commission for elections, appointments and administrative matters</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.38" type="topic">Razrešitev poslanke Majde Slokan dolžnosti članice Odbora Zbora združenega dela za kulturo in varstvo kulturne dediščine in za izvolitev poslanca Dejana Murka za člana tega odbora</title>
                            </catDesc>
@@ -322,10 +314,8 @@
                            </catDesc>
                         </category>
                         <category xml:id="taxonomy.2.7.6">
-                           <catDesc xml:lang="sl">Komisija za nadzorstvo nad zakonitostjo dela Službe
-                              državne varnosti</catDesc>
-                           <catDesc xml:lang="en">Commission for the supervision of the legality of the
-                              State Security Service</catDesc>
+                           <catDesc xml:lang="sl">Komisija za nadzorstvo nad zakonitostjo dela Službe državne varnosti</catDesc>
+                           <catDesc xml:lang="en">Commission for the supervision of the legality of the State Security Service</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.42" type="topic">Odloka o ustanovitvi, nalogah in sestavi komisije Skupščine Republike Slovenije za nadzorstvo nad zakonitostjo dela Službe državne varnosti</title>
                               <title xml:id="topic.43" type="topic">Zahteva poslancev, da Komisija za nadzorstvo na zakonitostjo dela VIS in Ministrstva za notranje zadeve posredujeta poslancem poleg poročila komisije o tako imenovani aferi izdaje državne skrivnosti in prisluškovanju vse pisne informacije, vključno z zapisi spornih pogovorov člana predsedstva Cirila Zlobca</title>
@@ -353,8 +343,7 @@
                            </catDesc>
                         </category>
                         <category xml:id="taxonomy.2.7.10">
-                           <catDesc xml:lang="sl">Komisija skupščine Republike Slovenije za spremljanje preobrazbe družbene
-                              in zadružne lastnine</catDesc>
+                           <catDesc xml:lang="sl">Komisija skupščine Republike Slovenije za spremljanje preobrazbe družbene in zadružne lastnine</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.48" type="topic">Odlok o ustanovitvi, nalogah, sestavi in številu članov Komisije Skupščine Republike Slovenije za spremljanje preobrazbe družbene in zadružne lastnine</title>
                            </catDesc>
@@ -461,8 +450,7 @@
                         </category>
                         <category xml:id="taxonomy.3.1.3">
                            <catDesc xml:lang="sl">Državna ureditev Republike Slovenije</catDesc>
-                           <catDesc xml:lang="en">National legislation of the Republic of
-                              Slovenia</catDesc>
+                           <catDesc xml:lang="en">National legislation of the Republic of Slovenia</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.97" type="topic">Zakon o funkcionarjih v državnih organih</title>
                               <title xml:id="topic.98" type="topic">Zakon o nezdružljivosti opravljanja javne funkcije s pridobitno dejavnostjo</title>
@@ -500,10 +488,8 @@
                               </catDesc>
                            </category>
                            <category xml:id="taxonomy.3.1.3.6">
-                              <catDesc xml:lang="sl">Državno tožilstvo in državno
-                                    pravobranilstvo</catDesc>
-                              <catDesc xml:lang="en">Prosecutor's Office and the State
-                                    Attorney</catDesc>
+                              <catDesc xml:lang="sl">Državno tožilstvo in državno pravobranilstvo</catDesc>
+                              <catDesc xml:lang="en">Prosecutor's Office and the State Attorney</catDesc>
                               <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                  <title xml:id="topic.103" type="topic">Zakon o javnem pravobranilstvu</title>
                               </catDesc>
@@ -532,10 +518,8 @@
                               <catDesc xml:lang="en">Constitutional Court</catDesc>
                            </category>
                            <category xml:id="taxonomy.3.1.3.10">
-                              <catDesc xml:lang="sl">Varuh človekovih pravic in temeljnih
-                                    svoboščin</catDesc>
-                              <catDesc xml:lang="en">Ombudsman for Human Rights and Fundamental
-                                    Freedoms</catDesc>
+                              <catDesc xml:lang="sl">Varuh človekovih pravic in temeljnih svoboščin</catDesc>
+                              <catDesc xml:lang="en">Ombudsman for Human Rights and Fundamental Freedoms</catDesc>
                            </category>
                            <category xml:id="taxonomy.3.1.3.11">
                               <catDesc xml:lang="sl">Lokalna samouprava</catDesc>
@@ -627,15 +611,11 @@
                               <catDesc xml:lang="en">Acts of Succession</catDesc>
                            </category>
                            <category xml:id="taxonomy.3.2.1.2">
-                              <catDesc xml:lang="sl">Pregled po mednarodnih organizacijah in drugih
-                                    institucijah</catDesc>
-                              <catDesc xml:lang="en">Review by international organizations and other
-                                    institutions</catDesc>
+                              <catDesc xml:lang="sl">Pregled po mednarodnih organizacijah in drugih institucijah</catDesc>
+                              <catDesc xml:lang="en">Review by international organizations and other institutions</catDesc>
                               <category xml:id="taxonomy.3.2.1.2.1">
-                                 <catDesc xml:lang="sl">Agencija za sodelovanje energetskih
-                                          regulatorjev (ACER)</catDesc>
-                                 <catDesc xml:lang="en">The Agency for the Cooperation of Energy
-                                          Regulators (ACER)</catDesc>
+                                 <catDesc xml:lang="sl">Agencija za sodelovanje energetskih regulatorjev (ACER)</catDesc>
+                                 <catDesc xml:lang="en">The Agency for the Cooperation of Energy Regulators (ACER)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.2">
                                  <catDesc xml:lang="sl">Alpska konferenca</catDesc>
@@ -646,230 +626,162 @@
                                  <catDesc xml:lang="en">Benelux</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.4">
-                                 <catDesc xml:lang="sl">Ekonomska komisija Združenih narodov za
-                                          Evropo (UNECE)</catDesc>
-                                 <catDesc xml:lang="en">United Nations Economic Commission for
-                                          Europe (UNECE)</catDesc>
+                                 <catDesc xml:lang="sl">Ekonomska komisija Združenih narodov za Evropo (UNECE)</catDesc>
+                                 <catDesc xml:lang="en">United Nations Economic Commission for Europe (UNECE)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.5">
-                                 <catDesc xml:lang="sl">Evropska družba za financiranje nakupa
-                                          železniških vozil (EUROFIMA)</catDesc>
-                                 <catDesc xml:lang="en">European company for financing the
-                                          purchase of railway vehicles (EUROFIMA)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska družba za financiranje nakupa železniških vozil (EUROFIMA)</catDesc>
+                                 <catDesc xml:lang="en">European company for financing the purchase of railway vehicles (EUROFIMA)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.6">
-                                 <catDesc xml:lang="sl">Evropska konferenca uprav za pošto in
-                                          telekomunikacije (CEPT)</catDesc>
-                                 <catDesc xml:lang="en">European Conference of Postal and
-                                          telecommunications (CEPT)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska konferenca uprav za pošto in telekomunikacije (CEPT)</catDesc>
+                                 <catDesc xml:lang="en">European Conference of Postal and telecommunications (CEPT)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.7">
-                                 <catDesc xml:lang="sl">Evropska konferenca za molekularno
-                                          biologijo (EMBC)</catDesc>
-                                 <catDesc xml:lang="en">The European Molecular Biology Conference
-                                          (EMBC)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska konferenca za molekularno biologijo (EMBC)</catDesc>
+                                 <catDesc xml:lang="en">The European Molecular Biology Conference (EMBC)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.8">
-                                 <catDesc xml:lang="sl">Evropska organizacija za satelitske
-                                          telekomunikacije (EUTELSAT)</catDesc>
-                                 <catDesc xml:lang="en">The European Telecommunications Satellite
-                                          Organisation (EUTELSAT)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska organizacija za satelitske telekomunikacije (EUTELSAT)</catDesc>
+                                 <catDesc xml:lang="en">The European Telecommunications Satellite Organisation (EUTELSAT)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.9">
-                                 <catDesc xml:lang="sl">Evropska organizacija za uporabo
-                                          meteoroloških satelitov (EUMETSAT)</catDesc>
-                                 <catDesc xml:lang="en">The European Organisation for the use of
-                                          meteorological satellites (EUMETSAT)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska organizacija za uporabo meteoroloških satelitov (EUMETSAT)</catDesc>
+                                 <catDesc xml:lang="en">The European Organisation for the use of meteorological satellites (EUMETSAT)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.10">
-                                 <catDesc xml:lang="sl">Evropska organizacija za varnost zračne
-                                          plovbe (EUROCONTROL)</catDesc>
-                                 <catDesc xml:lang="en">The European Organisation for the use of
-                                          meteorological satellites (EUMETSAT)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska organizacija za varnost zračne plovbe (EUROCONTROL)</catDesc>
+                                 <catDesc xml:lang="en">The European Organisation for the use of meteorological satellites (EUMETSAT)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.11">
-                                 <catDesc xml:lang="sl">Evropska patentna organizacija
-                                          (EPO)</catDesc>
-                                 <catDesc xml:lang="en">The European Patent Organisation
-                                          (EPO)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska patentna organizacija (EPO)</catDesc>
+                                 <catDesc xml:lang="en">The European Patent Organisation (EPO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.12">
                                  <catDesc xml:lang="sl">Evropska unija (EU)</catDesc>
                                  <catDesc xml:lang="en">The European Union (EU)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.13">
-                                 <catDesc xml:lang="sl">Evropski center za srednjeročne vremenske
-                                          napovedi (ECMWF)</catDesc>
-                                 <catDesc xml:lang="en">The European Centre for Medium-Range
-                                          Weather Forecasts (ECMWF)</catDesc>
+                                 <catDesc xml:lang="sl">Evropski center za srednjeročne vremenske napovedi (ECMWF)</catDesc>
+                                 <catDesc xml:lang="en">The European Centre for Medium-Range Weather Forecasts (ECMWF)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.14">
                                  <catDesc xml:lang="sl">Evropski policijski urad (Europol)</catDesc>
                                  <catDesc xml:lang="en">European Police Office (Europol)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.15">
-                                 <catDesc xml:lang="sl">Evropsko združenje za prosto trgovino
-                                          (EFTA)</catDesc>
-                                 <catDesc xml:lang="en">European Free Trade Association
-                                          (EFTA)</catDesc>
+                                 <catDesc xml:lang="sl">Evropsko združenje za prosto trgovino (EFTA)</catDesc>
+                                 <catDesc xml:lang="en">European Free Trade Association (EFTA)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.16">
-                                 <catDesc xml:lang="sl">Haaška konferenca o mednarodnem zasebnem
-                                          pravu (HCCH)</catDesc>
-                                 <catDesc xml:lang="en">The Hague Conference on Private
-                                          International Law (HCCH)</catDesc>
+                                 <catDesc xml:lang="sl">Haaška konferenca o mednarodnem zasebnem pravu (HCCH)</catDesc>
+                                 <catDesc xml:lang="en">The Hague Conference on Private International Law (HCCH)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.17">
-                                 <catDesc xml:lang="sl">Konferenca o varnosti in sodelovanju v
-                                          Evropi</catDesc>
-                                 <catDesc xml:lang="en">Conference on Security and Co-operation
-                                          in Europe</catDesc>
+                                 <catDesc xml:lang="sl">Konferenca o varnosti in sodelovanju v Evropi</catDesc>
+                                 <catDesc xml:lang="en">Conference on Security and Co-operation in Europe</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.148" type="topic">Deklaracija o sprejemanju in spoštovanju obveznosti, ki izhajajo iz dokumentov, sprejetih v okviru konference o varnosti in sodelovanju v Evropi</title>
                                  </catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.18">
-                                 <catDesc xml:lang="sl">Mednarodna agencija za jedrsko energijo
-                                          (IAEA)</catDesc>
-                                 <catDesc xml:lang="en">International Atomic Energy Agency
-                                          (IAEA)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna agencija za jedrsko energijo (IAEA)</catDesc>
+                                 <catDesc xml:lang="en">International Atomic Energy Agency (IAEA)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.19">
-                                 <catDesc xml:lang="sl">Mednarodna akademija za boj proti
-                                          korupciji (IACA)</catDesc>
-                                 <catDesc xml:lang="en">International Academy of Anti-Corruption
-                                          (IACA)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna akademija za boj proti korupciji (IACA)</catDesc>
+                                 <catDesc xml:lang="en">International Academy of Anti-Corruption (IACA)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.20">
-                                 <catDesc xml:lang="sl">Mednarodna hidrografska organizacija
-                                          (IHO)</catDesc>
-                                 <catDesc xml:lang="en">The International Hydrographic
-                                          Organization (IHO)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna hidrografska organizacija (IHO)</catDesc>
+                                 <catDesc xml:lang="en">The International Hydrographic Organization (IHO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.21">
-                                 <catDesc xml:lang="sl">Mednarodna komisija za kitolov
-                                          (IWC)</catDesc>
-                                 <catDesc xml:lang="en">The International Whaling Commission
-                                          (IWC)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna komisija za kitolov (IWC)</catDesc>
+                                 <catDesc xml:lang="en">The International Whaling Commission (IWC)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.22">
-                                 <catDesc xml:lang="sl">Mednarodna komisija za Savski
-                                          bazen</catDesc>
-                                 <catDesc xml:lang="en">International Sava River Basin
-                                          Commission</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna komisija za Savski bazen</catDesc>
+                                 <catDesc xml:lang="en">International Sava River Basin Commission</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.23">
-                                 <catDesc xml:lang="sl">Mednarodna organizacija civilnega
-                                          letalstva (ICAO)</catDesc>
-                                 <catDesc xml:lang="en">International Civil Aviation Organization
-                                          (ICAO)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna organizacija civilnega letalstva (ICAO)</catDesc>
+                                 <catDesc xml:lang="en">International Civil Aviation Organization (ICAO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.24">
                                  <catDesc xml:lang="sl">Mednarodna organizacija dela (ILO)</catDesc>
-                                 <catDesc xml:lang="en">The International Labour Organization
-                                          (ILO)</catDesc>
+                                 <catDesc xml:lang="en">The International Labour Organization (ILO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.25">
-                                 <catDesc xml:lang="sl">Mednarodna organizacija za migracije
-                                          (IOM)</catDesc>
-                                 <catDesc xml:lang="en">The International Organization for
-                                          Migration (IOM)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna organizacija za migracije (IOM)</catDesc>
+                                 <catDesc xml:lang="en">The International Organization for Migration (IOM)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.26">
-                                 <catDesc xml:lang="sl">Mednarodna organizacija za tropski les
-                                          (ITTO)</catDesc>
-                                 <catDesc xml:lang="en">The International Tropical Timber
-                                          Organization (ITTO)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna organizacija za tropski les (ITTO)</catDesc>
+                                 <catDesc xml:lang="en">The International Tropical Timber Organization (ITTO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.27">
-                                 <catDesc xml:lang="sl">Mednarodna organizacija za trto in vino
-                                          (OIV)</catDesc>
-                                 <catDesc xml:lang="en">International Organisation of Vine and
-                                          Wine (OIV)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna organizacija za trto in vino (OIV)</catDesc>
+                                 <catDesc xml:lang="en">International Organisation of Vine and Wine (OIV)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.28">
-                                 <catDesc xml:lang="sl">Mednarodna pomorska organizacija
-                                          (IMO)</catDesc>
-                                 <catDesc xml:lang="en">The International Maritime Organisation
-                                          (IMO)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna pomorska organizacija (IMO)</catDesc>
+                                 <catDesc xml:lang="en">The International Maritime Organisation (IMO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.29">
-                                 <catDesc xml:lang="sl">Mednarodna telekomunikacijska zveza
-                                          (ITU)</catDesc>
-                                 <catDesc xml:lang="en">The International Telecommunication Union
-                                          (ITU)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna telekomunikacijska zveza (ITU)</catDesc>
+                                 <catDesc xml:lang="en">The International Telecommunication Union (ITU)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.30">
-                                 <catDesc xml:lang="sl">Mednarodni center za promocijo podjetij
-                                          (ICPE)</catDesc>
-                                 <catDesc xml:lang="en">International Center for Promotion of
-                                          Enterprises (ICPE)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodni center za promocijo podjetij (ICPE)</catDesc>
+                                 <catDesc xml:lang="en">International Center for Promotion of Enterprises (ICPE)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.31">
-                                 <catDesc xml:lang="sl">Mednarodni inštitut za unifikacijo
-                                          zasebnega prava (UNIDROIT)</catDesc>
-                                 <catDesc xml:lang="en">The International Institute for the
-                                          Unification of Private Law (UNIDROIT)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodni inštitut za unifikacijo zasebnega prava (UNIDROIT)</catDesc>
+                                 <catDesc xml:lang="en">The International Institute for the Unification of Private Law (UNIDROIT)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.32">
                                  <catDesc xml:lang="sl">Mednarodni svet za žito (IGC)</catDesc>
-                                 <catDesc xml:lang="en">The International Grains Council
-                                          (IGC)</catDesc>
+                                 <catDesc xml:lang="en">The International Grains Council (IGC)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.33">
                                  <catDesc xml:lang="sl">Mednarodno kazensko sodišče (ICC)</catDesc>
-                                 <catDesc xml:lang="en">The International Criminal Court
-                                          (ICC)</catDesc>
+                                 <catDesc xml:lang="en">The International Criminal Court (ICC)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.34">
-                                 <catDesc xml:lang="sl">Mednarodno kazensko sodišče za Ruando
-                                          (ICTR)</catDesc>
-                                 <catDesc xml:lang="en">International Criminal Tribunal for
-                                          Rwanda (ICTR)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodno kazensko sodišče za Ruando (ICTR)</catDesc>
+                                 <catDesc xml:lang="en">International Criminal Tribunal for Rwanda (ICTR)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.35">
-                                 <catDesc xml:lang="sl">Mednarodno sodišče za vojne zločine na
-                                          območju nekdanje Jugoslavije (ICTY)</catDesc>
-                                 <catDesc xml:lang="en">International Criminal Tribunal for the
-                                          former Yugoslavia (ICTY)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodno sodišče za vojne zločine na območju nekdanje Jugoslavije (ICTY)</catDesc>
+                                 <catDesc xml:lang="en">International Criminal Tribunal for the former Yugoslavia (ICTY)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.36">
-                                 <catDesc xml:lang="sl">Medvladna organizacija za mednarodni
-                                          železniški promet (OTIF)</catDesc>
-                                 <catDesc xml:lang="en">Intergovernmental Organisation for
-                                          International Carriage by Rail (OTIF)</catDesc>
+                                 <catDesc xml:lang="sl">Medvladna organizacija za mednarodni železniški promet (OTIF)</catDesc>
+                                 <catDesc xml:lang="en">Intergovernmental Organisation for International Carriage by Rail (OTIF)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.37">
                                  <catDesc xml:lang="sl">Nordijska investicijska banka</catDesc>
                                  <catDesc xml:lang="en">Nordic Investment Bank</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.38">
-                                 <catDesc xml:lang="sl">Organizacija severnoatlantskega sporazuma
-                                          (NATO)</catDesc>
-                                 <catDesc xml:lang="en">North Atlantic Treaty Organisation
-                                          (NATO)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija severnoatlantskega sporazuma (NATO)</catDesc>
+                                 <catDesc xml:lang="en">North Atlantic Treaty Organisation (NATO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.39">
-                                 <catDesc xml:lang="sl">Organizacija za gospodarsko sodelovanje
-                                          in razvoj (OECD)</catDesc>
-                                 <catDesc xml:lang="en">Organisation for Economic Co-operation
-                                          and Development (OECD)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija za gospodarsko sodelovanje in razvoj (OECD)</catDesc>
+                                 <catDesc xml:lang="en">Organisation for Economic Co-operation and Development (OECD)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.40">
-                                 <catDesc xml:lang="sl">Organizacija za prehrano in kmetijstvo
-                                          (FAO)</catDesc>
-                                 <catDesc xml:lang="en">The Food and Agriculture Organization
-                                          (FAO)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija za prehrano in kmetijstvo (FAO)</catDesc>
+                                 <catDesc xml:lang="en">The Food and Agriculture Organization (FAO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.41">
-                                 <catDesc xml:lang="sl">Organizacija za varnost in sodelovanje v
-                                          Evropi (OSCE)</catDesc>
-                                 <catDesc xml:lang="en">The Organization for Security and
-                                          Cooperation in Europe (OSCE)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija za varnost in sodelovanje v Evropi (OSCE)</catDesc>
+                                 <catDesc xml:lang="en">The Organization for Security and Cooperation in Europe (OSCE)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.42">
-                                 <catDesc xml:lang="sl">Organizacija Združenih narodov
-                                          (OZN)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija Združenih narodov (OZN)</catDesc>
                                  <catDesc xml:lang="en">The United Nations (UN)</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.149" type="topic">Sprejem Slovenije v Organizacijo združenih narodov</title>
@@ -879,41 +791,32 @@
                                  </catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.43">
-                                 <catDesc xml:lang="sl">Organizacija Združenih narodov za
-                                          prehrano in kmetijstvo (FAO)</catDesc>
-                                 <catDesc xml:lang="en">Food and Agriculture Organization
-                                          (FAO)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija Združenih narodov za prehrano in kmetijstvo (FAO)</catDesc>
+                                 <catDesc xml:lang="en">Food and Agriculture Organization (FAO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.44">
-                                 <catDesc xml:lang="sl">Pobuda za sodelovanje v jugovzhodni
-                                          Evropi (SECI)</catDesc>
-                                 <catDesc xml:lang="en">Southeast European Cooperative Initiative
-                                          (SECI)</catDesc>
+                                 <catDesc xml:lang="sl">Pobuda za sodelovanje v jugovzhodni Evropi (SECI)</catDesc>
+                                 <catDesc xml:lang="en">Southeast European Cooperative Initiative (SECI)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.45">
                                  <catDesc xml:lang="sl">Pripravljalna komisija CTBT</catDesc>
                                  <catDesc xml:lang="en">Preparatory Commission of the CTBT</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.46">
-                                 <catDesc xml:lang="sl">Program Združenih narodov za okolje
-                                          (UNEP)</catDesc>
-                                 <catDesc xml:lang="en">The United Nations Environment Programme
-                                          (UNEP)</catDesc>
+                                 <catDesc xml:lang="sl">Program Združenih narodov za okolje (UNEP)</catDesc>
+                                 <catDesc xml:lang="en">The United Nations Environment Programme (UNEP)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.47">
                                  <catDesc xml:lang="sl">Razvojna banka Sveta Evrope (CEB)</catDesc>
-                                 <catDesc xml:lang="en">Council of Europe Development Bank
-                                          (CEB)</catDesc>
+                                 <catDesc xml:lang="en">Council of Europe Development Bank (CEB)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.48">
                                  <catDesc xml:lang="sl">Salzburški forum</catDesc>
                                  <catDesc xml:lang="en">Salzburg forum</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.49">
-                                 <catDesc xml:lang="sl">Stalna mednarodna komisija za preskušanje
-                                          ročnega strelnega orožja (CIP)</catDesc>
-                                 <catDesc xml:lang="en">Permanent International Commission for
-                                          the testing of small arms (CIP)</catDesc>
+                                 <catDesc xml:lang="sl">Stalna mednarodna komisija za preskušanje ročnega strelnega orožja (CIP)</catDesc>
+                                 <catDesc xml:lang="en">Permanent International Commission for the testing of small arms (CIP)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.50">
                                  <catDesc xml:lang="sl">Svet Evrope</catDesc>
@@ -923,36 +826,28 @@
                                  </catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.51">
-                                 <catDesc xml:lang="sl">Svetovna carinska organizacija
-                                          (WCO)</catDesc>
+                                 <catDesc xml:lang="sl">Svetovna carinska organizacija (WCO)</catDesc>
                                  <catDesc xml:lang="en">World Customs Organization (WCO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.52">
-                                 <catDesc xml:lang="sl">Svetovna organizacija za intelektualno
-                                          lastnino (WIPO)</catDesc>
-                                 <catDesc xml:lang="en">World Intellectual Property Organization
-                                          (WIPO)</catDesc>
+                                 <catDesc xml:lang="sl">Svetovna organizacija za intelektualno lastnino (WIPO)</catDesc>
+                                 <catDesc xml:lang="en">World Intellectual Property Organization (WIPO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.53">
                                  <catDesc xml:lang="sl">Svetovna poštna zveza (UPU)</catDesc>
                                  <catDesc xml:lang="en">Universal Postal Union (UPU)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.54">
-                                 <catDesc xml:lang="sl">Svetovna trgovinska organizacija
-                                          (WTO)</catDesc>
+                                 <catDesc xml:lang="sl">Svetovna trgovinska organizacija (WTO)</catDesc>
                                  <catDesc xml:lang="en">World Trade Organization (WTO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.55">
-                                 <catDesc xml:lang="sl">Svetovna zdravstvena organizacija
-                                          (WHO)</catDesc>
-                                 <catDesc xml:lang="en">The World Health Organization
-                                          (WHO)</catDesc>
+                                 <catDesc xml:lang="sl">Svetovna zdravstvena organizacija (WHO)</catDesc>
+                                 <catDesc xml:lang="en">The World Health Organization (WHO)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.56">
-                                 <catDesc xml:lang="sl">Visoki komisariat Združenih narodov za
-                                          begunce (UNHCR)</catDesc>
-                                 <catDesc xml:lang="en">United Nations High Commissioner for
-                                          Refugees (UNHCR)</catDesc>
+                                 <catDesc xml:lang="sl">Visoki komisariat Združenih narodov za begunce (UNHCR)</catDesc>
+                                 <catDesc xml:lang="en">United Nations High Commissioner for Refugees (UNHCR)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.1.2.57">
                                  <catDesc xml:lang="sl">Zahodnoevropska unija (WEU)</catDesc>
@@ -1309,8 +1204,7 @@
                                  <catDesc xml:lang="en">Serbia</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.2.67">
-                                 <catDesc xml:lang="sl">Sveti sedež (Vatikanska mestna
-                                          država)</catDesc>
+                                 <catDesc xml:lang="sl">Sveti sedež (Vatikanska mestna država)</catDesc>
                                  <catDesc xml:lang="en">Holy See (Vatican City State)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.2.68">
@@ -1379,83 +1273,63 @@
                               <catDesc xml:lang="sl">Drugo</catDesc>
                               <catDesc xml:lang="en">Other</catDesc>
                               <category xml:id="taxonomy.3.2.2.3.1">
-                                 <catDesc xml:lang="sl">Agencija za sodelovanje energetskih
-                                          regulatorjev (ACER)</catDesc>
-                                 <catDesc xml:lang="en">The Agency for the Cooperation of Energy
-                                          Regulators (ACER)</catDesc>
+                                 <catDesc xml:lang="sl">Agencija za sodelovanje energetskih regulatorjev (ACER)</catDesc>
+                                 <catDesc xml:lang="en">The Agency for the Cooperation of Energy Regulators (ACER)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.2">
                                  <catDesc xml:lang="sl">Beneluks</catDesc>
                                  <catDesc xml:lang="en">Benelux</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.3">
-                                 <catDesc xml:lang="sl">Ekonomska komisija Združenih narodov za
-                                          Evropo (ENECE)</catDesc>
-                                 <catDesc xml:lang="en">United Nations Economic Commission for
-                                          Europe (ENEC)</catDesc>
+                                 <catDesc xml:lang="sl">Ekonomska komisija Združenih narodov za Evropo (ENECE)</catDesc>
+                                 <catDesc xml:lang="en">United Nations Economic Commission for Europe (ENEC)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.4">
-                                 <catDesc xml:lang="sl">Evropska banka za obnovo in razvoj
-                                          (EBRD)</catDesc>
-                                 <catDesc xml:lang="en">European Bank for Reconstruction and
-                                          Development (EBRD)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska banka za obnovo in razvoj (EBRD)</catDesc>
+                                 <catDesc xml:lang="en">European Bank for Reconstruction and Development (EBRD)</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.197" type="topic">Zakon o vpisu in vplačilu delnic v delniški kapital Evropske banke za obnovo in razvoj</title>
                                  </catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.5">
-                                 <catDesc xml:lang="sl">Evropska družba za financiranje nakupa
-                                          železniških vozil (EUROFIMA)</catDesc>
-                                 <catDesc xml:lang="en">European company for financing the
-                                          purchase of railway vehicles (EUROFIMA)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska družba za financiranje nakupa železniških vozil (EUROFIMA)</catDesc>
+                                 <catDesc xml:lang="en">European company for financing the purchase of railway vehicles (EUROFIMA)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.6">
                                  <catDesc xml:lang="sl">Evropska investicijska banka (EIB)</catDesc>
                                  <catDesc xml:lang="en">The European Investment Bank (EIB)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.7">
-                                 <catDesc xml:lang="sl">Evropska organizacija za uporabo
-                                          metereoloških satelitov (EUMETSAT)</catDesc>
-                                 <catDesc xml:lang="en">The European Organisation for the use of
-                                          meteorological satellites (EUMETSAT)</catDesc>
+                                 <catDesc xml:lang="sl">Evropska organizacija za uporabo metereoloških satelitov (EUMETSAT)</catDesc>
+                                 <catDesc xml:lang="en">The European Organisation for the use of meteorological satellites (EUMETSAT)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.8">
                                  <catDesc xml:lang="sl">Mednarodno kazensko sodišče (ICC)</catDesc>
-                                 <catDesc xml:lang="en">The International Criminal Court
-                                          (ICC)</catDesc>
+                                 <catDesc xml:lang="en">The International Criminal Court (ICC)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.9">
-                                 <catDesc xml:lang="sl">Mednarodna banka za obnovo in razvoj
-                                          (IBRD)</catDesc>
-                                 <catDesc xml:lang="en">International Bank for Reconstruction and
-                                          Development (IBRD)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna banka za obnovo in razvoj (IBRD)</catDesc>
+                                 <catDesc xml:lang="en">International Bank for Reconstruction and Development (IBRD)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.10">
-                                 <catDesc xml:lang="sl">Mednarodni center za promocijo podjetij
-                                          (ICPE)</catDesc>
-                                 <catDesc xml:lang="en">International Center for Promotion of
-                                          Enterprises (ICPE)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodni center za promocijo podjetij (ICPE)</catDesc>
+                                 <catDesc xml:lang="en">International Center for Promotion of Enterprises (ICPE)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.11">
-                                 <catDesc xml:lang="sl">Mednarodna organizacija za migracije
-                                          (IOM)</catDesc>
-                                 <catDesc xml:lang="en">The International Organization for
-                                          Migration (IOM)</catDesc>
+                                 <catDesc xml:lang="sl">Mednarodna organizacija za migracije (IOM)</catDesc>
+                                 <catDesc xml:lang="en">The International Organization for Migration (IOM)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.12">
                                  <catDesc xml:lang="sl">Nordijska investicijska banka</catDesc>
                                  <catDesc xml:lang="en">Nordic Investment Bank</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.13">
-                                 <catDesc xml:lang="sl">Organizacija za gospodarsko sodelovanje
-                                          in razvoj (OECD)</catDesc>
-                                 <catDesc xml:lang="en">Organisation for Economic Co-operation
-                                          and Development (OECD)</catDesc>
+                                 <catDesc xml:lang="sl">Organizacija za gospodarsko sodelovanje in razvoj (OECD)</catDesc>
+                                 <catDesc xml:lang="en">Organisation for Economic Co-operation and Development (OECD)</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.2.2.3.14">
                                  <catDesc xml:lang="sl">Razvojna banka Sveta Evrope (CEB)</catDesc>
-                                 <catDesc xml:lang="en">Council of Europe Development Bank
-                                          (CEB)</catDesc>
+                                 <catDesc xml:lang="en">Council of Europe Development Bank (CEB)</catDesc>
                               </category>
                            </category>
                         </category>
@@ -1576,10 +1450,8 @@
                            <catDesc xml:lang="en">Criminal Procedure</catDesc>
                         </category>
                         <category xml:id="taxonomy.3.5.3">
-                           <catDesc xml:lang="sl">Izvrševanje kazenskih sankcij, amnestija in
-                              pomilostitev</catDesc>
-                           <catDesc xml:lang="en">Enforcement of criminal sanctions, amnesty and
-                              pardon</catDesc>
+                           <catDesc xml:lang="sl">Izvrševanje kazenskih sankcij, amnestija in pomilostitev</catDesc>
+                           <catDesc xml:lang="en">Enforcement of criminal sanctions, amnesty and pardon</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.214" type="topic">Zakon o amnestiji</title>
                               <title xml:id="topic.215" type="topic">Zakon o izvrševanju kazenskih sankcij</title>
@@ -1879,10 +1751,8 @@
                            <catDesc xml:lang="sl">Javni odhodki</catDesc>
                            <catDesc xml:lang="en">Pubic expenditures</catDesc>
                            <category xml:id="taxonomy.3.7.2.1">
-                              <catDesc xml:lang="sl">Financiranje države in lokalnih skupnosti
-                                    (proračuni)</catDesc>
-                              <catDesc xml:lang="en">Funding state and local communities
-                                    (budget)</catDesc>
+                              <catDesc xml:lang="sl">Financiranje države in lokalnih skupnosti (proračuni)</catDesc>
+                              <catDesc xml:lang="en">Funding state and local communities (budget)</catDesc>
                               <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                  <title xml:id="topic.304" type="topic">Zakon o spremembah in dopolnitvah zakona o zagotavljanju sredstev za skupne družbene potrebe v letu 1990 in o poračunu določenih obveznosti iz dohodka za skupne in splošne družbene potrebe za leto 1989</title>
                                  <title xml:id="topic.305" type="topic">Zakon o proračunu Republike Slovenije za leto 1990</title>
@@ -1903,10 +1773,8 @@
                               <catDesc xml:lang="en">Public orders</catDesc>
                            </category>
                            <category xml:id="taxonomy.3.7.2.3">
-                              <catDesc xml:lang="sl">Posamezni proračunski odhodki (poroštva,
-                                    pomoči, krediti ...</catDesc>
-                              <catDesc xml:lang="en">Individual budgetary expenditure (guarantees,
-                                    aid, credits ...</catDesc>
+                              <catDesc xml:lang="sl">Posamezni proračunski odhodki (poroštva, pomoči, krediti ...</catDesc>
+                              <catDesc xml:lang="en">Individual budgetary expenditure (guarantees, aid, credits ...</catDesc>
                               <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                  <title xml:id="topic.316" type="topic">Zakon o regresiranju dela obresti za kredite, ki se uporabljajo za določene namene v kmetijstvu</title>
                                  <title xml:id="topic.317" type="topic">Zakon o finančnih intervencijah v kmetijstvo, proizvodnjo in ponudbo hrane</title>
@@ -2152,10 +2020,8 @@
                                  <title xml:id="topic.377" type="topic">Resolucija o športu</title>
                               </catDesc>
                               <category xml:id="taxonomy.3.9.1.2.1">
-                                 <catDesc xml:lang="sl">Varnost na športno - rekreacijskih
-                                          objektih</catDesc>
-                                 <catDesc xml:lang="en">Safety in sports - recreational
-                                          facilities</catDesc>
+                                 <catDesc xml:lang="sl">Varnost na športno - rekreacijskih objektih</catDesc>
+                                 <catDesc xml:lang="en">Safety in sports - recreational facilities</catDesc>
                               </category>
                            </category>
                         </category>
@@ -2236,8 +2102,7 @@
                               </catDesc>
                               <category xml:id="taxonomy.3.9.5.1.1">
                                  <catDesc xml:lang="sl">Splošni predpisi s področja delovnih razmerij</catDesc>
-                                 <catDesc xml:lang="en">General regulations on labor
-                                          relations</catDesc>
+                                 <catDesc xml:lang="en">General regulations on labor relations</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.397" type="topic">Zakon o delavcih v državnih organih</title>
                                     <title xml:id="topic.398" type="topic">Zakon o osebnih dohodkih in drugih prejemkih delavcev v javnih vzgojno-izobraževalnih zavodih</title>
@@ -2256,10 +2121,8 @@
                                  <catDesc xml:lang="en">collective agreements</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.9.5.1.3">
-                                 <catDesc xml:lang="sl">Zaposlovanje in zavarovanje za primer
-                                          brezposelnosti ter štipendiranje</catDesc>
-                                 <catDesc xml:lang="en">Employment and unemployment insurance and
-                                          scholarships</catDesc>
+                                 <catDesc xml:lang="sl">Zaposlovanje in zavarovanje za primer brezposelnosti ter štipendiranje</catDesc>
+                                 <catDesc xml:lang="en">Employment and unemployment insurance and scholarships</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.407" type="topic">Zakon o zaposlovanju in zavarovanju za primer brezposelnosti</title>
                                     <title xml:id="topic.408" type="topic">Zakon o kriterijih in načinu sofinanciranja uresničevanja pravic presežkov delavcev</title>
@@ -2286,13 +2149,11 @@
                               <catDesc xml:lang="sl">Družinsko pravo</catDesc>
                               <catDesc xml:lang="en">Family law</catDesc>
                               <category xml:id="taxonomy.3.9.5.2.1">
-                                 <catDesc xml:lang="sl">Zakonska zveza in družinska
-                                          razmerja</catDesc>
+                                 <catDesc xml:lang="sl">Zakonska zveza in družinska razmerja</catDesc>
                                  <catDesc xml:lang="en">Marriage and family relations</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.9.5.2.2">
-                                 <catDesc xml:lang="sl">Starševsko varstvo in družinski
-                                          prejemki</catDesc>
+                                 <catDesc xml:lang="sl">Starševsko varstvo in družinski prejemki</catDesc>
                                  <catDesc xml:lang="en">Parenthood and family receipts</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.411" type="topic">Zakon o družinskih dajatvah</title>
@@ -2316,12 +2177,10 @@
                               </category>
                               <category xml:id="taxonomy.3.9.5.3.2">
                                  <catDesc xml:lang="sl">Varstvo invalidov</catDesc>
-                                 <catDesc xml:lang="en">Protection of Persons with
-                                          Disabilities</catDesc>
+                                 <catDesc xml:lang="en">Protection of Persons with Disabilities</catDesc>
                               </category>
                               <category xml:id="taxonomy.3.9.5.3.3">
-                                 <catDesc xml:lang="sl">Vojni veterani in žrtve vojnega
-                                          nasilja</catDesc>
+                                 <catDesc xml:lang="sl">Vojni veterani in žrtve vojnega nasilja</catDesc>
                                  <catDesc xml:lang="en">War Veterans and Victims of War</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.416" type="topic">Zakon o delnem povračilu škode, povzročene z vojaško agresijo v Republiki Sloveniji</title>
@@ -2342,8 +2201,7 @@
                                  </catDesc>
                               </category>
                               <category xml:id="taxonomy.3.9.5.3.5">
-                                 <catDesc xml:lang="sl">Pokojninsko in invalidsko
-                                          zavarovanje</catDesc>
+                                 <catDesc xml:lang="sl">Pokojninsko in invalidsko zavarovanje</catDesc>
                                  <catDesc xml:lang="en">Pension and Disability Insurance</catDesc>
                                  <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                     <title xml:id="topic.425" type="topic">Zakon o pokojninskem in invalidskem zavarovanju</title>
@@ -2369,8 +2227,7 @@
                               <title xml:id="topic.433" type="topic">Sprejem zdravstvene in pokojninske zakonodaje v letu 1992</title>
                            </catDesc>
                            <category xml:id="taxonomy.3.9.6.1">
-                              <catDesc xml:lang="sl">Zdravstveno varstvo in zdravstveno
-                                    zavarovanje</catDesc>
+                              <catDesc xml:lang="sl">Zdravstveno varstvo in zdravstveno zavarovanje</catDesc>
                               <catDesc xml:lang="en">Health care and health insurance</catDesc>
                               <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                                  <title xml:id="topic.434" type="topic">Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju</title>
@@ -2545,8 +2402,7 @@
                         </category>
                         <category xml:id="taxonomy.4.3.5">
                            <catDesc xml:lang="sl">Zaupnica oz. nezaupnica vladi</catDesc>
-                           <catDesc xml:lang="en">Vote of confidence and of no confidence in the
-                              Government</catDesc>
+                           <catDesc xml:lang="en">Vote of confidence and of no confidence in the Government</catDesc>
                            <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                               <title xml:id="topic.481" type="topic">Konstruktivna nezaupnica vladi</title>
                               <title xml:id="topic.482" type="topic">Pismo predsednika Skupščine Republike Slovenije v zvezi z vprašanjem zaupnice Vladi Republike Slovenije</title>
@@ -2566,8 +2422,7 @@
                      </category>
                      <category xml:id="taxonomy.4.6">
                         <catDesc xml:lang="sl">Razmerja do ostalih državnih organov (Slovenija)</catDesc>
-                        <catDesc xml:lang="en">The relations towards other state authorities
-                        (Slovenia)</catDesc>
+                        <catDesc xml:lang="en">The relations towards other state authorities (Slovenia)</catDesc>
                         <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                            <title xml:id="topic.484" type="topic">Sklep o naročilu Javnemu tožilcu Republike Slovenije</title>
                            <title xml:id="topic.485" type="topic">Zakon o spremembah in dopolnitvah zakona o določitvi nalog, ki jih od 1.1.1990 začasno opravljajo organi SIS in o ustanovitvi določenih republiških upravnih organov s predlogom zakona</title>
@@ -2585,8 +2440,7 @@
                      </category>
                      <category xml:id="taxonomy.4.8">
                         <catDesc xml:lang="sl">Skupščina SFRJ</catDesc>
-                        <catDesc xml:lang="en">Federal Assembly of the Socialist Federal Republic of
-                        Yugoslavia</catDesc>
+                        <catDesc xml:lang="en">Federal Assembly of the Socialist Federal Republic of Yugoslavia</catDesc>
                         <catDesc xml:lang="sl" resp="#toc.AndrejPančur">
                            <title xml:id="topic.490" type="topic">Delegacija Skupščine Republike Slovenije v Zboru republik in pokrajin Skupščine SFRJ</title>
                            <title xml:id="topic.491" type="topic">Stališča Skupščine Republike Slovenije do zakonov iz pristojnosti Skupščine SFRJ</title>
@@ -2598,20 +2452,12 @@
          </classDecl>
          <listPrefixDef xmlns="">
             <prefixDef ident="msd" matchPattern="(.+)" replacementPattern="#$1">
-               <p xml:lang="en">Private URIs with the prefix "msd" point to fs elements defining the
-        Slovene JOS MSDs. In this document they are simply local references to the
-        morphosyntactic specifications in the back.</p>
-               <p xml:lang="sl">Zasebni naslovi URI s predpono "msd" kažejo na element fs, ki
-        definirajo slovenske oblikoskladenjske oznake JOS. V tem dokumentu so to enostavno
-        lokalne reference na oblikoskladenjske specifikacije v dodatku.</p>
+               <p xml:lang="en">Private URIs with the prefix "msd" point to fs elements defining the Slovene JOS MSDs. In this document they are simply local references to the morphosyntactic specifications in the back.</p>
+               <p xml:lang="sl">Zasebni naslovi URI s predpono "msd" kažejo na element fs, ki definirajo slovenske oblikoskladenjske oznake JOS. V tem dokumentu so to enostavno lokalne reference na oblikoskladenjske specifikacije v dodatku.</p>
             </prefixDef>
             <prefixDef ident="syn" matchPattern="(.+)" replacementPattern="#$1">
-               <p xml:lang="en">Private URIs with the prefix "syn" point to elements giving their
-        explanation and mapping to English. In this document they are simply local references
-        to the syntactic specifications in the back matter.</p>
-               <p xml:lang="sl">Zasebni naslovi URI s predpono "syn" kažejo na elemente, ki jih
-        pojasnijo po podajo preslikavo v angleščino. V tem dokumentu so to enostavno lokalne
-        reference na skladenjske specifikacije v dodatku.</p>
+               <p xml:lang="en">Private URIs with the prefix "syn" point to elements giving their explanation and mapping to English. In this document they are simply local references to the syntactic specifications in the back matter.</p>
+               <p xml:lang="sl">Zasebni naslovi URI s predpono "syn" kažejo na elemente, ki jih pojasnijo po podajo preslikavo v angleščino. V tem dokumentu so to enostavno lokalne reference na skladenjske specifikacije v dodatku.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
@@ -2701,9 +2547,7 @@
                   <affiliation when="1990-05">
                      <orgName>Ekonomski inštitut pravne fakultete</orgName>
                   </affiliation>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.deputy" from="1990-05-16"
-                               to="1991-05-08"
-                               next="#OcvirkAndrej1942">
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.deputy" from="1990-05-16" to="1991-05-08" next="#OcvirkAndrej1942">
                      <state>
                         <label>gospodarstvo</label>
                      </state>
@@ -2720,9 +2564,7 @@
                   </persName>
                   <sex value="M"/>
                   <birth when="1942"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.deputy" from="1991-05-08"
-                               to="1992-05-14"
-                               prev="#MencingerJoze1941">
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.deputy" from="1991-05-08" to="1992-05-14" prev="#MencingerJoze1941">
                      <state>
                         <label>gospodarstvo</label>
                      </state>
@@ -2746,12 +2588,8 @@
                      <orgName>OSKO, Import-Export</orgName>
                      <placeName>Gradec, Avstrija</placeName>
                   </affiliation>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1991-05-08"
-                               to="1992-02-12"
-                               next="#JerajJozef1938"/>
-                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-1 #grp.head" from="1991-05-08"
-                               to="1992-02-12"
-                               next="#JerajJozef1938"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1991-05-08" to="1992-02-12" next="#JerajJozef1938"/>
+                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-1 #grp.head" from="1991-05-08" to="1992-02-12" next="#JerajJozef1938"/>
                   <bibl>
                      <ref target="https://www.geni.com/people/Maks-Bastl/6000000000859493395">https://www.geni.com/people/Maks-Bastl/6000000000859493395</ref>
                   </bibl>
@@ -2875,18 +2713,10 @@
                   </persName>
                   <sex value="M"/>
                   <birth when="1938-02-28"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1992-02-12"
-                               to="1992-05-14"
-                               prev="#BastlMaks1941"/>
-                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-1 #grp.head" from="1992-02-12"
-                               to="1992-05-14"
-                               prev="#BastlMaks1941"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-05-14"
-                               to="1992-09-23"
-                               next="#ValentincicDavorin"/>
-                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-2 #grp.head" from="1992-05-14"
-                               to="1992-09-23"
-                               next="#ValentincicDavorin"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1992-02-12" to="1992-05-14" prev="#BastlMaks1941"/>
+                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-1 #grp.head" from="1992-02-12" to="1992-05-14" prev="#BastlMaks1941"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-05-14" to="1992-09-23" next="#ValentincicDavorin"/>
+                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-2 #grp.head" from="1992-05-14" to="1992-09-23" next="#ValentincicDavorin"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jeraj">https://sl.wikipedia.org/wiki/Jo%C5%BEef_Jeraj</ref>
                   </bibl>
@@ -2902,15 +2732,10 @@
                   </birth>
                   <death when="2005-05-24"/>
                   <occupation when="1990-05">novinar brez diplome</occupation>
-                  <affiliation when="1990-05">stalni dopisnik v Beogradu
-                  <orgName>Delo</orgName>
+                  <affiliation when="1990-05">stalni dopisnik v Beogradu <orgName>Delo</orgName>
                   </affiliation>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1990-05-16"
-                               to="1991-04-24"
-                               next="#KacinJelko1955"/>
-                  <affiliation ref="#gov.MIRS" ana="#gov.VladaRS-1 #grp.head" from="1990-05-16"
-                               to="1991-04-24"
-                               next="#KacinJelko1955"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1990-05-16" to="1991-04-24" next="#KacinJelko1955"/>
+                  <affiliation ref="#gov.MIRS" ana="#gov.VladaRS-1 #grp.head" from="1990-05-16" to="1991-04-24" next="#KacinJelko1955"/>
                   <affiliation ref="#pp.ZSMS" ana="#gov.VladaRS-1"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Stane_Stani%C4%8D">https://sl.wikipedia.org/wiki/Stane_Stani%C4%8D</ref>
@@ -2925,12 +2750,8 @@
                   <birth when="1955-11-26">
                      <placeName>Celje</placeName>
                   </birth>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1991-04-24"
-                               to="1992-05-14"
-                               prev="#StanicStane1926"/>
-                  <affiliation ref="#gov.MIRS" ana="#gov.VladaRS-1 #grp.head" from="1991-04-24"
-                               to="1992-05-14"
-                               prev="#StanicStane1926"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1991-04-24" to="1992-05-14" prev="#StanicStane1926"/>
+                  <affiliation ref="#gov.MIRS" ana="#gov.VladaRS-1 #grp.head" from="1991-04-24" to="1992-05-14" prev="#StanicStane1926"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MIRS" ana="#gov.VladaRS-2 #grp.head"/>
                   <bibl>
@@ -2948,8 +2769,7 @@
                   </birth>
                   <death when="2013-10-11"/>
                   <occupation when="1990-05">diplomirani gradbeni inženir</occupation>
-                  <affiliation when="1990-05">svetovalec direktorja za tehnična vprašanja
-                  <orgName>Skupnost za ceste Slovenije</orgName>
+                  <affiliation when="1990-05">svetovalec direktorja za tehnična vprašanja <orgName>Skupnost za ceste Slovenije</orgName>
                   </affiliation>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MPZRS" ana="#gov.VladaRS-1 #grp.head"/>
@@ -2970,12 +2790,8 @@
                      <placeName>Novo mesto</placeName>
                   </birth>
                   <education when="1990-05">doktor ekonomskih znanosti, doktorat iz davčne problematike in javnih financ</education>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1990-05-16"
-                               to="1991-05-08"
-                               next="#SesokDusan1953"/>
-                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.head" from="1990-05-16"
-                               to="1991-05-08"
-                               next="#SesokDusan1953"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1990-05-16" to="1991-05-08" next="#SesokDusan1953"/>
+                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.head" from="1990-05-16" to="1991-05-08" next="#SesokDusan1953"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Marko_Kranjec">https://sl.wikipedia.org/wiki/Marko_Kranjec</ref>
                   </bibl>
@@ -2987,12 +2803,8 @@
                   </persName>
                   <sex value="M"/>
                   <birth when="1953-11-29"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1991-05-09"
-                               to="1992-05-14"
-                               prev="#KranjecMarko1940"/>
-                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.head" from="1991-05-09"
-                               to="1992-05-14"
-                               prev="#KranjecMarko1940"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1991-05-09" to="1992-05-14" prev="#KranjecMarko1940"/>
+                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.head" from="1991-05-09" to="1992-05-14" prev="#KranjecMarko1940"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MIGRS" ana="#gov.VladaRS-2 #grp.head"/>
                   <bibl>
@@ -3012,8 +2824,7 @@
                      <placeName>Kokoriči (Ljutomer)</placeName>
                   </birth>
                   <occupation when="1990-05">diplomirani veterinar</occupation>
-                  <affiliation when="1990-05">prodekan
-                  <orgName>Biotehniške fakultete</orgName>
+                  <affiliation when="1990-05">prodekan <orgName>Biotehniške fakultete</orgName>
                   </affiliation>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MKGPRS" ana="#gov.VladaRS-1 #grp.head"/>
@@ -3178,7 +2989,7 @@
                <person xml:id="DrnovsekJanez1950">
                   <persName>
                      <surname>Drnovšek</surname>
-                     <surname>Janez</surname>
+                     <forename>Janez</forename>
                      <roleName>dr.</roleName>
                   </persName>
                   <sex value="M"/>
@@ -3188,8 +2999,7 @@
                   <death when="2008-02-23">
                      <placeName>Zaplana</placeName>
                   </death>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.head" from="1992-04-22"
-                               to="1993-01-25"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.head" from="1992-04-22" to="1993-01-25"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Janez_Drnov%C5%A1ek">https://sl.wikipedia.org/wiki/Janez_Drnov%C5%A1ek</ref>
                   </bibl>
@@ -3234,12 +3044,8 @@
                   <birth when="1951-11-25">
                      <placeName>Ljubljana</placeName>
                   </birth>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-06-10"
-                               to="1993-01-25"
-                               prev="#KopacJanez1961"/>
-                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-2 #grp.head" from="1992-06-10"
-                               to="1993-01-25"
-                               prev="#KopacJanez1961"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-06-10" to="1993-01-25" prev="#KopacJanez1961"/>
+                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-2 #grp.head" from="1992-06-10" to="1993-01-25" prev="#KopacJanez1961"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Mitja_Gaspari">https://sl.wikipedia.org/wiki/Mitja_Gaspari</ref>
                   </bibl>
@@ -3302,12 +3108,8 @@
                      <forename>Davorin</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-09-23"
-                               to="1993-01-25"
-                               prev="#JerajJozef1938"/>
-                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-2 #grp.head" from="1992-09-23"
-                               to="1993-01-25"
-                               prev="#JerajJozef1938"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-09-23" to="1993-01-25" prev="#JerajJozef1938"/>
+                  <affiliation ref="#gov.MTRS" ana="#gov.VladaRS-2 #grp.head" from="1992-09-23" to="1993-01-25" prev="#JerajJozef1938"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Davorin_Valentin%C4%8Di%C4%8D">https://sl.wikipedia.org/wiki/Davorin_Valentin%C4%8Di%C4%8D</ref>
                   </bibl>
@@ -3349,9 +3151,7 @@
                   <affiliation ref="#pp.ZKS-SDP" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SDU" notAfter="1992-05" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.SSS" ana="#parl.Skup-11"/>
-                  <note>Mandat začel kot član SDP, sredi mandata se je pridružil zunajparlamentarni
-                  SDU, potem je trdil, da je neodvisen kandidat, Kviaz pa ga je maja 1992 beležil
-                  kot člana SSS.</note>
+                  <note>Mandat začel kot član SDP, sredi mandata se je pridružil zunajparlamentarni SDU, potem je trdil, da je neodvisen kandidat, Kviaz pa ga je maja 1992 beležil kot člana SSS.</note>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Milan_Bala%C5%BEic">https://sl.wikipedia.org/wiki/Milan_Bala%C5%BEic</ref>
                   </bibl>
@@ -3410,16 +3210,10 @@
                   <affiliation when="1990-05">
                      <orgName>Inštitut za sociologijo Univerze v Ljubljani</orgName>
                   </affiliation>
-                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1990-05-08"
-                               to="1992-06-03"
-                               next="#GrimsBranko1962"/>
+                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1990-05-08" to="1992-06-03" next="#GrimsBranko1962"/>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1990-05-16"
-                               to="1992-01-15"
-                               next="#VoljcBozidar1939"/>
-                  <affiliation ref="#gov.MZDSVRS" ana="#gov.VladaRS-1 #grp.head" from="1990-05-16"
-                               to="1992-01-15"
-                               next="#VoljcBozidar1939"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1990-05-16" to="1992-01-15" next="#VoljcBozidar1939"/>
+                  <affiliation ref="#gov.MZDSVRS" ana="#gov.VladaRS-1 #grp.head" from="1990-05-16" to="1992-01-15" next="#VoljcBozidar1939"/>
                   <bibl>
                      <ref target="https://sl.wikipedia.org/wiki/Katja_Boh">https://sl.wikipedia.org/wiki/Katja_Boh</ref>
                   </bibl>
@@ -3434,9 +3228,7 @@
                      <placeName>Kranj</placeName>
                   </birth>
                   <occupation when="1990-05">diplomirani inženir geologije</occupation>
-                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1992-07-01"
-                               to="1992-12-23"
-                               prev="#BohKatja1929"/>
+                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1992-07-01" to="1992-12-23" prev="#BohKatja1929"/>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
                   <bibl>
                      <ref target="https://www.sta.si/1153174/branko-grims-novi-poslanec-v-dpz">https://www.sta.si/1153174/branko-grims-novi-poslanec-v-dpz</ref>
@@ -3772,12 +3564,8 @@
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.ZSMS" ana="#parl.Skup-11"/>
                   <affiliation ref="#pp.LDS.1990" ana="#parl.Skup-11"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-05-14"
-                               to="1992-06-10"
-                               next="#GaspariMitja1951"/>
-                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-2 #grp.head" from="1992-05-14"
-                               to="1992-06-10"
-                               next="#GaspariMitja1951"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member" from="1992-05-14" to="1992-06-10" next="#GaspariMitja1951"/>
+                  <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-2 #grp.head" from="1992-05-14" to="1992-06-10" next="#GaspariMitja1951"/>
                   <bibl>
                      <ref target="http://slovenska-pomlad.si/2?id=3262">http://slovenska-pomlad.si/2?id=3262</ref>
                   </bibl>
@@ -4084,8 +3872,7 @@
                      <placeName>Ljubljana</placeName>
                   </birth>
                   <occupation when="1990-05">doktor pravnih znanosti</occupation>
-                  <affiliation when="1990-05">docent
-                  <orgName>Pravna fakulteta Univerze v Ljubljani</orgName>
+                  <affiliation when="1990-05">docent <orgName>Pravna fakulteta Univerze v Ljubljani</orgName>
                   </affiliation>
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.SDZ" ana="#parl.Skup-11"/>
@@ -4326,8 +4113,7 @@
                   <sex value="M"/>
                   <birth when="1936-11-05"/>
                   <education when="1990-05">diplomiran ekonomist</education>
-                  <affiliation when="1990-05">direktor
-                  <orgName>Blagovni center Mercator</orgName>
+                  <affiliation when="1990-05">direktor <orgName>Blagovni center Mercator</orgName>
                   </affiliation>
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.SKD" ana="#parl.Skup-11"/>
@@ -4437,8 +4223,7 @@
                   </affiliation>
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.ZS" ana="#parl.Skup-11"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.deputy" from="1990-05-16"
-                               to="1991-05-08">
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.deputy" from="1990-05-16" to="1991-05-08">
                      <state>
                         <label>varstvo okolja in regionalni razvoj</label>
                      </state>
@@ -4458,9 +4243,7 @@
                   <birth when="1951-05-22">
                      <placeName>Ljubljana</placeName>
                   </birth>
-                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1990-05-08"
-                               to="1992-07-22"
-                               next="#ZorzAndrej1963"/>
+                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1990-05-08" to="1992-07-22" next="#ZorzAndrej1963"/>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
                   <bibl>do 22.7.1992</bibl>
                   <bibl>
@@ -4477,9 +4260,7 @@
                      <placeName>Ljubljana</placeName>
                   </birth>
                   <occupation>diplomirani sociolog</occupation>
-                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1992-09-07"
-                               to="1992-12-23"
-                               prev="#SinkovecMatjaz1951"/>
+                  <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member" from="1992-09-07" to="1992-12-23" prev="#SinkovecMatjaz1951"/>
                   <affiliation ref="#pp.SDSS" ana="#parl.Skup-11"/>
                   <bibl>
                      <ref target="http://slovenska-pomlad.si/2?id=3283">http://slovenska-pomlad.si/2?id=3283</ref>
@@ -4663,12 +4444,8 @@
                   <birth when="1939-01-03"/>
                   <affiliation ref="#parl.DruzPolZb" ana="#parl.Skup-11 #grp.member"/>
                   <affiliation ref="#pp.ZS" ana="#parl.Skup-11"/>
-                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1992-01-15"
-                               to="1992-05-14"
-                               prev="#BohKatja1929"/>
-                  <affiliation ref="#gov.MZDSVRS" ana="#gov.VladaRS-1 #grp.head" from="1992-01-15"
-                               to="1992-05-14"
-                               prev="#BohKatja1929"/>
+                  <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-1 #grp.member" from="1992-01-15" to="1992-05-14" prev="#BohKatja1929"/>
+                  <affiliation ref="#gov.MZDSVRS" ana="#gov.VladaRS-1 #grp.head" from="1992-01-15" to="1992-05-14" prev="#BohKatja1929"/>
                   <affiliation ref="#gov.VladaRS" ana="#gov.VladaRS-2 #grp.member"/>
                   <affiliation ref="#gov.MZDSVRS" ana="#gov.VladaRS-2 #grp.head"/>
                   <bibl>
@@ -5896,8 +5673,7 @@
                      <orgName>JLA</orgName>
                   </affiliation>
                   <residence when="1990-04">VP 2112 Ljubljana</residence>
-                  <affiliation ref="#parl.ZbZdruDel" ana="#parl.Skup-11 #grp.member" from="1990-05-08"
-                               to="1991-08-28">
+                  <affiliation ref="#parl.ZbZdruDel" ana="#parl.Skup-11 #grp.member" from="1990-05-08" to="1991-08-28">
                      <state>
                         <label>oborožene sile</label>
                      </state>
@@ -7600,8 +7376,7 @@
                      <forename>Jani</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation ana="#parl.Skup-11">tajnik <orgName>upravnega odbora <orgName>Društva novinarjev Republike
-                  Slovenije</orgName>
+                  <affiliation ana="#parl.Skup-11">tajnik <orgName>upravnega odbora <orgName>Društva novinarjev Republike Slovenije</orgName>
                      </orgName>
                   </affiliation>
                </person>
@@ -7920,8 +7695,7 @@
                      <forename>Stanko</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation>član delegacije Skupščine Republike Slovenije
-                  v Zboru republik in pokrajin Skupščine SFRJ (sp.DebeljakStanko DZ-1990-ZbZdruDel-11.xml)</affiliation>
+                  <affiliation>član delegacije Skupščine Republike Slovenije v Zboru republik in pokrajin Skupščine SFRJ (sp.DebeljakStanko DZ-1990-ZbZdruDel-11.xml)</affiliation>
                   <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-1 #grp.member"/>
                   <affiliation ref="#gov.MFRS" ana="#gov.VladaRS-2 #grp.member"/>
                </person>
@@ -8883,8 +8657,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation>vodja delegacije Skupščine Republike Slovenije v Zboru republik in
-                  pokrajin Skupščine SFRJ</affiliation>
+                  <affiliation>vodja delegacije Skupščine Republike Slovenije v Zboru republik in pokrajin Skupščine SFRJ</affiliation>
                </person>
                <person xml:id="OderlapMetka">
                   <persName>
@@ -9301,7 +9074,7 @@
                <person xml:id="Skubic">
                   <persName>
                      <surname>Skubic</surname>
-                  </persName>
+                     <!--forename>???</forename--></persName>
                   <sex value="M"/>
                   <affiliation ref="#gov.MORS" ana="#gov.VladaRS-2 #grp.member"/>
                </person>
@@ -9316,7 +9089,7 @@
                <person xml:id="SlokarNeznano_ime">
                   <persName>
                      <surname>Slokar</surname>
-                  </persName>
+                     <!--forename>???</forename--></persName>
                   <sex value="F"/>
                   <affiliation>
                      <orgName>Republiška uprava za zaščito in reševanje</orgName>
@@ -9518,8 +9291,7 @@
                      <forename>Anica</forename>
                   </persName>
                   <sex value="F"/>
-                  <affiliation>princesa <orgName>Društva vinogradnikov iz Prekmurskih
-                  goric, Goričko iz Murske Sobote</orgName> za leto 1991</affiliation>
+                  <affiliation>princesa <orgName>Društva vinogradnikov iz Prekmurskih goric, Goričko iz Murske Sobote</orgName> za leto 1991</affiliation>
                </person>
                <person xml:id="TislerPeter">
                   <persName>
@@ -9580,8 +9352,7 @@
                      <forename>Mito</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation>predsednik <orgName>Sindikata kulturnih in
-                  umetniških ustvarjalcev Radia in televizije</orgName>
+                  <affiliation>predsednik <orgName>Sindikata kulturnih in umetniških ustvarjalcev Radia in televizije</orgName>
                   </affiliation>
                </person>
                <person xml:id="TronteljMiran1940">
@@ -10127,8 +9898,7 @@
                      </bibl>
                   </org>
                   <org xml:id="pp.LDS.1990" next="#pp.LDS.1994">
-                     <orgName full="yes" from="1990-11-10" to="1994-03-12">Liberalno demokratska
-                        stranka</orgName>
+                     <orgName full="yes" from="1990-11-10" to="1994-03-12">Liberalno demokratska stranka</orgName>
                      <orgName full="init" from="1990-11-10" to="1994-03-12">LDS</orgName>
                      <bibl>
                         <ref target="https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije">https://sl.wikipedia.org/wiki/Liberalna_demokracija_Slovenije</ref>
@@ -10138,8 +9908,7 @@
                      </bibl>
                   </org>
                   <org xml:id="pp.ZSMS">
-                     <orgName full="yes" notBefore="1989" notAfter="1990-11-10">ZSMS-Liberalna
-                        stranka</orgName>
+                     <orgName full="yes" notBefore="1989" notAfter="1990-11-10">ZSMS-Liberalna stranka</orgName>
                      <orgName full="init" notBefore="1989" notAfter="1990-11-10">ZSMS</orgName>
                      <state from="1943-10-12" to="1994-03-12" when="1990-01-12" key="register">
                         <label>Register političnih strank</label>
@@ -10308,12 +10077,9 @@
                </listOrg>
                <listRelation>
                   <head>Kontinuiteta političnih organizacij</head>
-                  <relation xml:id="porg.SD" type="politicalContinuity"
-                            mutual="#dpo.ZKS #pp.ZKS-SDP #pp.SDP #pp.ZLSD #pp.SD"/>
-                  <relation xml:id="porg.LDS" type="politicalContinuity"
-                            mutual="#dpo.ZSMS #pp.ZSMS #pp.LDS.1990 #pp.LDS.1994"/>
-                  <relation xml:id="porg.Social" type="politicalContinuity"
-                            mutual="#dpo.SZDL #pp.SZS #pp.SSS"/>
+                  <relation xml:id="porg.SD" type="politicalContinuity" mutual="#dpo.ZKS #pp.ZKS-SDP #pp.SDP #pp.ZLSD #pp.SD"/>
+                  <relation xml:id="porg.LDS" type="politicalContinuity" mutual="#dpo.ZSMS #pp.ZSMS #pp.LDS.1990 #pp.LDS.1994"/>
+                  <relation xml:id="porg.Social" type="politicalContinuity" mutual="#dpo.SZDL #pp.SZS #pp.SSS"/>
                   <relation xml:id="porg.SLS" type="politicalContinuity" mutual="#pp.SKZ #pp.SLS"/>
                </listRelation>
             </listOrg>
@@ -10963,7 +10729,7 @@
                <pubPlace>
                   <ref target="http://nl.ijs.si/ME/V5/">http://nl.ijs.si/ME/V5/</ref>
                </pubPlace>
-               <date when="2017-11-20">2017-11-20</date>
+               <date when="2017-11-21">2017-11-21</date>
             </publicationStmt>
             <sourceDesc>
                <p>MULTEXT-East version 4 for Slovene.</p>
@@ -10976,8 +10742,7 @@
             <list>
                <item>Language Name: Slovene</item>
                <item>Code: sl</item>
-               <item>Reference: 
-	   <ref target="http://www.ethnologue.com/language/slv">Ethnologue</ref>
+               <item>Reference:  <ref target="http://www.ethnologue.com/language/slv">Ethnologue</ref>
                </item>
             </list>
             <fLib><!--1. Noun (N)--><f name="CATEGORY" xml:id="N0." xml:lang="en">
@@ -11558,50 +11323,32 @@
                <fs xml:id="Vmpp-df" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.p #V5.d #V6.f"/>
                <fs xml:id="Vmpp-dn" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.p #V5.d #V6.n"/>
                <fs xml:id="Vmpr1s" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.s"/>
-               <fs xml:id="Vmpr1s-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.s #V7.n"/>
-               <fs xml:id="Vmpr1s-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.s #V7.y"/>
+               <fs xml:id="Vmpr1s-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.s #V7.n"/>
+               <fs xml:id="Vmpr1s-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.s #V7.y"/>
                <fs xml:id="Vmpr1p" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.p"/>
-               <fs xml:id="Vmpr1p-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.p #V7.n"/>
-               <fs xml:id="Vmpr1p-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.p #V7.y"/>
+               <fs xml:id="Vmpr1p-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.p #V7.n"/>
+               <fs xml:id="Vmpr1p-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.p #V7.y"/>
                <fs xml:id="Vmpr1d" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.d"/>
-               <fs xml:id="Vmpr1d-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.d #V7.n"/>
-               <fs xml:id="Vmpr1d-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.d #V7.y"/>
+               <fs xml:id="Vmpr1d-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.d #V7.n"/>
+               <fs xml:id="Vmpr1d-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.1 #V5.d #V7.y"/>
                <fs xml:id="Vmpr2s" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.s"/>
-               <fs xml:id="Vmpr2s-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.s #V7.n"/>
-               <fs xml:id="Vmpr2s-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.s #V7.y"/>
+               <fs xml:id="Vmpr2s-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.s #V7.n"/>
+               <fs xml:id="Vmpr2s-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.s #V7.y"/>
                <fs xml:id="Vmpr2p" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.p"/>
-               <fs xml:id="Vmpr2p-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.p #V7.n"/>
-               <fs xml:id="Vmpr2p-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.p #V7.y"/>
+               <fs xml:id="Vmpr2p-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.p #V7.n"/>
+               <fs xml:id="Vmpr2p-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.p #V7.y"/>
                <fs xml:id="Vmpr2d" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.d"/>
-               <fs xml:id="Vmpr2d-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.d #V7.n"/>
-               <fs xml:id="Vmpr2d-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.d #V7.y"/>
+               <fs xml:id="Vmpr2d-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.d #V7.n"/>
+               <fs xml:id="Vmpr2d-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.2 #V5.d #V7.y"/>
                <fs xml:id="Vmpr3s" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.s"/>
-               <fs xml:id="Vmpr3s-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.s #V7.n"/>
-               <fs xml:id="Vmpr3s-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.s #V7.y"/>
+               <fs xml:id="Vmpr3s-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.s #V7.n"/>
+               <fs xml:id="Vmpr3s-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.s #V7.y"/>
                <fs xml:id="Vmpr3p" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.p"/>
-               <fs xml:id="Vmpr3p-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.p #V7.n"/>
-               <fs xml:id="Vmpr3p-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.p #V7.y"/>
+               <fs xml:id="Vmpr3p-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.p #V7.n"/>
+               <fs xml:id="Vmpr3p-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.p #V7.y"/>
                <fs xml:id="Vmpr3d" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.d"/>
-               <fs xml:id="Vmpr3d-n" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.d #V7.n"/>
-               <fs xml:id="Vmpr3d-y" xml:lang="en"
-                   feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.d #V7.y"/>
+               <fs xml:id="Vmpr3d-n" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.d #V7.n"/>
+               <fs xml:id="Vmpr3d-y" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.r #V4.3 #V5.d #V7.y"/>
                <fs xml:id="Vmpm1p" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.m #V4.1 #V5.p"/>
                <fs xml:id="Vmpm1d" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.m #V4.1 #V5.d"/>
                <fs xml:id="Vmpm2s" xml:lang="en" feats="#V0. #V1.m #V2.p #V3.m #V4.2 #V5.s"/>
@@ -11659,8 +11406,7 @@
                <fs xml:id="Va-r1p-y" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.1 #V5.p #V7.y"/>
                <fs xml:id="Va-r1d-n" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.1 #V5.d #V7.n"/>
                <fs xml:id="Va-r1d-y" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.1 #V5.d #V7.y"/>
-               <fs xml:id="Va-r1dfn" xml:lang="en"
-                   feats="#V0. #V1.a #V3.r #V4.1 #V5.d #V6.f #V7.n"/>
+               <fs xml:id="Va-r1dfn" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.1 #V5.d #V6.f #V7.n"/>
                <fs xml:id="Va-r2s-n" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.2 #V5.s #V7.n"/>
                <fs xml:id="Va-r2s-y" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.2 #V5.s #V7.y"/>
                <fs xml:id="Va-r2p-n" xml:lang="en" feats="#V0. #V1.a #V3.r #V4.2 #V5.p #V7.n"/>
@@ -12031,128 +11777,92 @@
                <fs xml:id="Pp2npn" xml:lang="en" feats="#P0. #P1.p #P2.2 #P3.n #P4.p #P5.n"/>
                <fs xml:id="Pp3msn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.n"/>
                <fs xml:id="Pp3msg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.g"/>
-               <fs xml:id="Pp3msg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.g #P8.y"/>
+               <fs xml:id="Pp3msg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.g #P8.y"/>
                <fs xml:id="Pp3msd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.d"/>
-               <fs xml:id="Pp3msd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.d #P8.y"/>
+               <fs xml:id="Pp3msd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.d #P8.y"/>
                <fs xml:id="Pp3msa" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.a"/>
-               <fs xml:id="Pp3msa--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.a #P8.y"/>
-               <fs xml:id="Pp3msa--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.a #P8.b"/>
+               <fs xml:id="Pp3msa--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.a #P8.y"/>
+               <fs xml:id="Pp3msa--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.a #P8.b"/>
                <fs xml:id="Pp3msl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.l"/>
                <fs xml:id="Pp3msi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.s #P5.i"/>
                <fs xml:id="Pp3mdn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.n"/>
                <fs xml:id="Pp3mdg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.g"/>
-               <fs xml:id="Pp3mdg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.g #P8.y"/>
+               <fs xml:id="Pp3mdg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.g #P8.y"/>
                <fs xml:id="Pp3mdd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.d"/>
-               <fs xml:id="Pp3mdd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.d #P8.y"/>
+               <fs xml:id="Pp3mdd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.d #P8.y"/>
                <fs xml:id="Pp3mda" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.a"/>
-               <fs xml:id="Pp3mda--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.a #P8.y"/>
-               <fs xml:id="Pp3mda--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.a #P8.b"/>
+               <fs xml:id="Pp3mda--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.a #P8.y"/>
+               <fs xml:id="Pp3mda--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.a #P8.b"/>
                <fs xml:id="Pp3mdl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.l"/>
                <fs xml:id="Pp3mdi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.d #P5.i"/>
                <fs xml:id="Pp3mpn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.n"/>
                <fs xml:id="Pp3mpg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.g"/>
-               <fs xml:id="Pp3mpg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.g #P8.y"/>
+               <fs xml:id="Pp3mpg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.g #P8.y"/>
                <fs xml:id="Pp3mpd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.d"/>
-               <fs xml:id="Pp3mpd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.d #P8.y"/>
+               <fs xml:id="Pp3mpd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.d #P8.y"/>
                <fs xml:id="Pp3mpa" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.a"/>
-               <fs xml:id="Pp3mpa--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.a #P8.y"/>
-               <fs xml:id="Pp3mpa--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.a #P8.b"/>
+               <fs xml:id="Pp3mpa--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.a #P8.y"/>
+               <fs xml:id="Pp3mpa--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.a #P8.b"/>
                <fs xml:id="Pp3mpl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.l"/>
                <fs xml:id="Pp3mpi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.m #P4.p #P5.i"/>
                <fs xml:id="Pp3fsn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.n"/>
                <fs xml:id="Pp3fsg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.g"/>
-               <fs xml:id="Pp3fsg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.g #P8.y"/>
+               <fs xml:id="Pp3fsg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.g #P8.y"/>
                <fs xml:id="Pp3fsd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.d"/>
-               <fs xml:id="Pp3fsd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.d #P8.y"/>
+               <fs xml:id="Pp3fsd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.d #P8.y"/>
                <fs xml:id="Pp3fsa" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.a"/>
-               <fs xml:id="Pp3fsa--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.a #P8.y"/>
-               <fs xml:id="Pp3fsa--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.a #P8.b"/>
+               <fs xml:id="Pp3fsa--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.a #P8.y"/>
+               <fs xml:id="Pp3fsa--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.a #P8.b"/>
                <fs xml:id="Pp3fsl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.l"/>
                <fs xml:id="Pp3fsi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.s #P5.i"/>
                <fs xml:id="Pp3fdn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.n"/>
                <fs xml:id="Pp3fdg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.g"/>
-               <fs xml:id="Pp3fdg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.g #P8.y"/>
+               <fs xml:id="Pp3fdg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.g #P8.y"/>
                <fs xml:id="Pp3fdd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.d"/>
-               <fs xml:id="Pp3fdd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.d #P8.y"/>
+               <fs xml:id="Pp3fdd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.d #P8.y"/>
                <fs xml:id="Pp3fda" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.a"/>
-               <fs xml:id="Pp3fda--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.a #P8.y"/>
-               <fs xml:id="Pp3fda--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.a #P8.b"/>
+               <fs xml:id="Pp3fda--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.a #P8.y"/>
+               <fs xml:id="Pp3fda--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.a #P8.b"/>
                <fs xml:id="Pp3fdl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.l"/>
                <fs xml:id="Pp3fdi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.d #P5.i"/>
                <fs xml:id="Pp3fpn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.n"/>
                <fs xml:id="Pp3fpg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.g"/>
-               <fs xml:id="Pp3fpg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.g #P8.y"/>
+               <fs xml:id="Pp3fpg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.g #P8.y"/>
                <fs xml:id="Pp3fpd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.d"/>
-               <fs xml:id="Pp3fpd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.d #P8.y"/>
+               <fs xml:id="Pp3fpd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.d #P8.y"/>
                <fs xml:id="Pp3fpa" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.a"/>
-               <fs xml:id="Pp3fpa--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.a #P8.y"/>
-               <fs xml:id="Pp3fpa--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.a #P8.b"/>
+               <fs xml:id="Pp3fpa--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.a #P8.y"/>
+               <fs xml:id="Pp3fpa--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.a #P8.b"/>
                <fs xml:id="Pp3fpl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.l"/>
                <fs xml:id="Pp3fpi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.f #P4.p #P5.i"/>
                <fs xml:id="Pp3nsn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.n"/>
                <fs xml:id="Pp3nsg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.g"/>
-               <fs xml:id="Pp3nsg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.g #P8.y"/>
+               <fs xml:id="Pp3nsg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.g #P8.y"/>
                <fs xml:id="Pp3nsd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.d"/>
-               <fs xml:id="Pp3nsd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.d #P8.y"/>
+               <fs xml:id="Pp3nsd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.d #P8.y"/>
                <fs xml:id="Pp3nsa" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.a"/>
-               <fs xml:id="Pp3nsa--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.a #P8.y"/>
-               <fs xml:id="Pp3nsa--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.a #P8.b"/>
+               <fs xml:id="Pp3nsa--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.a #P8.y"/>
+               <fs xml:id="Pp3nsa--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.a #P8.b"/>
                <fs xml:id="Pp3nsl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.l"/>
                <fs xml:id="Pp3nsi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.s #P5.i"/>
                <fs xml:id="Pp3ndn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.n"/>
                <fs xml:id="Pp3ndg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.g"/>
-               <fs xml:id="Pp3ndg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.g #P8.y"/>
+               <fs xml:id="Pp3ndg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.g #P8.y"/>
                <fs xml:id="Pp3ndd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.d"/>
-               <fs xml:id="Pp3ndd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.d #P8.y"/>
+               <fs xml:id="Pp3ndd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.d #P8.y"/>
                <fs xml:id="Pp3nda" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.a"/>
-               <fs xml:id="Pp3nda--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.a #P8.y"/>
-               <fs xml:id="Pp3nda--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.a #P8.b"/>
+               <fs xml:id="Pp3nda--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.a #P8.y"/>
+               <fs xml:id="Pp3nda--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.a #P8.b"/>
                <fs xml:id="Pp3ndl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.l"/>
                <fs xml:id="Pp3ndi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.d #P5.i"/>
                <fs xml:id="Pp3npn" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.n"/>
                <fs xml:id="Pp3npg" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.g"/>
-               <fs xml:id="Pp3npg--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.g #P8.y"/>
+               <fs xml:id="Pp3npg--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.g #P8.y"/>
                <fs xml:id="Pp3npd" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.d"/>
-               <fs xml:id="Pp3npd--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.d #P8.y"/>
+               <fs xml:id="Pp3npd--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.d #P8.y"/>
                <fs xml:id="Pp3npa" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.a"/>
-               <fs xml:id="Pp3npa--y" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.a #P8.y"/>
-               <fs xml:id="Pp3npa--b" xml:lang="en"
-                   feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.a #P8.b"/>
+               <fs xml:id="Pp3npa--y" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.a #P8.y"/>
+               <fs xml:id="Pp3npa--b" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.a #P8.b"/>
                <fs xml:id="Pp3npl" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.l"/>
                <fs xml:id="Pp3npi" xml:lang="en" feats="#P0. #P1.p #P2.3 #P3.n #P4.p #P5.i"/>
                <fs xml:id="Ps1msns" xml:lang="en" feats="#P0. #P1.s #P2.1 #P3.m #P4.s #P5.n #P6.s"/>
@@ -12479,436 +12189,274 @@
                <fs xml:id="Ps2npis" xml:lang="en" feats="#P0. #P1.s #P2.2 #P3.n #P4.p #P5.i #P6.s"/>
                <fs xml:id="Ps2npid" xml:lang="en" feats="#P0. #P1.s #P2.2 #P3.n #P4.p #P5.i #P6.d"/>
                <fs xml:id="Ps2npip" xml:lang="en" feats="#P0. #P1.s #P2.2 #P3.n #P4.p #P5.i #P6.p"/>
-               <fs xml:id="Ps3msnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3msnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3msnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3msnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3msnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3msnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3msnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.d"/>
                <fs xml:id="Ps3msnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.n #P6.p"/>
-               <fs xml:id="Ps3msgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3msgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3msgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3msgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3msgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3msgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3msgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.d"/>
                <fs xml:id="Ps3msgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.g #P6.p"/>
-               <fs xml:id="Ps3msdsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3msdsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3msdsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3msdsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3msdsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3msdsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3msdd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.d"/>
                <fs xml:id="Ps3msdp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.d #P6.p"/>
-               <fs xml:id="Ps3msasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3msasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3msasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3msasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3msasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3msasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3msad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.d"/>
                <fs xml:id="Ps3msap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.a #P6.p"/>
-               <fs xml:id="Ps3mslsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3mslsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3mslsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3mslsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3mslsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3mslsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3msld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.d"/>
                <fs xml:id="Ps3mslp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.l #P6.p"/>
-               <fs xml:id="Ps3msism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3msisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3msisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3msism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3msisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3msisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3msid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.d"/>
                <fs xml:id="Ps3msip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.s #P5.i #P6.p"/>
-               <fs xml:id="Ps3mdnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3mdnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3mdnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3mdnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3mdnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3mdnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3mdnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.d"/>
                <fs xml:id="Ps3mdnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.n #P6.p"/>
-               <fs xml:id="Ps3mdgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3mdgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3mdgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3mdgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3mdgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3mdgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3mdgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.d"/>
                <fs xml:id="Ps3mdgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.g #P6.p"/>
-               <fs xml:id="Ps3mddsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3mddsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3mddsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3mddsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3mddsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3mddsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3mddd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.d"/>
                <fs xml:id="Ps3mddp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.d #P6.p"/>
-               <fs xml:id="Ps3mdasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3mdasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3mdasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3mdasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3mdasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3mdasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3mdad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.d"/>
                <fs xml:id="Ps3mdap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.a #P6.p"/>
-               <fs xml:id="Ps3mdlsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3mdlsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3mdlsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3mdlsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3mdlsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3mdlsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3mdld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.d"/>
                <fs xml:id="Ps3mdlp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.l #P6.p"/>
-               <fs xml:id="Ps3mdism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3mdisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3mdisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3mdism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3mdisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3mdisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3mdid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.d"/>
                <fs xml:id="Ps3mdip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.d #P5.i #P6.p"/>
-               <fs xml:id="Ps3mpnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3mpnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3mpnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3mpnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3mpnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3mpnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3mpnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.d"/>
                <fs xml:id="Ps3mpnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.n #P6.p"/>
-               <fs xml:id="Ps3mpgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3mpgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3mpgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3mpgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3mpgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3mpgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3mpgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.d"/>
                <fs xml:id="Ps3mpgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.g #P6.p"/>
-               <fs xml:id="Ps3mpdsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3mpdsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3mpdsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3mpdsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3mpdsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3mpdsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3mpdd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.d"/>
                <fs xml:id="Ps3mpdp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.d #P6.p"/>
-               <fs xml:id="Ps3mpasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3mpasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3mpasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3mpasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3mpasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3mpasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3mpad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.d"/>
                <fs xml:id="Ps3mpap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.a #P6.p"/>
-               <fs xml:id="Ps3mplsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3mplsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3mplsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3mplsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3mplsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3mplsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3mpld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.d"/>
                <fs xml:id="Ps3mplp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.l #P6.p"/>
-               <fs xml:id="Ps3mpism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3mpisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3mpisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3mpism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3mpisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3mpisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3mpid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.d"/>
                <fs xml:id="Ps3mpip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.m #P4.p #P5.i #P6.p"/>
-               <fs xml:id="Ps3fsnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3fsnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3fsnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3fsnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3fsnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3fsnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3fsnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.d"/>
                <fs xml:id="Ps3fsnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.n #P6.p"/>
-               <fs xml:id="Ps3fsgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3fsgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3fsgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3fsgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3fsgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3fsgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3fsgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.d"/>
                <fs xml:id="Ps3fsgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.g #P6.p"/>
-               <fs xml:id="Ps3fsdsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3fsdsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3fsdsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3fsdsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3fsdsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3fsdsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3fsdd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.d"/>
                <fs xml:id="Ps3fsdp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.d #P6.p"/>
-               <fs xml:id="Ps3fsasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3fsasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3fsasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3fsasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3fsasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3fsasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3fsad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.d"/>
                <fs xml:id="Ps3fsap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.a #P6.p"/>
-               <fs xml:id="Ps3fslsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3fslsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3fslsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3fslsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3fslsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3fslsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3fsld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.d"/>
                <fs xml:id="Ps3fslp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.l #P6.p"/>
-               <fs xml:id="Ps3fsism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3fsisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3fsisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3fsism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3fsisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3fsisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3fsid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.d"/>
                <fs xml:id="Ps3fsip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.s #P5.i #P6.p"/>
-               <fs xml:id="Ps3fdnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3fdnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3fdnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3fdnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3fdnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3fdnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3fdnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.d"/>
                <fs xml:id="Ps3fdnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.n #P6.p"/>
-               <fs xml:id="Ps3fdgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3fdgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3fdgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3fdgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3fdgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3fdgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3fdgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.d"/>
                <fs xml:id="Ps3fdgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.g #P6.p"/>
-               <fs xml:id="Ps3fddsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3fddsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3fddsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3fddsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3fddsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3fddsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3fddd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.d"/>
                <fs xml:id="Ps3fddp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.d #P6.p"/>
-               <fs xml:id="Ps3fdasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3fdasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3fdasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3fdasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3fdasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3fdasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3fdad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.d"/>
                <fs xml:id="Ps3fdap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.a #P6.p"/>
-               <fs xml:id="Ps3fdlsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3fdlsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3fdlsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3fdlsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3fdlsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3fdlsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3fdld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.d"/>
                <fs xml:id="Ps3fdlp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.l #P6.p"/>
-               <fs xml:id="Ps3fdism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3fdisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3fdisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3fdism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3fdisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3fdisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3fdid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.d"/>
                <fs xml:id="Ps3fdip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.d #P5.i #P6.p"/>
-               <fs xml:id="Ps3fpnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3fpnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3fpnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3fpnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3fpnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3fpnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3fpnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.d"/>
                <fs xml:id="Ps3fpnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.n #P6.p"/>
-               <fs xml:id="Ps3fpgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3fpgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3fpgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3fpgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3fpgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3fpgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3fpgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.d"/>
                <fs xml:id="Ps3fpgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.g #P6.p"/>
-               <fs xml:id="Ps3fpdsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3fpdsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3fpdsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3fpdsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3fpdsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3fpdsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3fpdd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.d"/>
                <fs xml:id="Ps3fpdp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.d #P6.p"/>
-               <fs xml:id="Ps3fpasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3fpasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3fpasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3fpasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3fpasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3fpasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3fpad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.d"/>
                <fs xml:id="Ps3fpap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.a #P6.p"/>
-               <fs xml:id="Ps3fplsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3fplsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3fplsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3fplsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3fplsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3fplsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3fpld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.d"/>
                <fs xml:id="Ps3fplp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.l #P6.p"/>
-               <fs xml:id="Ps3fpism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3fpisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3fpisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3fpism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3fpisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3fpisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3fpid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.d"/>
                <fs xml:id="Ps3fpip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.f #P4.p #P5.i #P6.p"/>
-               <fs xml:id="Ps3nsnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3nsnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3nsnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3nsnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3nsnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3nsnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3nsnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.d"/>
                <fs xml:id="Ps3nsnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.n #P6.p"/>
-               <fs xml:id="Ps3nsgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3nsgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3nsgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3nsgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3nsgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3nsgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3nsgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.d"/>
                <fs xml:id="Ps3nsgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.g #P6.p"/>
-               <fs xml:id="Ps3nsdsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3nsdsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3nsdsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3nsdsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3nsdsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3nsdsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3nsdd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.d"/>
                <fs xml:id="Ps3nsdp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.d #P6.p"/>
-               <fs xml:id="Ps3nsasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3nsasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3nsasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3nsasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3nsasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3nsasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3nsad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.d"/>
                <fs xml:id="Ps3nsap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.a #P6.p"/>
-               <fs xml:id="Ps3nslsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3nslsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3nslsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3nslsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3nslsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3nslsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3nsld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.d"/>
                <fs xml:id="Ps3nslp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.l #P6.p"/>
-               <fs xml:id="Ps3nsism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3nsisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3nsisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3nsism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3nsisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3nsisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3nsid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.d"/>
                <fs xml:id="Ps3nsip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.s #P5.i #P6.p"/>
-               <fs xml:id="Ps3ndnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3ndnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3ndnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3ndnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3ndnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3ndnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3ndnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.d"/>
                <fs xml:id="Ps3ndnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.n #P6.p"/>
-               <fs xml:id="Ps3ndgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3ndgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3ndgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3ndgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3ndgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3ndgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3ndgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.d"/>
                <fs xml:id="Ps3ndgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.g #P6.p"/>
-               <fs xml:id="Ps3nddsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3nddsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3nddsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3nddsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3nddsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3nddsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3nddd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.d"/>
                <fs xml:id="Ps3nddp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.d #P6.p"/>
-               <fs xml:id="Ps3ndasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3ndasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3ndasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3ndasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3ndasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3ndasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3ndad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.d"/>
                <fs xml:id="Ps3ndap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.a #P6.p"/>
-               <fs xml:id="Ps3ndlsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3ndlsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3ndlsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3ndlsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3ndlsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3ndlsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3ndld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.d"/>
                <fs xml:id="Ps3ndlp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.l #P6.p"/>
-               <fs xml:id="Ps3ndism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3ndisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3ndisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3ndism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3ndisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3ndisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3ndid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.d"/>
                <fs xml:id="Ps3ndip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.d #P5.i #P6.p"/>
-               <fs xml:id="Ps3npnsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.s #P7.m"/>
-               <fs xml:id="Ps3npnsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.s #P7.f"/>
-               <fs xml:id="Ps3npnsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.s #P7.n"/>
+               <fs xml:id="Ps3npnsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.s #P7.m"/>
+               <fs xml:id="Ps3npnsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.s #P7.f"/>
+               <fs xml:id="Ps3npnsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.s #P7.n"/>
                <fs xml:id="Ps3npnd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.d"/>
                <fs xml:id="Ps3npnp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.n #P6.p"/>
-               <fs xml:id="Ps3npgsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.s #P7.m"/>
-               <fs xml:id="Ps3npgsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.s #P7.f"/>
-               <fs xml:id="Ps3npgsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.s #P7.n"/>
+               <fs xml:id="Ps3npgsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.s #P7.m"/>
+               <fs xml:id="Ps3npgsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.s #P7.f"/>
+               <fs xml:id="Ps3npgsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.s #P7.n"/>
                <fs xml:id="Ps3npgd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.d"/>
                <fs xml:id="Ps3npgp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.g #P6.p"/>
-               <fs xml:id="Ps3npdsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.s #P7.m"/>
-               <fs xml:id="Ps3npdsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.s #P7.f"/>
-               <fs xml:id="Ps3npdsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.s #P7.n"/>
+               <fs xml:id="Ps3npdsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.s #P7.m"/>
+               <fs xml:id="Ps3npdsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.s #P7.f"/>
+               <fs xml:id="Ps3npdsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.s #P7.n"/>
                <fs xml:id="Ps3npdd" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.d"/>
                <fs xml:id="Ps3npdp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.d #P6.p"/>
-               <fs xml:id="Ps3npasm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.s #P7.m"/>
-               <fs xml:id="Ps3npasf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.s #P7.f"/>
-               <fs xml:id="Ps3npasn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.s #P7.n"/>
+               <fs xml:id="Ps3npasm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.s #P7.m"/>
+               <fs xml:id="Ps3npasf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.s #P7.f"/>
+               <fs xml:id="Ps3npasn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.s #P7.n"/>
                <fs xml:id="Ps3npad" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.d"/>
                <fs xml:id="Ps3npap" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.a #P6.p"/>
-               <fs xml:id="Ps3nplsm" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.s #P7.m"/>
-               <fs xml:id="Ps3nplsf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.s #P7.f"/>
-               <fs xml:id="Ps3nplsn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.s #P7.n"/>
+               <fs xml:id="Ps3nplsm" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.s #P7.m"/>
+               <fs xml:id="Ps3nplsf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.s #P7.f"/>
+               <fs xml:id="Ps3nplsn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.s #P7.n"/>
                <fs xml:id="Ps3npld" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.d"/>
                <fs xml:id="Ps3nplp" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.l #P6.p"/>
-               <fs xml:id="Ps3npism" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.s #P7.m"/>
-               <fs xml:id="Ps3npisf" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.s #P7.f"/>
-               <fs xml:id="Ps3npisn" xml:lang="en"
-                   feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.s #P7.n"/>
+               <fs xml:id="Ps3npism" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.s #P7.m"/>
+               <fs xml:id="Ps3npisf" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.s #P7.f"/>
+               <fs xml:id="Ps3npisn" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.s #P7.n"/>
                <fs xml:id="Ps3npid" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.d"/>
                <fs xml:id="Ps3npip" xml:lang="en" feats="#P0. #P1.s #P2.3 #P3.n #P4.p #P5.i #P6.p"/>
                <fs xml:id="Pd-msn" xml:lang="en" feats="#P0. #P1.d #P3.m #P4.s #P5.n"/>

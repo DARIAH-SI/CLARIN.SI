@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DruzPolZb.1992-10-07.s044-07" xml:lang="sl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sl">Zapisniki sej</title>
+            <title xml:lang="en">Stenographic minutes</title>
+            <title xml:lang="sl">Skupščina Republike Slovenije</title>
+            <title xml:lang="en">Assembly of the Republic of Slovenia</title>
+            <title xml:lang="sl">Družbeno-politični zbor</title>
+            <title xml:lang="en">Socio-Political Chamber</title>
+            <title xml:lang="sl">Seja 44</title>
+            <title xml:lang="en">Session 44</title>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mojca Šorn</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="sl">Jezikoslovna obdelava</resp>
+               <resp xml:lang="en">Linguistic processing</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sl">Javna agencija za raziskovalno dejavnost Republike Slovenije</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <ref target="http://www.inz.si/">http://www.inz.si/</ref>
+               <address>
+                  <street>Kongresni trg 1</street>
+                  <settlement>Ljubljana</settlement>
+                  <postCode>1000</postCode>
+                  <country xml:lang="sl">Slovenija</country>
+                  <country xml:lang="en">Slovenia</country>
+               </address>
+               <email>inz@inz.si</email>
+            </publisher>
+            <distributor>DARIAH-SI</distributor>
+            <distributor>CLARIN.SI</distributor>
+            <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative CommonsAttribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative CommonsPriznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2017-11-21">2017-11-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Sk-11.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
+            <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="list" occurs="1"/>
+               <tagUsage gi="item" occurs="1"/>
+               <tagUsage gi="title" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="timeline" occurs="1"/>
+               <tagUsage gi="when" occurs="2"/>
+               <tagUsage gi="div" occurs="2"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="s" occurs="4"/>
+               <tagUsage gi="c" occurs="48"/>
+               <tagUsage gi="w" occurs="49"/>
+               <tagUsage gi="pc" occurs="7"/>
+               <tagUsage gi="note" occurs="2"/>
+               <tagUsage gi="anchor" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+         <appInfo>
+            <application version="0.1" ident="ReLDI">
+               <label>ReLDI</label>
+               <p xml:lang="sl">Tokenizacija, oblikoskladenjsko označevanje in lematizacija s programi ReLDI Nikole Ljubešića izšolanimi za slovenščino, c.f. <ref target="https://github.com/uzh/reldi">GitHub</ref>
+               </p>
+               <p xml:lang="en">Tokenisation, MSD tagging and lemmatisation with ReLDI programs by Nikola Ljubešić trained for Slovene, c.f. <ref target="https://github.com/uzh/reldi">GitHub</ref>
+               </p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <head xml:lang="sl">Predsedujoči zasedanja</head>
+               <head xml:lang="en">Chairman of a meeting</head>
+               <person role="president" sameAs="#ToplakLudvik1942" corresp="#DruzPolZb.1992-10-07.s044-07.sp-198.2"/>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <setting>
+               <date when="1992-10-07"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="sl">
+      <front>
+         <div type="contents">
+            <list>
+               <item xml:id="DruzPolZb.1992-10-07.s044-07.toc-item1" corresp="#DruzPolZb.1992-10-07.s044-07.sp-198.1 #DruzPolZb.1992-10-07.s044-07.sp-198.2 #DruzPolZb.1992-10-07.s044-07.sp-198.3">
+                  <title>Predlog zakona o nezdružljivosti opravljanja javne funkcije s pridobitno dejavnostjo - - usklajevanje (2. tč. dn.r. - nadaljevanje na 46. seji)</title>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <timeline origin="#DZ-1992-DruzPolZb-44.TL.11" unit="s">
+            <when synch="#DZ-1992-DruzPolZb-44.stage.t.21" xml:id="DZ-1992-DruzPolZb-44.TL.11" absolute="1992-10-07T11:15:00"/>
+            <when synch="#DZ-1992-DruzPolZb-44.stage.t.22" since="#DZ-1992-DruzPolZb-44.TL.11" absolute="1992-10-07T11:17:00" interval="120"/>
+         </timeline>
+         <div type="sp">
+            <anchor xml:id="DZ-1992-DruzPolZb-44.stage.t.21"/>
+            <note xml:id="DruzPolZb.1992-10-07.s044-07.sp-198.1" type="speaker">PREDSEDNIK DR. LUDVIK TOPLAK:</note>
+            <u xml:id="DruzPolZb.1992-10-07.s044-07.sp-198.2" who="#ToplakLudvik1942" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="nadaljevati" ana="msd:Vmpr1p">Nadaljujemo</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">z</w>
+                  <c> </c>
+                  <w lemma="2." ana="msd:Mdo">2.</w>
+                  <c> </c>
+                  <w lemma="točka" ana="msd:Ncfsi">TOČKO</w>
+                  <c> </c>
+                  <w lemma="dneven" ana="msd:Agpmsg">DNEVNEGA</w>
+                  <c> </c>
+                  <w lemma="red" ana="msd:Ncmsg">REDA</w>
+                  <pc ana="msd:Z">:</pc>
+                  <c> </c>
+                  <w lemma="usklajevanje" ana="msd:Ncnsn">USKLAJEVANJE</w>
+                  <c> </c>
+                  <w lemma="predlog" ana="msd:Ncmsg">PREDLOGA</w>
+                  <c> </c>
+                  <w lemma="zakon" ana="msd:Ncmsg">ZAKONA</w>
+                  <c> </c>
+                  <w lemma="o" ana="msd:Sl">O</w>
+                  <c> </c>
+                  <w lemma="nezdružljivost" ana="msd:Ncfsl">NEZDRUŽLJIVOSTI</w>
+                  <c> </c>
+                  <w lemma="opravljanje" ana="msd:Ncnsg">OPRAVLJANJA</w>
+                  <c> </c>
+                  <w lemma="javen" ana="msd:Agpfsg">JAVNE</w>
+                  <c> </c>
+                  <w lemma="funkcija" ana="msd:Ncfsg">FUNKCIJE</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">S</w>
+                  <c> </c>
+                  <w lemma="pridobiten" ana="msd:Agpfsi">PRIDOBITNO</w>
+                  <c> </c>
+                  <w lemma="dejavnost" ana="msd:Ncfsi">DEJAVNOSTJO</w>
+                  <c> </c>
+                  <w lemma="po" ana="msd:Sl">po</w>
+                  <c> </c>
+                  <w lemma="306." ana="msd:Mdo">306.</w>
+                  <c> </c>
+                  <w lemma="člen" ana="msd:Ncmsl">členu</w>
+                  <c> </c>
+                  <w lemma="poslovnik" ana="msd:Ncmsg">Poslovnika</w>
+                  <c> </c>
+                  <w lemma="republika" ana="msd:Ncfsg">Republike</w>
+                  <c> </c>
+                  <w lemma="Slovenija" ana="msd:Npfsg">Slovenije</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <c> </c>
+                  <w lemma="poročevalec" ana="msd:Ncmsg">poročevalca</w>
+                  <c> </c>
+                  <w lemma="usklajevalen" ana="msd:Agpfsg">usklajevalne</w>
+                  <c> </c>
+                  <w lemma="komisija" ana="msd:Ncfsg">komisije</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="če" ana="msd:Cs">Če</w>
+                  <c> </c>
+                  <w lemma="on" ana="msd:Pp3msg--y">ga</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-y">ni</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="naj" ana="msd:Q">naj</w>
+                  <c> </c>
+                  <w lemma="povedati" ana="msd:Vmer1s">povem</w>
+                  <c> </c>
+                  <w lemma="sam" ana="msd:Agpmsnn">sam</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="po" ana="msd:Sl">po</w>
+                  <c> </c>
+                  <w lemma="poročilo" ana="msd:Ncnsl">poročilu</w>
+                  <c> </c>
+                  <w lemma="DPZ" ana="msd:Npmsn">DPZ</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-y">ni</w>
+                  <c> </c>
+                  <w lemma="treba" ana="msd:Rgp">treba</w>
+                  <c> </c>
+                  <w lemma="glasovati" ana="msd:Vmbn">glasovati</w>
+                  <c> </c>
+                  <w lemma="v" ana="msd:Sl">v</w>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-fsl">tej</w>
+                  <c> </c>
+                  <w lemma="zadeva" ana="msd:Ncfsl">zadevi</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="z" ana="msd:Si">S</w>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-nsi">tem</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r1p-n">smo</w>
+                  <c> </c>
+                  <w lemma="jaz" ana="msd:Pp1-sd--y">mi</w>
+                  <c> </c>
+                  <w lemma="volilen" ana="msd:Agpfsa">volilno</w>
+                  <c> </c>
+                  <w lemma="zakonodaja" ana="msd:Ncfsa">zakonodajo</w>
+                  <c> </c>
+                  <w lemma="sprejeti" ana="msd:Vmep-pm">sprejeli</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <note xml:id="DruzPolZb.1992-10-07.s044-07.sp-198.3" type="time">Seja je bila končana 7. oktobra 1992 ob 11.17 uri. 2. in 10. točka sta bili obravnavani na 49. in 50. seji zbora.</note>
+            <anchor xml:id="DZ-1992-DruzPolZb-44.stage.t.22"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZbObc.1992-07-29.s037-02" xml:lang="sl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sl">Zapisniki sej</title>
+            <title xml:lang="en">Stenographic minutes</title>
+            <title xml:lang="sl">Skupščina Republike Slovenije</title>
+            <title xml:lang="en">Assembly of the Republic of Slovenia</title>
+            <title xml:lang="sl">Zbor občin</title>
+            <title xml:lang="en">Chamber of Municipalities</title>
+            <title xml:lang="sl">Seja 37</title>
+            <title xml:lang="en">Session 37</title>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mojca Šorn</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="sl">Jezikoslovna obdelava</resp>
+               <resp xml:lang="en">Linguistic processing</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sl">Javna agencija za raziskovalno dejavnost Republike Slovenije</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <ref target="http://www.inz.si/">http://www.inz.si/</ref>
+               <address>
+                  <street>Kongresni trg 1</street>
+                  <settlement>Ljubljana</settlement>
+                  <postCode>1000</postCode>
+                  <country xml:lang="sl">Slovenija</country>
+                  <country xml:lang="en">Slovenia</country>
+               </address>
+               <email>inz@inz.si</email>
+            </publisher>
+            <distributor>DARIAH-SI</distributor>
+            <distributor>CLARIN.SI</distributor>
+            <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative CommonsAttribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative CommonsPriznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2017-11-21">2017-11-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Sk-11.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
+            <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="list" occurs="1"/>
+               <tagUsage gi="item" occurs="2"/>
+               <tagUsage gi="title" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="timeline" occurs="1"/>
+               <tagUsage gi="when" occurs="2"/>
+               <tagUsage gi="div" occurs="2"/>
+               <tagUsage gi="u" occurs="10"/>
+               <tagUsage gi="s" occurs="13"/>
+               <tagUsage gi="c" occurs="104"/>
+               <tagUsage gi="w" occurs="114"/>
+               <tagUsage gi="pc" occurs="24"/>
+               <tagUsage gi="note" occurs="4"/>
+               <tagUsage gi="anchor" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+         <appInfo>
+            <application version="0.1" ident="ReLDI">
+               <label>ReLDI</label>
+               <p xml:lang="sl">Tokenizacija, oblikoskladenjsko označevanje in lematizacija s programi ReLDI Nikole Ljubešića izšolanimi za slovenščino, c.f. <ref target="https://github.com/uzh/reldi">GitHub</ref>
+               </p>
+               <p xml:lang="en">Tokenisation, MSD tagging and lemmatisation with ReLDI programs by Nikola Ljubešić trained for Slovene, c.f. <ref target="https://github.com/uzh/reldi">GitHub</ref>
+               </p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <head xml:lang="sl">Predsedujoči zasedanja</head>
+               <head xml:lang="en">Chairman of a meeting</head>
+               <person role="president" sameAs="#BizjakIvan1956" corresp="#ZbObc.1992-07-29.s037-02.sp-128.2 #ZbObc.1992-07-29.s037-02.sp-128.3 #ZbObc.1992-07-29.s037-02.sp-128.4 #ZbObc.1992-07-29.s037-02.sp-128.6 #ZbObc.1992-07-29.s037-02.sp-128.7 #ZbObc.1992-07-29.s037-02.sp-128.9 #ZbObc.1992-07-29.s037-02.sp-128.11 #ZbObc.1992-07-29.s037-02.sp-128.13"/>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <setting>
+               <date when="1992-07-29"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="sl">
+      <front>
+         <div type="contents">
+            <list>
+               <item xml:id="ZbObc.1992-07-29.s037-02.toc-item1" corresp="#ZbObc.1992-07-29.s037-02.sp-128.1 #ZbObc.1992-07-29.s037-02.sp-128.2">
+                  <title>Obravnava predloga za izdajo zakona o nezdružljivosti opravljanja javne funkcije s pridobitno dejavnostjo - prva faza (5. točka dnevnega reda - sprejem sklepa; nadaljevanje na seji 29.7.1992)</title>
+               </item>
+               <item xml:id="ZbObc.1992-07-29.s037-02.toc-item2" corresp="#ZbObc.1992-07-29.s037-02.sp-128.3 #ZbObc.1992-07-29.s037-02.sp-128.4 #ZbObc.1992-07-29.s037-02.sp-128.5 #ZbObc.1992-07-29.s037-02.sp-128.6 #ZbObc.1992-07-29.s037-02.sp-128.7 #ZbObc.1992-07-29.s037-02.sp-128.8 #ZbObc.1992-07-29.s037-02.sp-128.9 #ZbObc.1992-07-29.s037-02.sp-128.10 #ZbObc.1992-07-29.s037-02.sp-128.11 #ZbObc.1992-07-29.s037-02.sp-128.12 #ZbObc.1992-07-29.s037-02.sp-128.13 #ZbObc.1992-07-29.s037-02.sp-128.14">
+                  <title>Predlog usklajevalne komisije za sprejem tudi osnutka zakona k predlogu za izdajo zakona o nezdružljivosti opravljanja javne funkcije s pridobitno dejavnostjo (k 5. točki dnevnega reda - sprejem predloga usklajevalne komisije)</title>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <timeline origin="#DZ-1992-ZbObc-37.TL.3" unit="s">
+            <when synch="#DZ-1992-ZbObc-37.stage.t.5" xml:id="DZ-1992-ZbObc-37.TL.3" absolute="1992-07-29T15:50:00"/>
+            <when synch="#DZ-1992-ZbObc-37.stage.t.6" since="#DZ-1992-ZbObc-37.TL.3" absolute="1992-07-29T15:55:00" interval="300"/>
+         </timeline>
+         <div type="sp">
+            <anchor xml:id="DZ-1992-ZbObc-37.stage.t.5"/>
+            <note xml:id="ZbObc.1992-07-29.s037-02.sp-128.1" type="speaker">PREDSEDNIK IVAN BIZJAK:</note>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.2" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="neusklajen" ana="msd:Agpmsnn">Neusklajen</w>
+                  <c> </c>
+                  <w lemma="akt" ana="msd:Ncmsn">akt</w>
+                  <c> </c>
+                  <w lemma="iz" ana="msd:Sg">iz</w>
+                  <c> </c>
+                  <w lemma="okvir" ana="msd:Ncmsg">okvira</w>
+                  <c> </c>
+                  <w lemma="37." ana="msd:Mdo">37.</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsg">seje</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="še" ana="msd:Q">še</w>
+                  <c> </c>
+                  <w lemma="osnutek" ana="msd:Ncmsn">osnutek</w>
+                  <c> </c>
+                  <w lemma="zakon" ana="msd:Ncmsg">zakona</w>
+                  <c> </c>
+                  <w lemma="o" ana="msd:Sl">o</w>
+                  <c> </c>
+                  <w lemma="javen" ana="msd:Agpnpl">javnih</w>
+                  <c> </c>
+                  <w lemma="glasilo" ana="msd:Ncnpl">glasilih</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="naš" ana="msd:Ps1msnp">Naš</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">zbor</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="sprejeti" ana="msd:Vmep-sm">sprejel</w>
+                  <c> </c>
+                  <w lemma="osnutek" ana="msd:Ncmsan">osnutek</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsny">Družbenopolitični</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">zbor</w>
+                  <c> </c>
+                  <w lemma="pa" ana="msd:Cc">pa</w>
+                  <c> </c>
+                  <w lemma="osnutek" ana="msd:Ncmsg">osnutka</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-y">ni</w>
+                  <c> </c>
+                  <w lemma="sprejeti" ana="msd:Vmep-sm">sprejel</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="tukaj" ana="msd:Rgp">Tukaj</w>
+                  <c> </c>
+                  <w lemma="se" ana="msd:Px------y">se</w>
+                  <c> </c>
+                  <w lemma="naš" ana="msd:Ps1msdp">našemu</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsd">zboru</w>
+                  <c> </c>
+                  <w lemma="nič" ana="msd:Pz-nsa">nič</w>
+                  <c> </c>
+                  <w lemma="ne" ana="msd:Q">ne</w>
+                  <c> </c>
+                  <w lemma="predlagati" ana="msd:Vmbr3s">predlaga</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.3" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="iz" ana="msd:Sg">Iz</w>
+                  <c> </c>
+                  <w lemma="isti" ana="msd:Pi-fsg">iste</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsg">seje</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="neusklajen" ana="msd:Agpmsnn">neusklajen</w>
+                  <c> </c>
+                  <w lemma="še" ana="msd:Q">še</w>
+                  <c> </c>
+                  <w lemma="predlog" ana="msd:Ncmsan">PREDLOG</w>
+                  <c> </c>
+                  <w lemma="za" ana="msd:Sa">ZA</w>
+                  <c> </c>
+                  <w lemma="izdaja" ana="msd:Ncfsa">IZDAJO</w>
+                  <c> </c>
+                  <w lemma="zakon" ana="msd:Ncmsg">ZAKONA</w>
+                  <c> </c>
+                  <w lemma="o" ana="msd:Sl">O</w>
+                  <c> </c>
+                  <w lemma="nezdružljivost" ana="msd:Ncfsl">NEZDRUŽLJIVOSTI</w>
+                  <c> </c>
+                  <w lemma="upravljanje" ana="msd:Ncnsg">UPRAVLJANJA</w>
+                  <c> </c>
+                  <w lemma="javen" ana="msd:Agpfsg">JAVNE</w>
+                  <c> </c>
+                  <w lemma="funkcija" ana="msd:Ncfsg">FUNKCIJE</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">S</w>
+                  <c> </c>
+                  <w lemma="pridobiten" ana="msd:Agpfsi">PRIDOBITNO</w>
+                  <c> </c>
+                  <w lemma="dejavnost" ana="msd:Ncfsi">DEJAVNOSTJO</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">Z</w>
+                  <c> </c>
+                  <w lemma="osnutek" ana="msd:Ncmsi">OSNUTKOM</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.4" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="naš" ana="msd:Ps1msnp">Naš</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">zbor</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="sprejeti" ana="msd:Vmep-sm">sprejel</w>
+                  <c> </c>
+                  <w lemma="samo" ana="msd:Q">samo</w>
+                  <c> </c>
+                  <w lemma="predlog" ana="msd:Ncmsan">predlog</w>
+                  <c> </c>
+                  <w lemma="za" ana="msd:Sa">za</w>
+                  <c> </c>
+                  <w lemma="izdaja" ana="msd:Ncfsa">izdajo</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="skupen" ana="msd:Agpfsn">skupna</w>
+                  <c> </c>
+                  <w lemma="komisija" ana="msd:Ncfsn">komisija</w>
+                  <c> </c>
+                  <w lemma="pa" ana="msd:Cc">pa</w>
+                  <c> </c>
+                  <w lemma="jaz" ana="msd:Pp1-pd">nam</w>
+                  <c> </c>
+                  <w lemma="predlagati" ana="msd:Vmbr3s">predlaga</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="sprejeti" ana="msd:Vmer1p">sprejmemo</w>
+                  <c> </c>
+                  <w lemma="tudi" ana="msd:Q">tudi</w>
+                  <c> </c>
+                  <w lemma="osnutek" ana="msd:Ncmsan">osnutek</w>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-msg">tega</w>
+                  <c> </c>
+                  <w lemma="zakon" ana="msd:Ncmsg">zakona</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="želeti" ana="msd:Vmpr3s">Želi</w>
+                  <c> </c>
+                  <w lemma="o" ana="msd:Sl">o</w>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-msl">tem</w>
+                  <c> </c>
+                  <w lemma="predlog" ana="msd:Ncmsl">predlogu</w>
+                  <c> </c>
+                  <w lemma="usklajevalen" ana="msd:Agpfsg">usklajevalne</w>
+                  <c> </c>
+                  <w lemma="komisija" ana="msd:Ncfsg">komisije</w>
+                  <c> </c>
+                  <w lemma="kdo" ana="msd:Pq-msn">kdo</w>
+                  <c> </c>
+                  <w lemma="razpravljati" ana="msd:Vmpn">razpravljati</w>
+                  <pc ana="msd:Z">?</pc>
+               </s>
+            </u>
+            <note xml:id="ZbObc.1992-07-29.s037-02.sp-128.5" type="vote">Nihče.</note>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.6" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="potem" ana="msd:Rgp">Potem</w>
+                  <c> </c>
+                  <w lemma="dajati" ana="msd:Vmpr1s">dajem</w>
+                  <c> </c>
+                  <w lemma="tak" ana="msd:Pd-msa">tak</w>
+                  <c> </c>
+                  <w lemma="predlog" ana="msd:Ncmsan">predlog</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="sprejeti" ana="msd:Vmer1p">sprejmemo</w>
+                  <c> </c>
+                  <w lemma="tudi" ana="msd:Q">tudi</w>
+                  <c> </c>
+                  <w lemma="osnutek" ana="msd:Ncmsan">osnutek</w>
+                  <c> </c>
+                  <w lemma="zakon" ana="msd:Ncmsg">zakona</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="na" ana="msd:Sa">na</w>
+                  <c> </c>
+                  <w lemma="glasovanje" ana="msd:Ncnsa">glasovanje</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.7" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="kdo" ana="msd:Pq-msn">Kdo</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="za" ana="msd:Sa">za</w>
+                  <c> </c>
+                  <w lemma="naj" ana="msd:Q">naj</w>
+                  <c> </c>
+                  <w lemma="prositi" ana="msd:Vmpr1s">prosim</w>
+                  <c> </c>
+                  <w lemma="glasovati" ana="msd:Vmbr3s">glasuje</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.8" who="#commentator" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <pc ana="msd:Z">(</pc>
+                  <w lemma="velik" ana="msd:Agpfsn">Velika</w>
+                  <c> </c>
+                  <w lemma="večina" ana="msd:Ncfsn">večina</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpg">poslancev</w>
+                  <pc ana="msd:Z">.</pc>
+                  <pc ana="msd:Z">)</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.9" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="biti" ana="msd:Va-r3s-n">Je</w>
+                  <c> </c>
+                  <w lemma="kdo" ana="msd:Pq-msn">kdo</w>
+                  <c> </c>
+                  <w lemma="proti" ana="msd:Rgp">proti</w>
+                  <pc ana="msd:Z">?</pc>
+               </s>
+            </u>
+            <note xml:id="ZbObc.1992-07-29.s037-02.sp-128.10" type="vote">Nihče.</note>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.11" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="se" ana="msd:Px------y">Se</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="kdo" ana="msd:Pq-msn">kdo</w>
+                  <c> </c>
+                  <w lemma="vzdržati" ana="msd:Vmep-sm">vzdržal</w>
+                  <pc ana="msd:Z">?</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.12" who="#commentator" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <pc ana="msd:Z">(</pc>
+                  <w lemma="1" ana="msd:Mdc">1</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmsn">poslanec</w>
+                  <pc ana="msd:Z">.</pc>
+                  <pc ana="msd:Z">)</pc>
+               </s>
+            </u>
+            <u xml:id="ZbObc.1992-07-29.s037-02.sp-128.13" who="#BizjakIvan1956" ana="#taxonomy.3.1.3 #topic.98">
+               <s>
+                  <w lemma="ugotavljati" ana="msd:Vmpr1s">Ugotavljam</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">z</w>
+                  <c> </c>
+                  <w lemma="večina" ana="msd:Ncfsi">večino</w>
+                  <c> </c>
+                  <w lemma="glas" ana="msd:Ncmpg">glasov</w>
+                  <c> </c>
+                  <w lemma="sprejet" ana="msd:Appnsn">sprejeto</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <note xml:id="ZbObc.1992-07-29.s037-02.sp-128.14" type="time">Seja je bila končana 29. julija 1992 ob 15.55 uri.</note>
+            <anchor xml:id="DZ-1992-ZbObc-37.stage.t.6"/>
+         </div>
+      </body>
+   </text>
+</TEI>

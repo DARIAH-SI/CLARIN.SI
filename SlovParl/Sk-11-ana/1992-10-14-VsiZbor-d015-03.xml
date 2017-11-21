@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VsiZbor.1992-10-14.d015-03" xml:lang="sl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sl">Zapisniki sej</title>
+            <title xml:lang="en">Stenographic minutes</title>
+            <title xml:lang="sl">Skupščina Republike Slovenije</title>
+            <title xml:lang="en">Assembly of the Republic of Slovenia</title>
+            <title xml:lang="sl">Vsi zbori Skupščine zasedajo skupaj</title>
+            <title xml:lang="sl">Delovna seja 15</title>
+            <title xml:lang="en">Working session 15</title>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mojca Šorn</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="sl">Jezikoslovna obdelava</resp>
+               <resp xml:lang="en">Linguistic processing</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sl">Javna agencija za raziskovalno dejavnost Republike Slovenije</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <ref target="http://www.inz.si/">http://www.inz.si/</ref>
+               <address>
+                  <street>Kongresni trg 1</street>
+                  <settlement>Ljubljana</settlement>
+                  <postCode>1000</postCode>
+                  <country xml:lang="sl">Slovenija</country>
+                  <country xml:lang="en">Slovenia</country>
+               </address>
+               <email>inz@inz.si</email>
+            </publisher>
+            <distributor>DARIAH-SI</distributor>
+            <distributor>CLARIN.SI</distributor>
+            <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative CommonsAttribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative CommonsPriznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2017-11-21">2017-11-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Sk-11.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
+            <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="list" occurs="1"/>
+               <tagUsage gi="item" occurs="1"/>
+               <tagUsage gi="title" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="timeline" occurs="1"/>
+               <tagUsage gi="when" occurs="2"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="u" occurs="27"/>
+               <tagUsage gi="s" occurs="37"/>
+               <tagUsage gi="c" occurs="279"/>
+               <tagUsage gi="w" occurs="305"/>
+               <tagUsage gi="pc" occurs="57"/>
+               <tagUsage gi="note" occurs="20"/>
+               <tagUsage gi="anchor" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+         <appInfo>
+            <application version="0.1" ident="ReLDI">
+               <label>ReLDI</label>
+               <p xml:lang="sl">Tokenizacija, oblikoskladenjsko označevanje in lematizacija s programi ReLDI Nikole Ljubešića izšolanimi za slovenščino, c.f. <ref target="https://github.com/uzh/reldi">GitHub</ref>
+               </p>
+               <p xml:lang="en">Tokenisation, MSD tagging and lemmatisation with ReLDI programs by Nikola Ljubešić trained for Slovene, c.f. <ref target="https://github.com/uzh/reldi">GitHub</ref>
+               </p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <head xml:lang="sl">Predsedujoči zasedanja</head>
+               <head xml:lang="en">Chairman of a meeting</head>
+               <person role="president" sameAs="#ToplakLudvik1942" corresp="#VsiZbor.1992-10-14.d015-03.sp-84.2 #VsiZbor.1992-10-14.d015-03.sp-84.3 #VsiZbor.1992-10-14.d015-03.sp-84.4 #VsiZbor.1992-10-14.d015-03.sp-84.6 #VsiZbor.1992-10-14.d015-03.sp-84.8 #VsiZbor.1992-10-14.d015-03.sp-84.10 #VsiZbor.1992-10-14.d015-03.sp-84.11 #VsiZbor.1992-10-14.d015-03.sp-84.13 #VsiZbor.1992-10-14.d015-03.sp-84.14 #VsiZbor.1992-10-14.d015-03.sp-84.16 #VsiZbor.1992-10-14.d015-03.sp-84.18 #VsiZbor.1992-10-14.d015-03.sp-84.20 #VsiZbor.1992-10-14.d015-03.sp-84.22 #VsiZbor.1992-10-14.d015-03.sp-84.24 #VsiZbor.1992-10-14.d015-03.sp-84.26 #VsiZbor.1992-10-14.d015-03.sp-84.27 #VsiZbor.1992-10-14.d015-03.sp-84.28 #VsiZbor.1992-10-14.d015-03.sp-84.30 #VsiZbor.1992-10-14.d015-03.sp-84.32 #VsiZbor.1992-10-14.d015-03.sp-84.34 #VsiZbor.1992-10-14.d015-03.sp-84.35 #VsiZbor.1992-10-14.d015-03.sp-84.37 #VsiZbor.1992-10-14.d015-03.sp-84.39 #VsiZbor.1992-10-14.d015-03.sp-84.41 #VsiZbor.1992-10-14.d015-03.sp-84.42 #VsiZbor.1992-10-14.d015-03.sp-86.2"/>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <setting>
+               <date when="1992-10-14"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="sl">
+      <front>
+         <div type="contents">
+            <list>
+               <item xml:id="VsiZbor.1992-10-14.d015-03.toc-item1" corresp="#VsiZbor.1992-10-14.d015-03.sp-84.1 #VsiZbor.1992-10-14.d015-03.sp-84.2 #VsiZbor.1992-10-14.d015-03.sp-84.3 #VsiZbor.1992-10-14.d015-03.sp-84.4 #VsiZbor.1992-10-14.d015-03.sp-84.5 #VsiZbor.1992-10-14.d015-03.sp-84.6 #VsiZbor.1992-10-14.d015-03.sp-84.7 #VsiZbor.1992-10-14.d015-03.sp-84.8 #VsiZbor.1992-10-14.d015-03.sp-84.9 #VsiZbor.1992-10-14.d015-03.sp-84.10 #VsiZbor.1992-10-14.d015-03.sp-84.11 #VsiZbor.1992-10-14.d015-03.sp-84.12 #VsiZbor.1992-10-14.d015-03.sp-84.13 #VsiZbor.1992-10-14.d015-03.sp-84.14 #VsiZbor.1992-10-14.d015-03.sp-84.15 #VsiZbor.1992-10-14.d015-03.sp-84.16 #VsiZbor.1992-10-14.d015-03.sp-84.17 #VsiZbor.1992-10-14.d015-03.sp-84.18 #VsiZbor.1992-10-14.d015-03.sp-84.19 #VsiZbor.1992-10-14.d015-03.sp-84.20 #VsiZbor.1992-10-14.d015-03.sp-84.21 #VsiZbor.1992-10-14.d015-03.sp-84.22 #VsiZbor.1992-10-14.d015-03.sp-84.23 #VsiZbor.1992-10-14.d015-03.sp-84.24 #VsiZbor.1992-10-14.d015-03.sp-84.25 #VsiZbor.1992-10-14.d015-03.sp-84.26 #VsiZbor.1992-10-14.d015-03.sp-84.27 #VsiZbor.1992-10-14.d015-03.sp-84.28 #VsiZbor.1992-10-14.d015-03.sp-84.29 #VsiZbor.1992-10-14.d015-03.sp-84.30 #VsiZbor.1992-10-14.d015-03.sp-84.31 #VsiZbor.1992-10-14.d015-03.sp-84.32 #VsiZbor.1992-10-14.d015-03.sp-84.33 #VsiZbor.1992-10-14.d015-03.sp-84.34 #VsiZbor.1992-10-14.d015-03.sp-84.35 #VsiZbor.1992-10-14.d015-03.sp-84.36 #VsiZbor.1992-10-14.d015-03.sp-84.37 #VsiZbor.1992-10-14.d015-03.sp-84.38 #VsiZbor.1992-10-14.d015-03.sp-84.39 #VsiZbor.1992-10-14.d015-03.sp-84.40 #VsiZbor.1992-10-14.d015-03.sp-84.41 #VsiZbor.1992-10-14.d015-03.sp-84.42 #VsiZbor.1992-10-14.d015-03.sp-85.1 #VsiZbor.1992-10-14.d015-03.sp-85.2 #VsiZbor.1992-10-14.d015-03.sp-86.1 #VsiZbor.1992-10-14.d015-03.sp-86.2 #VsiZbor.1992-10-14.d015-03.sp-86.3">
+                  <title>V skladu s tretjim odstavkom 122. člena Poslovnika Skupščine Republike Slovenije se 15. DSS šteje za zaključeno</title>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <timeline origin="#DZ-1992-Delovna-15.TL.6" unit="s">
+            <when synch="#DZ-1992-Delovna-15.stage.t.11" xml:id="DZ-1992-Delovna-15.TL.6" absolute="1992-10-14T15:40:00"/>
+            <when synch="#DZ-1992-Delovna-15.stage.t.12" since="#DZ-1992-Delovna-15.TL.6" absolute="1992-10-14T15:55:00" interval="900"/>
+         </timeline>
+         <div type="sp">
+            <anchor xml:id="DZ-1992-Delovna-15.stage.t.11"/>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.1" type="speaker">PREDSEDUJOČI DR. LUDVIK TOPLAK:</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.2" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="spoštovan" ana="msd:Appmpn">Spoštovani</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpn">poslanci</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="cenjen" ana="msd:Appmpn">cenjeni</w>
+                  <c> </c>
+                  <w lemma="gost" ana="msd:Ncmpn">gostje</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="nadaljevati" ana="msd:Vmpr1p">Nadaljujemo</w>
+                  <c> </c>
+                  <w lemma="15." ana="msd:Mdo">15.</w>
+                  <c> </c>
+                  <w lemma="deloven" ana="msd:Agpfsa">delovno</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsa">sejo</w>
+                  <c> </c>
+                  <w lemma="ves" ana="msd:Pg-mpg">vseh</w>
+                  <c> </c>
+                  <w lemma="trije" ana="msd:Mlcmpg">treh</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmpg">zborov</w>
+                  <c> </c>
+                  <w lemma="skupščina" ana="msd:Ncfsg">Skupščine</w>
+                  <c> </c>
+                  <w lemma="republika" ana="msd:Ncfsg">Republike</w>
+                  <c> </c>
+                  <w lemma="Slovenija" ana="msd:Npfsg">Slovenije</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="ki" ana="msd:Cs">ki</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r1p-n">smo</w>
+                  <c> </c>
+                  <w lemma="on" ana="msd:Pp3fsa--y">jo</w>
+                  <c> </c>
+                  <w lemma="7.10.1992" ana="msd:Mdc">7.10.1992</w>
+                  <c> </c>
+                  <w lemma="prekiniti" ana="msd:Vmep-pm">prekinili</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="8.10.1992" ana="msd:Mdc">8.10.1992</w>
+                  <c> </c>
+                  <w lemma="pa" ana="msd:Cc">pa</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-p-sf">bila</w>
+                  <c> </c>
+                  <w lemma="skupen" ana="msd:Agpfsn">skupna</w>
+                  <c> </c>
+                  <w lemma="deloven" ana="msd:Agpfsn">delovna</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsn">seja</w>
+                  <c> </c>
+                  <w lemma="nesklepčen" ana="msd:Agpfsn">nesklepčna</w>
+                  <c> </c>
+                  <w lemma="za" ana="msd:Sa">za</w>
+                  <c> </c>
+                  <w lemma="nadaljevanje" ana="msd:Ncnsa">nadaljevanje</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsg">seje</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.3" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="najprej" ana="msd:Rgs">najprej</w>
+                  <c> </c>
+                  <w lemma="ugotoviti" ana="msd:Vmer1p">ugotovimo</w>
+                  <c> </c>
+                  <w lemma="sklepčnost" ana="msd:Ncfsa">sklepčnost</w>
+                  <c> </c>
+                  <w lemma="skupen" ana="msd:Agpfsg">skupne</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsg">seje</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="na" ana="msd:Sl">na</w>
+                  <c> </c>
+                  <w lemma="kateri" ana="msd:Pq-fsl">kateri</w>
+                  <c> </c>
+                  <w lemma="morati" ana="msd:Vmpr3s">mora</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-n">biti</w>
+                  <c> </c>
+                  <w lemma="navzoč" ana="msd:Agpfsn">navzoča</w>
+                  <c> </c>
+                  <w lemma="večina" ana="msd:Ncfsn">večina</w>
+                  <c> </c>
+                  <w lemma="ves" ana="msd:Pg-mpg">vseh</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpg">poslancev</w>
+                  <c> </c>
+                  <w lemma="vsak" ana="msd:Pg-msa">vsakega</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">zbora</w>
+                  <c> </c>
+                  <w lemma="v" ana="msd:Sl">v</w>
+                  <c> </c>
+                  <w lemma="sklad" ana="msd:Ncmsl">skladu</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">z</w>
+                  <c> </c>
+                  <w lemma="ustaven" ana="msd:Agpmsi">ustavnim</w>
+                  <c> </c>
+                  <w lemma="amandma" ana="msd:Ncmsi">amandmajem</w>
+                  <c> </c>
+                  <w lemma="72" ana="msd:Mdc">72</w>
+                  <c> </c>
+                  <w lemma="k" ana="msd:Sd">k</w>
+                  <c> </c>
+                  <w lemma="ustava" ana="msd:Ncfsd">ustavi</w>
+                  <c> </c>
+                  <w lemma="republika" ana="msd:Ncfsg">Republike</w>
+                  <c> </c>
+                  <w lemma="Slovenija" ana="msd:Npfsg">Slovenije</w>
+                  <c> </c>
+                  <w lemma="iz" ana="msd:Sg">iz</w>
+                  <c> </c>
+                  <w lemma="leto" ana="msd:Ncnsg">leta</w>
+                  <c> </c>
+                  <w lemma="1974" ana="msd:Mdc">1974</w>
+                  <pc ana="msd:Z">:</pc>
+                  <c> </c>
+                  <w lemma="kadar" ana="msd:Cs">kadar</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmpn">zbori</w>
+                  <c> </c>
+                  <w lemma="odločati" ana="msd:Vmpr3p">odločajo</w>
+                  <c> </c>
+                  <w lemma="na" ana="msd:Sl">na</w>
+                  <c> </c>
+                  <w lemma="skupen" ana="msd:Agpfsl">skupni</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsl">seji</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="veljavno" ana="msd:Rgp">veljavno</w>
+                  <c> </c>
+                  <w lemma="sklepati" ana="msd:Vmpr3p">sklepajo</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">z</w>
+                  <c> </c>
+                  <w lemma="večina" ana="msd:Ncfsi">večino</w>
+                  <c> </c>
+                  <w lemma="ves" ana="msd:Pg-mpg">vseh</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpg">poslancev</w>
+                  <c> </c>
+                  <w lemma="ves" ana="msd:Pg-mpg">vseh</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmpg">zborov</w>
+                  <c> </c>
+                  <w lemma="na" ana="msd:Sl">na</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsl">seji</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.4" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="ugotoviti" ana="msd:Vmer1p">Ugotovimo</w>
+                  <c> </c>
+                  <w lemma="najprej" ana="msd:Rgs">najprej</w>
+                  <c> </c>
+                  <w lemma="navzočnost" ana="msd:Ncfsa">navzočnost</w>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsg">Družbenopolitičnega</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">zbora</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.5" type="quorum">43 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.6" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="ugotavljati" ana="msd:Vmpr1p">Ugotavljamo</w>
+                  <c> </c>
+                  <w lemma="navzočnost" ana="msd:Ncfsa">navzočnost</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">Zbora</w>
+                  <c> </c>
+                  <w lemma="občina" ana="msd:Ncfpg">občin</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.7" type="quorum">30 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.8" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="ugotavljati" ana="msd:Vmpr1p">Ugotavljamo</w>
+                  <c> </c>
+                  <w lemma="navzočnost" ana="msd:Ncfsa">navzočnost</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">Zbora</w>
+                  <c> </c>
+                  <w lemma="združen" ana="msd:Appnsg">združenega</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.9" type="quorum">41 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.10" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.11" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="ugotavljati" ana="msd:Vmpr1s">Ugotavljam</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">Zbor</w>
+                  <c> </c>
+                  <w lemma="občina" ana="msd:Ncfpg">občin</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-y">ni</w>
+                  <c> </c>
+                  <w lemma="sklepčen" ana="msd:Agpmsnn">sklepčen</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="predlagati" ana="msd:Vmbr1s">Predlagam</w>
+                  <c> </c>
+                  <w lemma="5" ana="msd:Mdc">5</w>
+                  <c> </c>
+                  <w lemma="minuten" ana="msd:Agpfsa">minutno</w>
+                  <c> </c>
+                  <w lemma="preložitev" ana="msd:Ncfsa">preložitev</w>
+                  <c> </c>
+                  <w lemma="začetek" ana="msd:Ncmsg">začetka</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.12" type="comment">Kratek odmor.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.13" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="spoštovan" ana="msd:Appmpn">Spoštovani</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpn">poslanci</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="ponovno" ana="msd:Rgp">Ponovno</w>
+                  <c> </c>
+                  <w lemma="prositi" ana="msd:Vmpr1s">prosim</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="po" ana="msd:Sl">po</w>
+                  <c> </c>
+                  <w lemma="7-minuten" ana="msd:Agpmsl">7-minutnem</w>
+                  <c> </c>
+                  <w lemma="odmor" ana="msd:Ncmsl">odmoru</w>
+                  <c> </c>
+                  <w lemma="ugotoviti" ana="msd:Vmer1p">ugotovimo</w>
+                  <c> </c>
+                  <w lemma="navzočnost" ana="msd:Ncfsa">navzočnost</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.14" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpa">poslance</w>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsg">Družbenopolitičnega</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">zbora</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.15" type="quorum">46 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.16" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="poslanec" ana="msd:Ncmpn">Poslanci</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">Zbora</w>
+                  <c> </c>
+                  <w lemma="občina" ana="msd:Ncfpg">občin</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.17" type="quorum">39 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.18" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="poslanec" ana="msd:Ncmpn">Poslanci</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">Zbora</w>
+                  <c> </c>
+                  <w lemma="združen" ana="msd:Appnsg">združenega</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.19" type="quorum">34 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.20" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="ponovno" ana="msd:Rgp">Ponovno</w>
+                  <c> </c>
+                  <w lemma="prositi" ana="msd:Vmpr1s">prosim</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="ugotoviti" ana="msd:Vmer1p">ugotovimo</w>
+                  <c> </c>
+                  <w lemma="prisotnost" ana="msd:Ncfsa">prisotnost</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="najprej" ana="msd:Rgs">Najprej</w>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsny">Družbenopolitični</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">zbor</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.21" type="quorum">50 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.22" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="zbor" ana="msd:Ncmsn">Zbor</w>
+                  <c> </c>
+                  <w lemma="občina" ana="msd:Ncfpg">občin</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.23" type="quorum">34 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.24" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="zbor" ana="msd:Ncmsn">Zbor</w>
+                  <c> </c>
+                  <w lemma="združen" ana="msd:Appnsg">združenega</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.25" type="quorum">40 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.26" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="po" ana="msd:Sl">Po</w>
+                  <c> </c>
+                  <w lemma="dogovor" ana="msd:Ncmsl">dogovoru</w>
+                  <c> </c>
+                  <w lemma="z" ana="msd:Si">s</w>
+                  <c> </c>
+                  <w lemma="sopredsedujoč" ana="msd:Appmpi">sopredsedujočimi</w>
+                  <c> </c>
+                  <w lemma="za" ana="msd:Sa">za</w>
+                  <c> </c>
+                  <w lemma="2" ana="msd:Mdc">2</w>
+                  <c> </c>
+                  <w lemma="minuta" ana="msd:Ncfda">minuti</w>
+                  <c> </c>
+                  <w lemma="podaljšati" ana="msd:Vmer1p">podaljšamo</w>
+                  <c> </c>
+                  <w lemma="začetek" ana="msd:Ncmsan">začetek</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.27" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="spoštovan" ana="msd:Appmpn">Spoštovani</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpn">poslanci</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="poteči" ana="msd:Vmep-pf">Potekle</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3p-n">so</w>
+                  <c> </c>
+                  <w lemma="3" ana="msd:Mdc">3</w>
+                  <c> </c>
+                  <w lemma="minuta" ana="msd:Ncfpa">minute</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="ponovno" ana="msd:Rgp">Ponovno</w>
+                  <c> </c>
+                  <w lemma="ugotavljati" ana="msd:Vmpr1p">ugotavljamo</w>
+                  <c> </c>
+                  <w lemma="navzočnost" ana="msd:Ncfsa">navzočnost</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.28" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpa">poslance</w>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsg">Družbenopolitičnega</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">zbora</w>
+                  <pc ana="msd:Z">:</pc>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.29" type="quorum">50 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.30" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">prosim</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpa">poslance</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">Zbora</w>
+                  <c> </c>
+                  <w lemma="občina" ana="msd:Ncfpg">občin</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.31" type="quorum">Ni navedeno.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.32" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="in" ana="msd:Cc">in</w>
+                  <c> </c>
+                  <w lemma="prositi" ana="msd:Vmpr1s">prosim</w>
+                  <c> </c>
+                  <w lemma="še" ana="msd:Q">še</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpa">poslance</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">Zbora</w>
+                  <c> </c>
+                  <w lemma="združen" ana="msd:Appnsg">združenega</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.33" type="quorum">Ni navedeno.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.34" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="na" ana="msd:Sa">Na</w>
+                  <c> </c>
+                  <w lemma="želja" ana="msd:Ncfsa">željo</w>
+                  <c> </c>
+                  <w lemma="Aurelio" ana="msd:Npmsg">Aurelia</w>
+                  <c> </c>
+                  <w lemma="Jurio" ana="msd:Npmsg">Juria</w>
+                  <c> </c>
+                  <w lemma="pri" ana="msd:Sl">pri</w>
+                  <c> </c>
+                  <w lemma="vsak" ana="msd:Pg-nsl">vsakem</w>
+                  <c> </c>
+                  <w lemma="glasovanje" ana="msd:Ncnsl">glasovanju</w>
+                  <c> </c>
+                  <w lemma="prešteti" ana="msd:Vmer1s">preštejem</w>
+                  <c> </c>
+                  <w lemma="do" ana="msd:Sg">do</w>
+                  <c> </c>
+                  <w lemma="10" ana="msd:Mdc">10</w>
+                  <c> </c>
+                  <w lemma="zato" ana="msd:Rgp">zato</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="tisti" ana="msd:Pd-mpn">tisti</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="ki" ana="msd:Cs">ki</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3p-n">so</w>
+                  <c> </c>
+                  <w lemma="počasen" ana="msd:Agpmpn">počasni</w>
+                  <c> </c>
+                  <w lemma="in" ana="msd:Cc">in</w>
+                  <c> </c>
+                  <w lemma="dolgo" ana="msd:Rgp">dolgo</w>
+                  <c> </c>
+                  <w lemma="rabiti" ana="msd:Vmpr3p">rabijo</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="lahko" ana="msd:Rgp">lahko</w>
+                  <c> </c>
+                  <w lemma="odreagirati" ana="msd:Vmer3p">odreagirajo</w>
+                  <c> </c>
+                  <w lemma="in" ana="msd:Cc">in</w>
+                  <c> </c>
+                  <w lemma="lahko" ana="msd:Rgp">lahko</w>
+                  <c> </c>
+                  <w lemma="tudi" ana="msd:Q">tudi</w>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-nsa">to</w>
+                  <c> </c>
+                  <w lemma="ponoviti" ana="msd:Vmer1p">ponovimo</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.35" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsay">Družbenopolitični</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsan">zbor</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="ugotoviti" ana="msd:Vmer1p">ugotovimo</w>
+                  <c> </c>
+                  <w lemma="navzočnost" ana="msd:Ncfsa">navzočnost</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.36" type="quorum">49 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.37" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">Zbor</w>
+                  <c> </c>
+                  <w lemma="občina" ana="msd:Ncfpg">občin</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.38" type="quorum">39 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.39" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="in" ana="msd:Cc">In</w>
+                  <c> </c>
+                  <w lemma="prositi" ana="msd:Vmpr1s">prosim</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="še" ana="msd:Q">še</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">Zbor</w>
+                  <c> </c>
+                  <w lemma="združen" ana="msd:Appnsg">združenega</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-84.40" type="quorum">41 prisotnih.</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.41" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <pc ana="msd:Z">(</pc>
+                  <w lemma="naj" ana="msd:Q">Naj</w>
+                  <c> </c>
+                  <w lemma="povedati" ana="msd:Vmer1s">povem</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r1s-n">sem</w>
+                  <c> </c>
+                  <w lemma="sedaj" ana="msd:Rgp">sedaj</w>
+                  <c> </c>
+                  <w lemma="pri" ana="msd:Sl">pri</w>
+                  <c> </c>
+                  <w lemma="vsak" ana="msd:Pg-nsl">vsakem</w>
+                  <c> </c>
+                  <w lemma="šteti" ana="msd:Vmpp-sm">štel</w>
+                  <c> </c>
+                  <w lemma="do" ana="msd:Sg">do</w>
+                  <c> </c>
+                  <w lemma="12" ana="msd:Mdc">12</w>
+                  <c> </c>
+                  <w lemma="in" ana="msd:Cc">in</w>
+                  <c> </c>
+                  <w lemma="ne" ana="msd:Q">ne</w>
+                  <c> </c>
+                  <w lemma="do" ana="msd:Sg">do</w>
+                  <c> </c>
+                  <w lemma="10" ana="msd:Mdc">10</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="kot" ana="msd:Cs">kot</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="želeti" ana="msd:Vmpp-sm">želel</w>
+                  <c> </c>
+                  <w lemma="Aurelio" ana="msd:Npmsn">Aurelio</w>
+                  <c> </c>
+                  <w lemma="Juri" ana="msd:Npmsn">Juri</w>
+                  <pc ana="msd:Z">.</pc>
+                  <pc ana="msd:Z">)</pc>
+               </s>
+            </u>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-84.42" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="predsedujoč" ana="msd:Appmsny">Predsedujoči</w>
+                  <c> </c>
+                  <w lemma="ugotavljati" ana="msd:Vmpr1p">ugotavljamo</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">zbor</w>
+                  <c> </c>
+                  <w lemma="za" ana="msd:Sa">za</w>
+                  <c> </c>
+                  <w lemma="skupen" ana="msd:Agpfsa">skupno</w>
+                  <c> </c>
+                  <w lemma="deloven" ana="msd:Agpfsa">delovno</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsa">sejo</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-y">ni</w>
+                  <c> </c>
+                  <w lemma="sklepčen" ana="msd:Agpmsnn">sklepčen</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="zato" ana="msd:Cc">zato</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-f1p-n">bomo</w>
+                  <c> </c>
+                  <w lemma="nadaljevati" ana="msd:Vmpp-pm">nadaljevali</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="kakor" ana="msd:Cs">kakor</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-f2p-n">boste</w>
+                  <c> </c>
+                  <w lemma="obveščen" ana="msd:Appmpn">obveščeni</w>
+                  <pc ana="msd:Z">;</pc>
+                  <c> </c>
+                  <w lemma="predvidoma" ana="msd:Rgp">predvidoma</w>
+                  <c> </c>
+                  <w lemma="28." ana="msd:Mdo">28.</w>
+                  <c> </c>
+                  <w lemma="oktober" ana="msd:Ncmsg">oktobra</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="hvala" ana="msd:Ncfsn">Hvala</w>
+                  <c> </c>
+                  <w lemma="lep" ana="msd:Agpfsn">lepa</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+         </div>
+         <div type="sp">
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-85.1" type="speaker">JOŽE ZUPANČIČ:</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-85.2" who="#ZupancicJoze1936" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="če" ana="msd:Cs">Če</w>
+                  <c> </c>
+                  <w lemma="dovoliti" ana="msd:Vmer2p">dovolite</w>
+                  <pc ana="msd:Z">:</pc>
+                  <c> </c>
+                  <w lemma="ker" ana="msd:Cs">ker</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-p-sm">bil</w>
+                  <c> </c>
+                  <w lemma="po" ana="msd:Sl">po</w>
+                  <c> </c>
+                  <w lemma="en" ana="msd:Mlpmsl">enem</w>
+                  <c> </c>
+                  <w lemma="od" ana="msd:Sg">od</w>
+                  <c> </c>
+                  <w lemma="ugotavljanje" ana="msd:Ncnpg">ugotavljanj</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">Zbor</w>
+                  <c> </c>
+                  <w lemma="združen" ana="msd:Appnsg">združenega</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsg">dela</w>
+                  <c> </c>
+                  <w lemma="sklepčen" ana="msd:Agpmsnn">sklepčen</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="misliti" ana="msd:Vmpr1s">mislim</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="lahko" ana="msd:Rgp">lahko</w>
+                  <c> </c>
+                  <w lemma="poskusiti" ana="msd:Vmer1p">poskusimo</w>
+                  <c> </c>
+                  <w lemma="nadaljevati" ana="msd:Vmpn">nadaljevati</w>
+                  <c> </c>
+                  <w lemma="seja" ana="msd:Ncfsa">sejo</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">zbora</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="ne" ana="msd:Q">Ne</w>
+                  <c> </c>
+                  <w lemma="videti" ana="msd:Vmbr1s">vidim</w>
+                  <c> </c>
+                  <w lemma="razlog" ana="msd:Ncmsg">razloga</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="da" ana="msd:Cs">da</w>
+                  <c> </c>
+                  <w lemma="ne" ana="msd:Q">ne</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-c">bi</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="ne" ana="msd:Q">Ne</w>
+                  <c> </c>
+                  <w lemma="vedeti" ana="msd:Vmpr1s">vem</w>
+                  <c> </c>
+                  <w lemma="pa" ana="msd:Cc">pa</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="zakaj" ana="msd:Rgp">zakaj</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-n">je</w>
+                  <c> </c>
+                  <w lemma="nihati" ana="msd:Vmpp-sf">nihala</w>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-fsn">ta</w>
+                  <c> </c>
+                  <w lemma="prisotnost" ana="msd:Ncfsn">prisotnost</w>
+                  <pc ana="msd:Z">;</pc>
+                  <c> </c>
+                  <w lemma="ta" ana="msd:Pd-nsn">to</w>
+                  <c> </c>
+                  <w lemma="jaz" ana="msd:Pp1-sd--y">mi</w>
+                  <c> </c>
+                  <w lemma="pa" ana="msd:Cc">pa</w>
+                  <c> </c>
+                  <w lemma="biti" ana="msd:Va-r3s-y">ni</w>
+                  <c> </c>
+                  <w lemma="jasen" ana="msd:Agpnsn">jasno</w>
+                  <pc ana="msd:Z">.</pc>
+               </s>
+            </u>
+         </div>
+         <div type="sp">
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-86.1" type="speaker">PREDSEDUJOČI DR. LUDVIK TOPLAK:</note>
+            <u xml:id="VsiZbor.1992-10-14.d015-03.sp-86.2" who="#ToplakLudvik1942" ana="#taxonomy.2.8 #topic.50">
+               <s>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsny">Družbenopolitični</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsn">zbor</w>
+                  <c> </c>
+                  <w lemma="v" ana="msd:Sl">v</w>
+                  <c> </c>
+                  <w lemma="vsak" ana="msd:Pg-msl">vsakem</w>
+                  <c> </c>
+                  <w lemma="primer" ana="msd:Ncmsl">primeru</w>
+                  <c> </c>
+                  <w lemma="nadaljevati" ana="msd:Vmpr3s">nadaljuje</w>
+                  <c> </c>
+                  <w lemma="delo" ana="msd:Ncnsa">delo</w>
+                  <c> </c>
+                  <w lemma="takoj" ana="msd:Rgp">takoj</w>
+                  <c> </c>
+                  <w lemma="tukaj" ana="msd:Rgp">tukaj</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+               <c> </c>
+               <s>
+                  <w lemma="prositi" ana="msd:Vmpr1s">Prosim</w>
+                  <c> </c>
+                  <w lemma="poslanec" ana="msd:Ncmpa">poslance</w>
+                  <c> </c>
+                  <w lemma="družbenopolitičen" ana="msd:Agpmsg">Družbenopolitičnega</w>
+                  <c> </c>
+                  <w lemma="zbor" ana="msd:Ncmsg">zbora</w>
+                  <pc ana="msd:Z">,</pc>
+                  <c> </c>
+                  <w lemma="ostati" ana="msd:Vmem2p">ostanite</w>
+                  <c> </c>
+                  <w lemma="na" ana="msd:Sl">na</w>
+                  <c> </c>
+                  <w lemma="mesto" ana="msd:Ncnsl">mestu</w>
+                  <pc ana="msd:Z">!</pc>
+               </s>
+            </u>
+            <note xml:id="VsiZbor.1992-10-14.d015-03.sp-86.3" type="time">SKUPNA DELOVNA SEJA JE BILA PREKINJENA 14. OKTOBRA 1992 OB 15.55 URI.</note>
+            <anchor xml:id="DZ-1992-Delovna-15.stage.t.12"/>
+         </div>
+      </body>
+   </text>
+</TEI>

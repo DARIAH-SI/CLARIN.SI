@@ -2451,7 +2451,7 @@
                </category>
             </taxonomy>
          </classDecl>
-         <listPrefixDef xmlns="">
+         <listPrefixDef>
             <prefixDef ident="msd" matchPattern="(.+)" replacementPattern="#$1">
                <p xml:lang="en">Private URIs with the prefix "msd" point to fs elements defining the Slovene JOS MSDs. In this document they are simply local references to the morphosyntactic specifications in the back.</p>
                <p xml:lang="sl">Zasebni naslovi URI s predpono "msd" kažejo na element fs, ki definirajo slovenske oblikoskladenjske oznake JOS. V tem dokumentu so to enostavno lokalne reference na oblikoskladenjske specifikacije v dodatku.</p>
@@ -9087,10 +9087,11 @@
                   <sex value="F"/>
                   <affiliation>pomočnica ministra</affiliation>
                </person>
-               <person xml:id="SlokarNeznano_ime">
+               <person xml:id="SlokarMilica">
                   <persName>
                      <surname>Slokar</surname>
-                     <!--forename>???</forename--></persName>
+                     <forename>Milica</forename>
+                  </persName>
                   <sex value="F"/>
                   <affiliation>
                      <orgName>Republiška uprava za zaščito in reševanje</orgName>

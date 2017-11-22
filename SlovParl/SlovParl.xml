@@ -95,6 +95,7 @@
                   <distributor>DARIAH-SI</distributor>
                   <distributor>CLARIN.SI</distributor>
                   <pubPlace>https://github.com/SIstory/SlovParl</pubPlace>
+                  <pubPlace>http://hdl.handle.net/11356/1167</pubPlace>
                   <availability status="free">
                     <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                     <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
@@ -112,6 +113,28 @@
             <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
             <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
          </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="608"/>
+               <tagUsage gi="front" occurs="608"/>
+               <tagUsage gi="div" occurs="59901"/>
+               <tagUsage gi="list" occurs="608"/>
+               <tagUsage gi="item" occurs="5154"/>
+               <tagUsage gi="title" occurs="5154"/>
+               <tagUsage gi="body" occurs="608"/>
+               <tagUsage gi="timeline" occurs="608"/>
+               <tagUsage gi="when" occurs="2557"/>
+               <tagUsage gi="anchor" occurs="2567"/>
+               <tagUsage gi="head" occurs="462"/>
+               <tagUsage gi="note" occurs="119052"/>
+               <tagUsage gi="u" occurs="226752"/>
+               <tagUsage gi="vocal" occurs="649"/>
+               <tagUsage gi="desc" occurs="2003"/>
+               <tagUsage gi="kinesic" occurs="15"/>
+               <tagUsage gi="gap" occurs="1242"/>
+               <tagUsage gi="incident" occurs="97"/>
+            </namespace>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="contents">
                <listBibl>
@@ -9314,10 +9337,10 @@
                   <sex value="F"/>
                   <affiliation>pomočnica ministra</affiliation>
                </person>
-               <person xml:id="SlokarNeznano_ime">
+               <person xml:id="SlokarMilica">
                   <persName>
                      <surname>Slokar</surname>
-                     <!--forename>???</forename-->
+                     <forename>Milica</forename>
                   </persName>
                   <sex value="F"/>
                   <affiliation>

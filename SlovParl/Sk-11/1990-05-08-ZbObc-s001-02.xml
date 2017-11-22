@@ -45,6 +45,7 @@
             <distributor>DARIAH-SI</distributor>
             <distributor>CLARIN.SI</distributor>
             <pubPlace>https://github.com/DARIAH-SI/CLARIN.SI/tree/master/SlovParl/</pubPlace>
+            <pubPlace>http://hdl.handle.net/11356/1167</pubPlace>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
@@ -63,6 +64,24 @@
             <p xml:lang="sl">Infrastrukturni program Raziskovalna infrastruktura slovenskega zgodovinopisja</p>
             <p xml:lang="en">Infrastructure Programme Research infrastructure of Slovenian Historiography</p>
          </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="div" occurs="34"/>
+               <tagUsage gi="list" occurs="1"/>
+               <tagUsage gi="item" occurs="4"/>
+               <tagUsage gi="title" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="timeline" occurs="1"/>
+               <tagUsage gi="when" occurs="8"/>
+               <tagUsage gi="anchor" occurs="8"/>
+               <tagUsage gi="note" occurs="79"/>
+               <tagUsage gi="u" occurs="114"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="desc" occurs="4"/>
+            </namespace>
+         </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <particDesc>

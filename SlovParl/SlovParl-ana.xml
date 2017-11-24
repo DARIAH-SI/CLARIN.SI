@@ -60,7 +60,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2017-11-21">2017-11-21</date>
+            <date when="2017-11-24">2017-11-24</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -111,7 +111,7 @@
                      <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                      <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                   </availability>
-                  <date when="2017-11-21">2017-11-21</date>
+                  <date when="2017-11-24">2017-11-24</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
@@ -2451,7 +2451,7 @@
                </category>
             </taxonomy>
          </classDecl>
-         <listPrefixDef>
+         <listPrefixDef xmlns="">
             <prefixDef ident="msd" matchPattern="(.+)" replacementPattern="#$1">
                <p xml:lang="en">Private URIs with the prefix "msd" point to fs elements defining the Slovene JOS MSDs. In this document they are simply local references to the morphosyntactic specifications in the back.</p>
                <p xml:lang="sl">Zasebni naslovi URI s predpono "msd" kažejo na element fs, ki definirajo slovenske oblikoskladenjske oznake JOS. V tem dokumentu so to enostavno lokalne reference na oblikoskladenjske specifikacije v dodatku.</p>
@@ -10731,7 +10731,7 @@
                <pubPlace>
                   <ref target="http://nl.ijs.si/ME/V5/">http://nl.ijs.si/ME/V5/</ref>
                </pubPlace>
-               <date when="2017-11-21">2017-11-21</date>
+               <date when="2017-11-24">2017-11-24</date>
             </publicationStmt>
             <sourceDesc>
                <p>MULTEXT-East version 4 for Slovene.</p>

@@ -1,4 +1,4 @@
-#Slovenian parliamentar corpus SlovParl 2.0: CSV datoteke za statistično analizo
+# Slovenian parliamentar corpus SlovParl 2.0: CSV datoteke za statistično analizo
 
 **Zadeva:** Opis CSV datotek, ki so bile generirane iz TEI dokumentov, dostopnih
 v CLARIN.SI repozitoriju.
@@ -94,10 +94,10 @@ Hierarhična razvrstitev taksonomije
 na način:
 
 * level (stopnja) 1
-  * level 2
+    * level 2
         * level 3
-              * level 4
-                    * level 5
+            * level 4
+                * level 5
 
 Spremenjljivke:
 
